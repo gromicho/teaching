@@ -17,4 +17,4 @@ The two WFP notebooks were migrated with their data and helper links. They are m
 
 The external [Gurobi food-supply example](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_program/food_supply.ipynb) remains maintained by its original authors. It is not an imported or routinely tested notebook in this collection.
 
-Datasets now have one home in [data](../../data/README.md), including WFP Syria. Instructor solutions remain in a separate private repository. The historical solver-installation experiment remains in the predecessor repository, not in current setup instructions. See [setup](../../docs/SETUP.md) and [maintenance](../../docs/MAINTENANCE.md).
+Datasets now have one home in [data](../../data/README.md), including WFP Syria. Instructor solutions remain in a separate private repository. The historical solver-installation experiment is retained in the maintainer's local recovery copies, not in current setup instructions. The predecessor GitHub repositories have been removed; see [migration](../../docs/MIGRATION.md), [setup](../../docs/SETUP.md) and [maintenance](../../docs/MAINTENANCE.md).
