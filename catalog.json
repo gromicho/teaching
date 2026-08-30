@@ -1,0 +1,243 @@
+{
+  "schema_version": 2,
+  "repository": "gromicho/teaching",
+  "visibility": "public",
+  "status": "development-2026-2027",
+  "notebooks": [
+    {
+      "id": "foundations-python-primer",
+      "title": "Python primer",
+      "path": "foundations/python/python-primer.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "gromicho/advanced-analytics-for-a-better-world@e95551e8: notebooks/introduction/python-primer.ipynb"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-caroline-production-planning",
+      "title": "Caroline: production planning",
+      "path": "foundations/optimization/caroline-production-planning.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "gromicho/advanced-analytics-for-a-better-world@e95551e8: notebooks/introduction/caroline-production-planning.ipynb"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-networkx-introduction",
+      "title": "NetworkX: the lecture network",
+      "path": "foundations/networks/networkx-introduction.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "Recovered lecture/exercise arc lists: Drive 16rKMOGMA6rSInURsQyBCWv9i-D6LrJvR, cells 6 and 38 (one-based)."
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-shortest-path-optimization-vs-algorithms",
+      "title": "Shortest path: optimization versus algorithms",
+      "path": "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "AABW introduction; recovered lecture graph."
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-descriptive-analytics",
+      "title": "Descriptive analytics with pandas",
+      "path": "foundations/data-analysis/descriptive-analytics.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "gromicho/data@08e509b4: fruits.csv",
+        "AABW descriptive-analytics learning objectives"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-diagnostic-predictive-analytics",
+      "title": "Prediction is not explanation",
+      "path": "foundations/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "AABW diagnostic-predictive-analytics and adjacent weight-height.csv"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-indexing-and-tables",
+      "title": "From Python collections to indexed models",
+      "path": "foundations/python/indexing-and-tables.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "ABW Python parts 1/2; indexed Caroline teaching examples"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-alice-optimization",
+      "title": "Alice: symbolic and numerical optimization",
+      "path": "foundations/optimization/alice-optimization.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "AABW alice-optimization.ipynb; the same scalar centre-of-gravity formula"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-elizabeth-location-models",
+      "title": "Elizabeth: weak and strong formulations",
+      "path": "foundations/optimization/elizabeth-location-models.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "AABW Elizabeth; ABW weak/strong facility-location variants"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-pyomo-repeated-solves",
+      "title": "Pyomo: persistent solves and explicit checks",
+      "path": "foundations/optimization/pyomo-repeated-solves.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "sources": [
+        "Pyomo 6.10.1 official APPSI documentation; newly authored teaching example"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-real-life-shortest-path",
+      "title": "Real street networks: a bounded routing example",
+      "path": "foundations/networks/real-life-shortest-path.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "live-network",
+      "sources": [
+        "AABW real-life-shortest-path at e95551e8",
+        "gromicho/Heuristics@4ddcbaa3 notebooks/04/09-shortest-path-road-networks.ipynb (MIT)"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-feed-calculator-preparation",
+      "title": "Feed Calculator: shared data preparation",
+      "path": "foundations/cases/feed-calculator-preparation.ipynb",
+      "kind": "starter",
+      "execution_profile": "core",
+      "sources": [
+        "AABW tutorial-1/FeedCalculator-starter.ipynb and matching ABW starter; original workbook retained"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "foundations-timor-leste-preparation",
+      "title": "Timor-Leste: shared data preparation",
+      "path": "foundations/cases/timor-leste-preparation.ipynb",
+      "kind": "starter",
+      "execution_profile": "core",
+      "sources": [
+        "AABW public Timor-Leste workbook; ABW 2024 starter and full-data comparison"
+      ],
+      "collection": "foundations"
+    },
+    {
+      "id": "abw-shortest-path-exercise",
+      "title": "Shortest path A to F",
+      "path": "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "Recovered lecture/exercise arc lists: Drive 16rKMOGMA6rSInURsQyBCWv9i-D6LrJvR, cells 6 and 38 (one-based)."
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "abw-worldlight-indexed",
+      "title": "WorldLight: indexed linear optimization",
+      "path": "courses/abw/notebooks/optimization/worldlight-indexed.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "Recovered scalar WorldLight: Drive 1NBTsuFOGmbuatRH7w8Scv3nk1xvwiDw5; course indexed formulation"
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "abw-weenies-and-buns",
+      "title": "Weenies and Buns: indexed resource limits",
+      "path": "courses/abw/notebooks/optimization/weenies-and-buns.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "Drive 1ponZcIkZZ7G-eHzDgohjPXyr7kwfcA8a; retained scalar variant in archive"
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "abw-alva-electric",
+      "title": "Alva Electric: cash-flow constraints",
+      "path": "courses/abw/notebooks/optimization/alva-electric.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "Drive 12bA8RmKFVSX9tHlqWNngSOXz-_EKPXhR and 1y9OuCSQifIVx9aStgi0fkNXbk1LMa-mI"
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "abw-feed-three-ingredients",
+      "title": "Feed Calculator: three-ingredient practice",
+      "path": "courses/abw/notebooks/optimization/feed-three-ingredients.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "Drive 12uUsRwQtqDsPq2P-eWSO61eMjwBW6tGn; original three-ingredient example"
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "abw-practice",
+      "title": "Python practice: explain, predict, check",
+      "path": "courses/abw/notebooks/python/practice.ipynb",
+      "kind": "exercise",
+      "execution_profile": "core",
+      "sources": [
+        "ABW Python exercise sequence; original practice prompts, no copied instructor key"
+      ],
+      "collection": "abw"
+    },
+    {
+      "id": "aabw-wfp-syria-robust-optimization-companion",
+      "title": "WFP Syria — robust optimization companion",
+      "path": "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",
+      "kind": "starter",
+      "collection": "aabw",
+      "execution_profile": "specialist",
+      "review_note": "Migrated with updated resource links; full solver-dependent execution not asserted.",
+      "sources": [
+        "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/robust-optimization-companion.ipynb"
+      ]
+    },
+    {
+      "id": "aabw-wfp-syria-starter-data-visualization",
+      "title": "WFP Syria — data exploration and model starter",
+      "path": "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb",
+      "kind": "starter",
+      "collection": "aabw",
+      "execution_profile": "specialist",
+      "review_note": "Migrated with updated resource links; full solver-dependent execution not asserted.",
+      "sources": [
+        "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/starter-data-visualization.ipynb"
+      ]
+    }
+  ]
+}

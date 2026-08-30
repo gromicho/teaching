@@ -1,0 +1,1286 @@
+{
+  "schema_version": 1,
+  "visibility": "public",
+  "date": "2026-08-30",
+  "source_repositories": [
+    {
+      "repository": "gromicho/teaching-foundations",
+      "visibility": "public",
+      "head": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "files": [
+        ".gitattributes",
+        ".github/workflows/compatibility.yml",
+        ".github/workflows/links.yml",
+        ".github/workflows/notebooks.yml",
+        ".gitignore",
+        "NOTICE.md",
+        "README.md",
+        "RELEASE_NOTES.md",
+        "assets/correlation-causation.svg",
+        "catalog.json",
+        "data/README.md",
+        "data/cases/feed-calculator.xlsx",
+        "data/cases/timor-leste.xlsx",
+        "data/fruits.csv",
+        "data/manifest.json",
+        "data/weight-height.csv",
+        "docs/MAINTENANCE.md",
+        "docs/SETUP.md",
+        "licenses/heuristics-MIT.txt",
+        "notebooks/cases/feed-calculator-preparation.ipynb",
+        "notebooks/cases/timor-leste-preparation.ipynb",
+        "notebooks/data-analysis/descriptive-analytics.ipynb",
+        "notebooks/data-analysis/diagnostic-predictive-analytics.ipynb",
+        "notebooks/networks/networkx-introduction.ipynb",
+        "notebooks/networks/real-life-shortest-path.ipynb",
+        "notebooks/networks/shortest-path-optimization-vs-algorithms.ipynb",
+        "notebooks/optimization/alice-optimization.ipynb",
+        "notebooks/optimization/caroline-production-planning.ipynb",
+        "notebooks/optimization/elizabeth-location-models.ipynb",
+        "notebooks/optimization/pyomo-repeated-solves.ipynb",
+        "notebooks/python/indexing-and-tables.ipynb",
+        "notebooks/python/python-primer.ipynb",
+        "requirements-colab-test.txt",
+        "requirements-test.txt",
+        "requirements.txt",
+        "scripts/check_links.py",
+        "scripts/check_resources.py"
+      ],
+      "working_tree_changes": []
+    },
+    {
+      "repository": "gromicho/analytics-for-a-better-world",
+      "visibility": "public",
+      "head": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "files": [
+        ".github/workflows/notebooks.yml",
+        ".gitignore",
+        "NOTICE.md",
+        "README.md",
+        "catalog.json",
+        "editions/2026-2027.json",
+        "notebooks/networks/shortest-path-exercise.ipynb",
+        "notebooks/optimization/alva-electric.ipynb",
+        "notebooks/optimization/feed-three-ingredients.ipynb",
+        "notebooks/optimization/weenies-and-buns.ipynb",
+        "notebooks/optimization/worldlight-indexed.ipynb",
+        "notebooks/python/practice.ipynb",
+        "requirements-test.txt"
+      ],
+      "working_tree_changes": [
+        ".github/workflows/notebooks.yml",
+        "README.md",
+        "editions/2026-2027.json",
+        "notebooks/networks/shortest-path-exercise.ipynb",
+        "notebooks/optimization/alva-electric.ipynb",
+        "notebooks/optimization/feed-three-ingredients.ipynb",
+        "notebooks/optimization/weenies-and-buns.ipynb",
+        "notebooks/optimization/worldlight-indexed.ipynb",
+        "requirements-test.txt"
+      ]
+    },
+    {
+      "repository": "gromicho/advanced-analytics-for-a-better-world",
+      "visibility": "public",
+      "head": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "files": [
+        ".gitignore",
+        "README.md",
+        "archive/README.md",
+        "archive/jeff-kantor-solver-installation-legacy.ipynb",
+        "editions/2026-2027.json",
+        "notebooks/introduction/README.md",
+        "notebooks/introduction/alice-optimization.ipynb",
+        "notebooks/introduction/assets/README.md",
+        "notebooks/introduction/assets/alice-rose-glass.jpg",
+        "notebooks/introduction/assets/correlation-causation.svg",
+        "notebooks/introduction/caroline-production-planning.ipynb",
+        "notebooks/introduction/data/weight-height.csv",
+        "notebooks/introduction/descriptive-analytics.ipynb",
+        "notebooks/introduction/diagnostic-predictive-analytics.ipynb",
+        "notebooks/introduction/elizabeth-location-models.ipynb",
+        "notebooks/introduction/python-primer.ipynb",
+        "notebooks/introduction/real-life-shortest-path.ipynb",
+        "notebooks/introduction/shortest-path-optimization-vs-algorithms.ipynb",
+        "notebooks/timor-leste/README.md",
+        "notebooks/timor-leste/data/DataErmeraTimorLeste.xlsx",
+        "notebooks/timor-leste/data/util_AABW.py",
+        "notebooks/timor-leste/starter.ipynb",
+        "notebooks/wfp-syria/README.md",
+        "notebooks/wfp-syria/data/DataSyriaCaseWFP.xlsx",
+        "notebooks/wfp-syria/data/WFPCleanWithLocations.xlsx",
+        "notebooks/wfp-syria/data/WFP_Locations.xlsx",
+        "notebooks/wfp-syria/data/util_AABW.py",
+        "notebooks/wfp-syria/robust-optimization-companion.ipynb",
+        "notebooks/wfp-syria/starter-data-visualization.ipynb",
+        "tutorial-1/Data Set Feedcalculator.xlsx",
+        "tutorial-1/FeedCalculator-starter.ipynb",
+        "tutorial-1/README.md"
+      ],
+      "working_tree_changes": [
+        "README.md",
+        "editions/2026-2027.json",
+        "notebooks/introduction/alice-optimization.ipynb",
+        "notebooks/introduction/caroline-production-planning.ipynb",
+        "notebooks/introduction/descriptive-analytics.ipynb",
+        "notebooks/introduction/diagnostic-predictive-analytics.ipynb",
+        "notebooks/introduction/elizabeth-location-models.ipynb",
+        "notebooks/introduction/python-primer.ipynb",
+        "notebooks/introduction/real-life-shortest-path.ipynb",
+        "notebooks/introduction/shortest-path-optimization-vs-algorithms.ipynb",
+        "notebooks/timor-leste/starter.ipynb",
+        "tutorial-1/FeedCalculator-starter.ipynb"
+      ]
+    },
+    {
+      "repository": "gromicho/Heuristics",
+      "visibility": "public",
+      "head": "6b5e07230e5ae2061920731893f74a1e8c08f0b5",
+      "files": [
+        "LICENSE",
+        "README.md",
+        "notebooks/04/09-shortest-path-road-networks.ipynb"
+      ],
+      "working_tree_changes": [
+        "README.md",
+        "notebooks/04/09-shortest-path-road-networks.ipynb"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "NOTICE.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "NOTICE.md",
+      "source_sha256": "45c1c9e09854df2c13f447fd8641d1e07382ce2a70782ff108ea485ff1f8cbe9",
+      "destination_sha256": "45c1c9e09854df2c13f447fd8641d1e07382ce2a70782ff108ea485ff1f8cbe9"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "assets/correlation-causation.svg",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "assets/correlation-causation.svg",
+      "source_sha256": "d3c4b664cec2cb025d525d523cfdc15c4a19a0967c51a47457e81457847d4fb2",
+      "destination_sha256": "d3c4b664cec2cb025d525d523cfdc15c4a19a0967c51a47457e81457847d4fb2"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/README.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/README.md",
+      "source_sha256": "82c23c34ff4252976b73238e437c292ef414ac21d5527d4512157e64a40263df",
+      "destination_sha256": "9223020a18a17a87467b184c08446714d12c5a259d55f451d7872af16dd996ba"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/cases/feed-calculator.xlsx",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/cases/feed-calculator.xlsx",
+      "source_sha256": "2e3653fe1b3a9995abedfb5902157dea2616c72550b62b7b060442e281bf8fe7",
+      "destination_sha256": "2e3653fe1b3a9995abedfb5902157dea2616c72550b62b7b060442e281bf8fe7"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/cases/timor-leste.xlsx",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/cases/timor-leste.xlsx",
+      "source_sha256": "31431b07df5b6797630b9ec5023f81aacd76d5bdab4e21cdd3d9fe4e129f021a",
+      "destination_sha256": "31431b07df5b6797630b9ec5023f81aacd76d5bdab4e21cdd3d9fe4e129f021a"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/fruits.csv",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/fruits.csv",
+      "source_sha256": "84235de12e6a8eb094423436b3cdd045c8b55288d773053c821d88db06443c22",
+      "destination_sha256": "84235de12e6a8eb094423436b3cdd045c8b55288d773053c821d88db06443c22"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/manifest.json",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/manifest.json",
+      "source_sha256": "595ffd271d95ef390b5ecad8257fe95d281fe4daf8e70ab1fd6883aef50d0ff8",
+      "destination_sha256": "5b1f91fda104e1dda8181038c9a7233a9e2d711ad92b89d8cdb1afcc2aa766a8"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/weight-height.csv",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/weight-height.csv",
+      "source_sha256": "7c97d452e40c2a4242efb13a92303c6a6bbe5f4b5a0dd44fc4155a86836d8502",
+      "destination_sha256": "7c97d452e40c2a4242efb13a92303c6a6bbe5f4b5a0dd44fc4155a86836d8502"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "docs/SETUP.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "docs/SETUP.md",
+      "source_sha256": "f77254f5ea237f6a94e5672d0a687ddd7d9353ff6fc282643251c220e40c3f3d",
+      "destination_sha256": "ff0cb8ede1d65f3a3dd7b2fb5a8219b6fb4c307206605d0f9259d1782fd506eb"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "licenses/heuristics-MIT.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "licenses/heuristics-MIT.txt",
+      "source_sha256": "f693f674ce3c28283bbeaf4627ab5afc1bcefeabd2bd126f3644b0b3382b8d3e",
+      "destination_sha256": "f693f674ce3c28283bbeaf4627ab5afc1bcefeabd2bd126f3644b0b3382b8d3e"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/cases/feed-calculator-preparation.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/cases/feed-calculator-preparation.ipynb",
+      "source_sha256": "b59bb399d39b37bb50f7262d155fd79f45d30d7ac51f4dee4a4ac8f59acf27cc",
+      "destination_sha256": "77370eec16cf9450e8fcb95f4ef423547e43eb55d35c562a5e96528fb2228a45"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/cases/timor-leste-preparation.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/cases/timor-leste-preparation.ipynb",
+      "source_sha256": "41a7d235091718d88bdbf8d5a9c07224309113c6f448add2a75d2fd36cab189b",
+      "destination_sha256": "0964f1a5a3c98086fe43f481eb43f83e8d38fbcd11d1f1caf505caf27f3a82d0"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/data-analysis/descriptive-analytics.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/data-analysis/descriptive-analytics.ipynb",
+      "source_sha256": "d7efab05978461a98ee04d07cba46e0991876a33be91f1049f81708735c7ddb0",
+      "destination_sha256": "6fe4e60c5cb348e582b824dcba508912eb1de64fca7d7b2b226fff08ff421c2b"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "source_sha256": "6a7a9fa0ac2ce43f4828d7ab7cc751762e3e10d521374858a9307d00bc27f7fc",
+      "destination_sha256": "76bc57a693b8dc87332f9c655e52deb8a8a0c745b3822c6efdf1f42d37b6cee1"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/networkx-introduction.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/networks/networkx-introduction.ipynb",
+      "source_sha256": "98565c1fb112b0cf270b4eac668dea9773c9478b0e4c8133628e46c7455b01d3",
+      "destination_sha256": "ee549f0e717ec1e7c376eda5ef09c4fc6329920dcd1f30e7284a822af60884fd"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/real-life-shortest-path.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/networks/real-life-shortest-path.ipynb",
+      "source_sha256": "6200916641d0a83dabadcba2c0145957adc2efebd762b0e0483d913ca60aa15a",
+      "destination_sha256": "ffe42414fc5ce9881083ed7c2c33c02bf4d41d11e2191ba9aaf1c87f6b70a687"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "source_sha256": "d021ccab64f0a17e32566a703940a16caac49227b8fb0368bc09dcd8b2289444",
+      "destination_sha256": "7bb5d5504746462a121ca35d6ab5ed96b1ffe1c88c54bc2962aa51826996f39a"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/alice-optimization.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/optimization/alice-optimization.ipynb",
+      "source_sha256": "ac89680c06374413da700c5badf2d1b017873390892bb23a41411c8c8cb08be0",
+      "destination_sha256": "20e87ab310b8676269b7e32c6877ddefb9e279f4eccf42dbcd7056410d64ef86"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/caroline-production-planning.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/optimization/caroline-production-planning.ipynb",
+      "source_sha256": "85d0dab883861b4c235b898f8310a12a87f59fb34a737d0b87a79fc079797d86",
+      "destination_sha256": "a7e2f98f7a6986f781164dd50262f0b940d163fa0745ccc11fbc53871cf48d58"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/elizabeth-location-models.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/optimization/elizabeth-location-models.ipynb",
+      "source_sha256": "3a5e697ab1e62c048222555dc83b80642ff978cd151767d52bce3fdc8eb2a4f8",
+      "destination_sha256": "5f05de7c5b06527215ef34fa382d654a72dad61dcaddf062e81959e725419c11"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/pyomo-repeated-solves.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/optimization/pyomo-repeated-solves.ipynb",
+      "source_sha256": "6335243367ad04d7d223cb03b31d02c3c43e7c565fe9d7a011f7b54bc856de03",
+      "destination_sha256": "fe89fe275634b14777dc175e65a732d9ef81c6a9def6791d1339fe2755f16d1c"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/python/indexing-and-tables.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/python/indexing-and-tables.ipynb",
+      "source_sha256": "eedbab2e42bb32dba83cbbcc0d546b17a175836a1f2d897c0ee0464e0f982932",
+      "destination_sha256": "1cbd1e4668cec1655b736703029324bff99ef5ad3e270a97335d0c5e6b779c8f"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/python/python-primer.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "foundations/python/python-primer.ipynb",
+      "source_sha256": "532b59391b8a6538f8a5ea94034b9432cce31ce865931a27d9ba4a366763fff4",
+      "destination_sha256": "ea17ebe3c10d9e5f21b26085ebd8bcfbf2d9adc7eadae99298ea58410e93e92c"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements-colab-test.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "requirements-colab-test.txt",
+      "source_sha256": "b929ffe2f61353f29405da58a1771448ee68a6fbcfd9772eb200cc63b6ae60f0",
+      "destination_sha256": "b929ffe2f61353f29405da58a1771448ee68a6fbcfd9772eb200cc63b6ae60f0"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements-test.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "requirements-test.txt",
+      "source_sha256": "3a998c684adce434bd19a83597525134b1bec2fb9a2b5603ed1ce812710ea847",
+      "destination_sha256": "3a998c684adce434bd19a83597525134b1bec2fb9a2b5603ed1ce812710ea847"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "requirements.txt",
+      "source_sha256": "0d7052e6bb3eaee76fd0e2498ca3656319268e4d8eb49f10499194746962908f",
+      "destination_sha256": "0d7052e6bb3eaee76fd0e2498ca3656319268e4d8eb49f10499194746962908f"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "scripts/check_links.py",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "scripts/check_links.py",
+      "source_sha256": "b40428fd49bfe2725a0ebc70e2fb17cd431810ab1a0163e0c31c033d7e92fd19",
+      "destination_sha256": "a06b8b8c23d5c74f05c7816d9ccb11761b1c792bc1fd8bfe7a00aa5b5b49cd04"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "scripts/check_resources.py",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "scripts/check_resources.py",
+      "source_sha256": "ab26077d6e405ac92daf6c2196d93bf65396c50ebad5fa3cc30d656c4efe1ed8",
+      "destination_sha256": "c5e9a384dd7d6f5cab2564941128512685a12285c265a0b337c83c9e9afc6fd5"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/networks/shortest-path-exercise.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": true,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
+      "source_sha256": "e9f8c728575a904fa4fde19db6c6f396531540e95429de6fc7a7fd66ae334113",
+      "destination_sha256": "1297ec65e9f635b4dc5013be384951bd506edd83a0b6d14eb1382a6e52e3499d"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/worldlight-indexed.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": true,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/optimization/worldlight-indexed.ipynb",
+      "source_sha256": "2f41363e0f577acb667229f44e4fe03a0b3f049ec70beca1e59ff1b6d6d29e5b",
+      "destination_sha256": "593c0a82a0ccd6896ff86cfd92bb4fe4447f820ff1c0ed90103a97997164c63c"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/weenies-and-buns.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": true,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/optimization/weenies-and-buns.ipynb",
+      "source_sha256": "4977041bb99cccf16a1bcc5f848706ed0f4b1f73cee01bd58dd0144f8d11380b",
+      "destination_sha256": "6e3e719fe598fefcef53b19af2ac4015d7d87d37aa224772acfce5beb935a0d7"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/alva-electric.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": true,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/optimization/alva-electric.ipynb",
+      "source_sha256": "04abb6bcb5c64dcd888938288e58ee3816be80e22966ae3e6253c99e6b341a25",
+      "destination_sha256": "684a4fcdbc10a0fde6bcb7287d8ffed5eeb8173c57791d079252a17cbed56641"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/feed-three-ingredients.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": true,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/optimization/feed-three-ingredients.ipynb",
+      "source_sha256": "51cf34b3b4967a08b6b5a069bdb7b60967e06854b07eb6396ced4579be38998a",
+      "destination_sha256": "146b0859f0f0c8c58c8bb353ec97c542270335d55b6b4231487c4298e75e537c"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/python/practice.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "courses/abw/notebooks/python/practice.ipynb",
+      "source_sha256": "090aa362f56caf81935c554c93a26c68799bd637ede1f22f3226adae4c62aa17",
+      "destination_sha256": "118005a4189e575564897cbda13c0f6abfa2da0917ca2253eba59e782e356fb1"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "NOTICE.md",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "licenses/abw-NOTICE.md",
+      "source_sha256": "1425a46eddeff57db98376ad07013537e99cd49ea9cc4cddcb7fe270a116b72c",
+      "destination_sha256": "1425a46eddeff57db98376ad07013537e99cd49ea9cc4cddcb7fe270a116b72c"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/DataSyriaCaseWFP.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/wfp-syria/DataSyriaCaseWFP.xlsx",
+      "source_sha256": "f3e604eb3000d20e0e7eb64c7f847b6e34b83b85a417031a77805b8ea614c55b",
+      "destination_sha256": "f3e604eb3000d20e0e7eb64c7f847b6e34b83b85a417031a77805b8ea614c55b"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/WFPCleanWithLocations.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/wfp-syria/WFPCleanWithLocations.xlsx",
+      "source_sha256": "aa46234010b4b4a94558dab49e0211792ac28bd8a34280dc0927aeca52c0bd8f",
+      "destination_sha256": "aa46234010b4b4a94558dab49e0211792ac28bd8a34280dc0927aeca52c0bd8f"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/WFP_Locations.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "data/wfp-syria/WFP_Locations.xlsx",
+      "source_sha256": "029fc6ad26c992f0e460954aae9a5d6e1c6bca8a5728c814bd1f233ff54a3ceb",
+      "destination_sha256": "029fc6ad26c992f0e460954aae9a5d6e1c6bca8a5728c814bd1f233ff54a3ceb"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/robust-optimization-companion.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",
+      "source_sha256": "eec80f36b32d044535be0f43a899da26183c4e5c727b4671fe7ad30b50ed296c",
+      "destination_sha256": "5a8d8b0f4abd7743beb3a14b25160aab3d6f3dbb0fd147af9240bd9068daab85"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/starter-data-visualization.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb",
+      "source_sha256": "ddcdec3aa0fb244d1a42253d85f23f6c1844a0ca3615a2308138da4bcce40276",
+      "destination_sha256": "c0851d0664173b2c9c08c156bfaa94c83c0da9fea13ddf1bdd642e43f7754d6c"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/util_AABW.py",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "support/util_AABW.py",
+      "source_sha256": "73a4e10dc52c67bd7b6964fa2b8720e0a5c2575bec99be761a5110239d071c69",
+      "destination_sha256": "36bce9b87106d200ba5f8c34da6e3990550c6db8045b70041075cb4d1fcef820"
+    }
+  ],
+  "source_inventory": [
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": ".gitattributes",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": ".github/workflows/compatibility.yml",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": ".github/workflows/links.yml",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": ".github/workflows/notebooks.yml",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": ".gitignore",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "NOTICE.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "NOTICE.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "README.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/README.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "RELEASE_NOTES.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "assets/correlation-causation.svg",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "assets/correlation-causation.svg",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "catalog.json",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/README.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/README.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/cases/feed-calculator.xlsx",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/cases/feed-calculator.xlsx",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/cases/timor-leste.xlsx",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/cases/timor-leste.xlsx",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/fruits.csv",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/fruits.csv",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/manifest.json",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/manifest.json",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "data/weight-height.csv",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "data/weight-height.csv",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "docs/MAINTENANCE.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "docs/SETUP.md",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "docs/SETUP.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "licenses/heuristics-MIT.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "licenses/heuristics-MIT.txt",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/cases/feed-calculator-preparation.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/cases/feed-calculator-preparation.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/cases/timor-leste-preparation.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/cases/timor-leste-preparation.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/data-analysis/descriptive-analytics.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/data-analysis/descriptive-analytics.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/networkx-introduction.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/networkx-introduction.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/real-life-shortest-path.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/real-life-shortest-path.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/alice-optimization.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/alice-optimization.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/caroline-production-planning.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/caroline-production-planning.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/elizabeth-location-models.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/elizabeth-location-models.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/optimization/pyomo-repeated-solves.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/pyomo-repeated-solves.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/python/indexing-and-tables.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/python/indexing-and-tables.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "notebooks/python/python-primer.ipynb",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/python/python-primer.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements-colab-test.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "requirements-colab-test.txt",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements-test.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "requirements-test.txt",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "requirements.txt",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "requirements.txt",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "scripts/check_links.py",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "scripts/check_links.py",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/teaching-foundations",
+      "source_path": "scripts/check_resources.py",
+      "source_commit": "165fb9e9da0d9536756142d298c8cc8ed91f76e7",
+      "destination_repository": "teaching",
+      "destination_path": "scripts/check_resources.py",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": ".github/workflows/notebooks.yml",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": ".gitignore",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "NOTICE.md",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "licenses/abw-NOTICE.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "README.md",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/README.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "catalog.json",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "editions/2026-2027.json",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/networks/shortest-path-exercise.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/alva-electric.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/optimization/alva-electric.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/feed-three-ingredients.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/optimization/feed-three-ingredients.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/weenies-and-buns.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/optimization/weenies-and-buns.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/optimization/worldlight-indexed.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/optimization/worldlight-indexed.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "notebooks/python/practice.ipynb",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": "teaching",
+      "destination_path": "courses/abw/notebooks/python/practice.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/analytics-for-a-better-world",
+      "source_path": "requirements-test.txt",
+      "source_commit": "129549277b42794341d1a40a50a6cb4d62667ff3",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": ".gitignore",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "courses/aabw/README.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "archive/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "editions/2026-2027.json",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/alice-optimization.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/alice-optimization.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/assets/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/assets/alice-rose-glass.jpg",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/assets/correlation-causation.svg",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/caroline-production-planning.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/caroline-production-planning.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/data/weight-height.csv",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/descriptive-analytics.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/data-analysis/descriptive-analytics.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/diagnostic-predictive-analytics.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/data-analysis/diagnostic-predictive-analytics.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/elizabeth-location-models.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/optimization/elizabeth-location-models.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/python-primer.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/python/python-primer.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/real-life-shortest-path.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/real-life-shortest-path.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/introduction/shortest-path-optimization-vs-algorithms.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/timor-leste/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/timor-leste/data/DataErmeraTimorLeste.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/timor-leste/data/util_AABW.py",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/timor-leste/starter.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/cases/timor-leste-preparation.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/DataSyriaCaseWFP.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "data/wfp-syria/DataSyriaCaseWFP.xlsx",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/WFPCleanWithLocations.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "data/wfp-syria/WFPCleanWithLocations.xlsx",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/WFP_Locations.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "data/wfp-syria/WFP_Locations.xlsx",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/data/util_AABW.py",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "support/util_AABW.py",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/robust-optimization-companion.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "notebooks/wfp-syria/starter-data-visualization.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "tutorial-1/Data Set Feedcalculator.xlsx",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "tutorial-1/FeedCalculator-starter.ipynb",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/cases/feed-calculator-preparation.ipynb",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "tutorial-1/README.md",
+      "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/Heuristics",
+      "source_path": "LICENSE",
+      "source_commit": "6b5e07230e5ae2061920731893f74a1e8c08f0b5",
+      "destination_repository": null,
+      "destination_path": null,
+      "disposition": "retained in original Git history; not a second maintained copy"
+    },
+    {
+      "source_repository": "gromicho/Heuristics",
+      "source_path": "README.md",
+      "source_commit": "6b5e07230e5ae2061920731893f74a1e8c08f0b5",
+      "destination_repository": "teaching",
+      "destination_path": "courses/heuristics/README.md",
+      "disposition": "mapped"
+    },
+    {
+      "source_repository": "gromicho/Heuristics",
+      "source_path": "notebooks/04/09-shortest-path-road-networks.ipynb",
+      "source_commit": "6b5e07230e5ae2061920731893f74a1e8c08f0b5",
+      "destination_repository": "teaching",
+      "destination_path": "foundations/networks/real-life-shortest-path.ipynb",
+      "disposition": "mapped"
+    }
+  ],
+  "snapshot_note": "Destination hashes record the reviewed initial import, not a freeze on future development. Historical archive bytes remain unchanged."
+}

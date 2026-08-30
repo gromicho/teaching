@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "course": "ABW",
+  "academic_year": "2026/27",
+  "status": "development; not frozen; teaching-team approval pending",
+  "repository": "gromicho/teaching",
+  "ref": "main",
+  "python": "3.12",
+  "foundations": [
+    "foundations/python/python-primer.ipynb",
+    "foundations/optimization/caroline-production-planning.ipynb",
+    "foundations/networks/networkx-introduction.ipynb",
+    "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
+    "foundations/data-analysis/descriptive-analytics.ipynb",
+    "foundations/data-analysis/diagnostic-predictive-analytics.ipynb",
+    "foundations/python/indexing-and-tables.ipynb",
+    "foundations/optimization/alice-optimization.ipynb",
+    "foundations/optimization/elizabeth-location-models.ipynb",
+    "foundations/optimization/pyomo-repeated-solves.ipynb",
+    "foundations/networks/real-life-shortest-path.ipynb",
+    "foundations/cases/feed-calculator-preparation.ipynb",
+    "foundations/cases/timor-leste-preparation.ipynb"
+  ],
+  "course_resources": [
+    "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
+    "courses/abw/notebooks/optimization/worldlight-indexed.ipynb",
+    "courses/abw/notebooks/optimization/weenies-and-buns.ipynb",
+    "courses/abw/notebooks/optimization/alva-electric.ipynb",
+    "courses/abw/notebooks/optimization/feed-three-ingredients.ipynb",
+    "courses/abw/notebooks/python/practice.ipynb"
+  ],
+  "datasets": [
+    {
+      "path": "data/cases/feed-calculator.xlsx",
+      "sha256": "2e3653fe1b3a9995abedfb5902157dea2616c72550b62b7b060442e281bf8fe7"
+    },
+    {
+      "path": "data/cases/timor-leste.xlsx",
+      "sha256": "31431b07df5b6797630b9ec5023f81aacd76d5bdab4e21cdd3d9fe4e129f021a"
+    },
+    {
+      "path": "data/fruits.csv",
+      "sha256": "84235de12e6a8eb094423436b3cdd045c8b55288d773053c821d88db06443c22"
+    },
+    {
+      "path": "data/weight-height.csv",
+      "sha256": "7c97d452e40c2a4242efb13a92303c6a6bbe5f4b5a0dd44fc4155a86836d8502"
+    }
+  ],
+  "tutorial_day": "Wednesday",
+  "exam": "Invigilated, pen and paper; only a UvA-approved non-connected calculator."
+}

@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "data/cases/feed-calculator.xlsx",
+      "sha256": "2e3653fe1b3a9995abedfb5902157dea2616c72550b62b7b060442e281bf8fe7",
+      "bytes": 33550,
+      "source": "gromicho/advanced-analytics-for-a-better-world@e95551e8: tutorial-1/Data Set Feedcalculator.xlsx"
+    },
+    {
+      "path": "data/cases/timor-leste.xlsx",
+      "sha256": "31431b07df5b6797630b9ec5023f81aacd76d5bdab4e21cdd3d9fe4e129f021a",
+      "bytes": 1494722,
+      "source": "gromicho/advanced-analytics-for-a-better-world@e95551e8: notebooks/timor-leste/data/DataErmeraTimorLeste.xlsx"
+    },
+    {
+      "path": "data/fruits.csv",
+      "sha256": "84235de12e6a8eb094423436b3cdd045c8b55288d773053c821d88db06443c22",
+      "bytes": 1846,
+      "source": "gromicho/data@08e509b4: fruits.csv (same bytes as gromicho/tools/data/fruits.csv)"
+    },
+    {
+      "path": "data/weight-height.csv",
+      "sha256": "7c97d452e40c2a4242efb13a92303c6a6bbe5f4b5a0dd44fc4155a86836d8502",
+      "bytes": 418120,
+      "source": "gromicho/advanced-analytics-for-a-better-world@e95551e8: notebooks/introduction/data/weight-height.csv"
+    },
+    {
+      "path": "data/wfp-syria/DataSyriaCaseWFP.xlsx",
+      "sha256": "f3e604eb3000d20e0e7eb64c7f847b6e34b83b85a417031a77805b8ea614c55b",
+      "bytes": 96629,
+      "source": "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/data/DataSyriaCaseWFP.xlsx"
+    },
+    {
+      "path": "data/wfp-syria/WFPCleanWithLocations.xlsx",
+      "sha256": "aa46234010b4b4a94558dab49e0211792ac28bd8a34280dc0927aeca52c0bd8f",
+      "bytes": 75226,
+      "source": "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/data/WFPCleanWithLocations.xlsx"
+    },
+    {
+      "path": "data/wfp-syria/WFP_Locations.xlsx",
+      "sha256": "029fc6ad26c992f0e460954aae9a5d6e1c6bca8a5728c814bd1f233ff54a3ceb",
+      "bytes": 5701,
+      "source": "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/data/WFP_Locations.xlsx"
+    }
+  ]
+}
