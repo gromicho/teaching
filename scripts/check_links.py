@@ -46,7 +46,7 @@ def main():
             sources.append((path,path.read_text(encoding='utf-8')))
     catalog=root/'catalog.json'
     if catalog.exists():
-        for item in json.loads(catalog.read_text())['notebooks']:
+        for item in json.loads(catalog.read_text(encoding='utf-8'))['notebooks']:
             if item['execution_profile']=='archive':
                 continue
             path=root/item['path']

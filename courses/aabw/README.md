@@ -10,8 +10,8 @@ Python, descriptive and predictive analytics, Caroline, Alice, Elizabeth and net
 
 | Notebook | Open | Check profile |
 | --- | --- | --- |
-| [WFP Syria â€” robust optimization companion](notebooks/wfp-syria/robust-optimization-companion.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb) | specialist |
-| [WFP Syria â€” data exploration and model starter](notebooks/wfp-syria/starter-data-visualization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb) | specialist |
+| [WFP Syria — robust optimization companion](notebooks/wfp-syria/robust-optimization-companion.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb) | specialist |
+| [WFP Syria — data exploration and model starter](notebooks/wfp-syria/starter-data-visualization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb) | specialist |
 
 The two WFP notebooks were migrated with their data and helper links. They are marked **specialist**: a complete solver-dependent execution review is still required and they are not included in the routine execution claim. The robust conic model needs a suitable solver; no licence or credentials are embedded.
 

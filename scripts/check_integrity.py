@@ -9,6 +9,10 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from check_portability import check as check_portability
 
 
 def read(path):
@@ -20,7 +24,7 @@ def sha(path):
 
 
 def check(root, public_root=None, verify_import_snapshot=False):
-    errors=[]
+    errors=check_portability(root)
     catalog=read(root/'catalog.json')
     visibility=catalog['visibility']
     expected='gromicho/teaching' if visibility=='public' else 'gromicho/teaching-solutions'
@@ -50,7 +54,10 @@ def check(root, public_root=None, verify_import_snapshot=False):
             if re.search(r'(?i)(solution|answer.?key|instructor|archive|\.pem$|\.key$)',rel.as_posix()):
                 errors.append(f'Public file needs private-boundary review: {rel}')
             if path.suffix in ['.md','.ipynb','.py','.json','.yml']:
-                text=path.read_text(encoding='utf-8')
+                try:
+                    text=path.read_text(encoding='utf-8')
+                except UnicodeError:
+                    continue  # Already reported by the portability check.
                 if re.search(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}',text):
                     errors.append(f'Possible credential in {rel}')
         for manifest in root.glob('courses/*/editions/*.json'):

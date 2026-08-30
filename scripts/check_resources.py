@@ -69,6 +69,9 @@ def check(root, execute=False, run_setup=False, public_root=None):
                         shutil.copytree(resource_root/folder,work/folder)
                 # Dependencies have been installed as a reproducible test environment.
                 for cell in nb.cells:
+                    if not run_setup and 'package-install' in cell.metadata.get('tags',[]):
+                        cell.source = '# Dependencies are supplied by the test environment.'
+                        continue
                     if not run_setup and 'setup' in cell.metadata.get('tags',[]):
                         # Keep imports/configuration that share an installation cell.
                         cell.source = '\n'.join(line for line in cell.source.splitlines()
@@ -90,7 +93,7 @@ def check(root, execute=False, run_setup=False, public_root=None):
         report['errors'].append(f'Catalogue/file mismatch: {sorted(actual ^ paths)}')
     manifest = root/'data/manifest.json'
     if manifest.exists():
-        for item in json.loads(manifest.read_text())['files']:
+        for item in json.loads(manifest.read_text(encoding='utf-8'))['files']:
             path = (root/item['path']).resolve()
             if not path.is_relative_to(root) or hashlib.sha256(path.read_bytes()).hexdigest() != item['sha256']:
                 report['errors'].append(f'Dataset checksum mismatch: {item["path"]}')

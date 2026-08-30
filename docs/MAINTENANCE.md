@@ -12,7 +12,9 @@ Use a correction version for an already-distributed edition and communicate the 
 
 Preserve source attribution and data hashes. Run the catalogue, execution, link and publication-boundary checks before publication; review mathematical or pedagogical changes with another teacher. A fresh actual Colab browser check remains useful before classroom use: the automated compatibility environment is not a complete Colab VM.
 
-The routine workflow tests the recorded baseline and Colab-library profile. A separate manually triggered compatibility workflow tests current package upgrades without running the pinned notebook setup cells. Review that result before updating the baseline; a version pin is not a reason to stop maintaining compatibility.
+The routine workflow tests the recorded baseline and Colab-library profile. Learner notebooks use installed packages and request only missing ones, without version pins. A separate manually triggered compatibility workflow tests current package upgrades in an isolated environment. Review that result before updating the maintenance baseline.
+
+Save source text explicitly as UTF-8 when reading or writing it, including catalogue-based navigation generation on Windows. Keep file and folder names ASCII, without spaces or URL-special characters; prefer lowercase words separated by hyphens for new material. Preserve meaningful Unicode in prose and people's names. The integrity check detects unsafe paths and common garbled-text sequences. Historical archive contents retain their original bytes.
 
 The live OSMnx notebook depends on external services. The WFP notebooks include specialist solver requirements. Do not treat an excluded notebook as an execution pass. If these become required assessed work, complete their execution review and, for live maps, agree a fixed attributed dataset snapshot.
 
