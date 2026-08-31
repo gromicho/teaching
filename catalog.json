@@ -238,6 +238,17 @@
       "sources": [
         "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/starter-data-visualization.ipynb"
       ]
+    },
+    {
+      "id": "aabw-sudoku-starter",
+      "title": "Sudoku: optimization-model starter",
+      "path": "courses/aabw/notebooks/sudoku/starter.ipynb",
+      "kind": "starter",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "sources": [
+        "User-supplied AABW exercise export, 31 August 2026: Sudoku start .ipynb; original puzzle retained."
+      ]
     }
   ]
 }

@@ -23,7 +23,8 @@
   ],
   "course_resources": [
     "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",
-    "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb"
+    "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb",
+    "courses/aabw/notebooks/sudoku/starter.ipynb"
   ],
   "datasets": [
     {

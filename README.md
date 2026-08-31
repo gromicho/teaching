@@ -21,7 +21,7 @@ Datasets are maintained once in [data](data/README.md), supporting figures in `a
 
 Use Colab's scientific libraries; do not install the full maintenance environment over them. Optimization notebooks retain only the relevant solver setup. See [setup and verification](docs/SETUP.md).
 
-Routine checks execute 18 public offline notebooks in two environments: the maintenance baseline and the relevant library versions from Colab's published 2026.07 CPU snapshot. The optional street-network lesson and two solver-dependent WFP notebooks are explicitly excluded from that execution claim; their files and links are still checked. See the [catalogue](catalog.json) for each notebook's status.
+Routine checks execute 19 public offline notebooks in two environments: the maintenance baseline and the relevant library versions from Colab's published 2026.07 CPU snapshot. The optional street-network lesson and two solver-dependent WFP notebooks are explicitly excluded from that execution claim; their files and links are still checked. See the [catalogue](catalog.json) for each notebook's status.
 
 Instructor solutions and recovery archives are maintained in a **separate private repository**, never in a folder or branch here. A public folder cannot provide private access. Canvas controls approved cohort releases.
 

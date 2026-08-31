@@ -8,5 +8,6 @@ Maintained for the UvA Business Analytics teaching collection. The catalogue rec
 - The original Alice photograph is not copied into this repository because the original creator/licence was unresolved. The course does not need that photograph to explain the model.
 - The correlation/causation diagram is the authored SVG from the prior AABW cleanup, not an externally hotlinked image.
 - Data rights/provenance: see `data/README.md` and `data/manifest.json`.
+- Sudoku starter: adapted from the course material supplied by the maintainer on 31 August 2026. The original puzzle and display routine are retained; the AABW teaching team maintains the preparation and modelling prompts. The source hash is recorded in the notebook, and the original notebook is preserved in the private recovery archive. No new collection-wide licence is inferred from this import.
 
 Public visibility is not a blanket open-source or open-data licence. No collection-wide licence has been invented; a suitable licence can be chosen after the teaching team resolves any third-party components. Preserve attribution when adapting material.
