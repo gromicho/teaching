@@ -2,7 +2,18 @@
 
 **2026/27 is in preparation, not frozen.** Tutorials are on Wednesdays. Canvas is the authority for the required sequence, timetable details and release dates. The [edition manifest](editions/2026-2027.json) records the developing selection.
 
-## Preparation
+## Python self-study: the complete Part 1 and Part 2
+
+These are the modernized editions of the original two ABW self-study notebooks. Their full teaching sequence is retained; the shorter shared primer and practice notebook are supplementary resources, not substitutes for these two parts.
+
+| Notebook | Open | Topics |
+| --- | --- | --- |
+| [Part 1 — Python fundamentals](notebooks/python/part-1.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/abw/notebooks/python/part-1.ipynb) | Expressions, types, functions, conditions, collections and loops; original exercises. |
+| [Part 2 — libraries and optimization](notebooks/python/part-2.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/abw/notebooks/python/part-2.ipynb) | Imports, NumPy, pandas, notebook commands, plots and the original airline model using Pyomo/HiGHS. |
+
+Save your own working copy. Predict, run, explain and test; unanswered exercises are intentionally left for you. Both notebooks include optional Socratic Coach prompts and source attribution. Canvas determines the required preparation and submission rules.
+
+## Shared preparation
 
 Use the [shared foundations](../../foundations/README.md) for Python, data analysis, Caroline, Alice, Elizabeth and network examples. Feed Calculator and Timor-Leste preparation are there too. These common notebooks have one maintained copy.
 
@@ -26,3 +37,4 @@ Try first, explain your reasoning, ask UvA AI Chat for one hint, verify it, and 
 **Exam:** invigilated, pen and paper only. The only permitted device is a UvA-approved calculator with no connectivity. Notebook and AI use support learning, not the exam.
 
 Open a notebook in Colab and save your own working copy. General-purpose library installs are not required just because a notebook imports them; see [setup and verification](../../docs/SETUP.md). Instructor solutions are maintained separately and released only through approved course channels.
+

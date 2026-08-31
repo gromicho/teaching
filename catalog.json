@@ -150,6 +150,30 @@
       "collection": "foundations"
     },
     {
+      "id": "abw-python-part-1",
+      "title": "ABW Python Part 1: Python fundamentals",
+      "path": "courses/abw/notebooks/python/part-1.ipynb",
+      "kind": "guided-self-study",
+      "execution_profile": "core",
+      "collection": "abw",
+      "sources": [
+        "Original ABW Python Part 1: https://colab.research.google.com/drive/1niSUyUI0C1gdojoWu3qGNxnedd91jR9u"
+      ],
+      "review_note": "Faithful 2026/27 modernization: original sequence retained, exercises left for learners, fresh-kernel validation in two local environments."
+    },
+    {
+      "id": "abw-python-part-2",
+      "title": "ABW Python Part 2: libraries, tables, plots and optimization",
+      "path": "courses/abw/notebooks/python/part-2.ipynb",
+      "kind": "guided-self-study",
+      "execution_profile": "core",
+      "collection": "abw",
+      "sources": [
+        "Original ABW Python Part 2: https://colab.research.google.com/drive/1sx2Y_VvGy6hlLU5TemoC5LhfmE2EbJbx"
+      ],
+      "review_note": "Faithful 2026/27 modernization: original sequence retained, exercises left for learners, fresh-kernel validation in two local environments."
+    },
+    {
       "id": "abw-shortest-path-exercise",
       "title": "Shortest path A to F",
       "path": "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
