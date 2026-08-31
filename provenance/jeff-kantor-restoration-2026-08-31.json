@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "restored_on": "2026-08-31",
+  "author": "Jeffrey Kantor",
+  "requested_by": "Joaquim Gromicho",
+  "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+  "source_commit": "e95551e8d18095d60486ed5cc6fab67db59a0023",
+  "source_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+  "source_sha256": "6a1185810bda02ecdea619d45d535179aeeb45405edab8820e940295862b2ede",
+  "destination_repository": "gromicho/teaching",
+  "destination_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+  "destination_sha256": "d29da5018fda1ceea224329bd330d3aa740201547c3926ce2e274c7c0b143b65",
+  "retained_cells_sha256": "448ec40a22baf74c768bf1916a90cfa92bb475814762ef0f57a6737c2a7e5f1e",
+  "retained_cells_hash_format": "UTF-8 JSON array of cell_type/source objects for cells after the archival preamble; ensure_ascii=False; separators=(comma, colon)",
+  "changes": [
+    "Updated archival preamble and reference links",
+    "Added historical attribution and non-execution metadata",
+    "Updated notebook format metadata to 4.5 for its existing cell IDs"
+  ],
+  "all_subsequent_cell_source_preserved": true,
+  "historical_code_executed": false,
+  "original_outputs_already_cleared": true,
+  "rights_note": "Original attribution preserved; no new licence for the notebook is asserted."
+}

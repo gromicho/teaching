@@ -20,6 +20,9 @@ import nbformat
 from IPython.core.inputtransformer2 import TransformerManager
 from nbclient import NotebookClient
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from publication_policy import public_notebook_error
+
 
 def check(root, execute=False, run_setup=False, public_root=None):
     catalog = json.loads((root/'catalog.json').read_text(encoding='utf-8'))
@@ -41,8 +44,9 @@ def check(root, execute=False, run_setup=False, public_root=None):
             nb = nbformat.read(path,as_version=4)
             nbformat.validate(nb)
             if catalog['visibility'] == 'public':
-                if item['kind'] in ['solution','historical-reference']:
-                    raise ValueError('Private material marked for public publication')
+                error = public_notebook_error(item)
+                if error:
+                    raise ValueError(error)
                 if re.search(r'(?i)(solution|answer.?key|instructor)',relative):
                     raise ValueError('Suspicious public file name')
             for cell in nb.cells:

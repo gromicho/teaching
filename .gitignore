@@ -12,3 +12,7 @@ gurobi.lic
 *answer-key*
 *instructor*
 archive/
+!/archive/
+/archive/*
+!/archive/README.md
+!/archive/jeff-kantor-solver-installation-legacy.ipynb

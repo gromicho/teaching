@@ -13,6 +13,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from check_portability import check as check_portability
+from publication_policy import PUBLIC_HISTORICAL_FILES, PUBLIC_HISTORICAL_NOTEBOOKS, public_notebook_error
 
 
 def read(path):
@@ -47,11 +48,20 @@ def check(root, public_root=None, verify_import_snapshot=False):
             if sha(target)!=record['destination_sha256']:
                 errors.append(f'Import snapshot checksum mismatch: {relative}')
     if visibility=='public':
+        for item in catalog['notebooks']:
+            error=public_notebook_error(item)
+            if error:
+                errors.append(f'{item["path"]}: {error}')
+        imported_paths={record['path'] for record in imports['imports']}
+        for relative in PUBLIC_HISTORICAL_NOTEBOOKS:
+            if (root/relative).exists() and (relative not in paths or relative not in imported_paths):
+                errors.append(f'Public historical notebook requires catalogue and checksum provenance: {relative}')
         for path in root.rglob('*'):
             rel=path.relative_to(root)
             if not path.is_file() or any(x.startswith('.') for x in rel.parts):
                 continue
-            if re.search(r'(?i)(solution|answer.?key|instructor|archive|\.pem$|\.key$)',rel.as_posix()):
+            if (re.search(r'(?i)(solution|answer.?key|instructor|archive|\.pem$|\.key$)',rel.as_posix())
+                    and rel.as_posix() not in PUBLIC_HISTORICAL_FILES):
                 errors.append(f'Public file needs private-boundary review: {rel}')
             if path.suffix in ['.md','.ipynb','.py','.json','.yml']:
                 try:
@@ -65,6 +75,8 @@ def check(root, public_root=None, verify_import_snapshot=False):
             for relative in edition['foundations']+edition['course_resources']:
                 if relative not in paths:
                     errors.append(f'Course selection missing from catalogue: {relative}')
+                if relative in PUBLIC_HISTORICAL_NOTEBOOKS:
+                    errors.append(f'Historical reference is not a current course selection: {relative}')
             for record in edition['datasets']:
                 if sha(root/record['path'])!=record['sha256']:
                     errors.append(f'Course dataset checksum mismatch: {record["path"]}')

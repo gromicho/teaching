@@ -7,3 +7,5 @@
 # Preserve exact source-data bytes and their documented checksums.
 *.csv -text
 *.xlsx -text
+# Preserve the documented bytes of the approved historical notebook.
+archive/*.ipynb -text

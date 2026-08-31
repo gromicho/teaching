@@ -22,6 +22,8 @@ The live OSMnx notebook depends on external services. The WFP notebooks include 
 
 Only public student material and deliberately worked examples belong here. Instructor keys and historical recovery notebooks belong in private `gromicho/teaching-solutions`. A branch or ignored folder in this public repository is not an access boundary. Automated checks supplement, not replace, human content review.
 
+One explicit exception, requested by the maintainer on 31 August 2026, preserves Jeff Kantor's [historical solver-installation reference](../archive/README.md) publicly with his attribution. The publication checks allow only its exact path and archive index. Its catalogue entry must retain the `historical-reference` kind and non-executed `archive` profile; its imported checksum remains enforced. This does not authorize publication of other recovery notebooks or instructor keys. Do not add it to a current course edition or execute its installer cells as part of routine checks.
+
 Release only instructor-approved copies to the enrolled cohort through Canvas or an approved restricted distribution channel. This migration does not revoke old Drive links, add collaborators, change Canvas permissions or grant a new collection-wide licence.
 
 The specialised `gromicho/tools/Teaching` figure-authoring utilities and private book/exam sources are outside this beginner teaching collection. Keep them separate until a concrete reusable teaching interface is reviewed.

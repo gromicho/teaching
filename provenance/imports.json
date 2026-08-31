@@ -598,6 +598,18 @@
       "path": "support/util_AABW.py",
       "source_sha256": "73a4e10dc52c67bd7b6964fa2b8720e0a5c2575bec99be761a5110239d071c69",
       "destination_sha256": "36bce9b87106d200ba5f8c34da6e3990550c6db8045b70041075cb4d1fcef820"
+    },
+    {
+      "source_repository": "gromicho/advanced-analytics-for-a-better-world",
+      "source_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+      "source_commit": "e95551e8d18095d60486ed5cc6fab67db59a0023",
+      "source_visibility": "public",
+      "source_has_local_edits": false,
+      "visibility": "public",
+      "path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+      "source_sha256": "6a1185810bda02ecdea619d45d535179aeeb45405edab8820e940295862b2ede",
+      "destination_sha256": "d29da5018fda1ceea224329bd330d3aa740201547c3926ce2e274c7c0b143b65",
+      "restoration_record": "provenance/jeff-kantor-restoration-2026-08-31.json"
     }
   ],
   "source_inventory": [
@@ -1029,9 +1041,10 @@
       "source_repository": "gromicho/advanced-analytics-for-a-better-world",
       "source_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
       "source_commit": "b5a60b7b5ad48ee0de70701c1b52d3248bd2f493",
-      "destination_repository": null,
-      "destination_path": null,
-      "disposition": "retained in original Git history; not a second maintained copy"
+      "destination_repository": "teaching",
+      "destination_path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+      "disposition": "mapped as an explicitly approved historical reference on 2026-08-31",
+      "restoration_source_commit": "e95551e8d18095d60486ed5cc6fab67db59a0023"
     },
     {
       "source_repository": "gromicho/advanced-analytics-for-a-better-world",

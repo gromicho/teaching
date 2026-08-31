@@ -249,6 +249,19 @@
       "sources": [
         "User-supplied AABW exercise export, 31 August 2026: Sudoku start .ipynb; original puzzle retained."
       ]
+    },
+    {
+      "id": "historical-jeff-kantor-solver-installation",
+      "title": "Jeff Kantor's solver-installation experiment (historical reference)",
+      "path": "archive/jeff-kantor-solver-installation-legacy.ipynb",
+      "kind": "historical-reference",
+      "execution_profile": "archive",
+      "collection": "historical",
+      "author": "Jeffrey Kantor",
+      "review_note": "Explicitly approved historical public reference; original code retained, never automatically executed, not current setup guidance.",
+      "sources": [
+        "gromicho/advanced-analytics-for-a-better-world@e95551e8d18095d60486ed5cc6fab67db59a0023: archive/jeff-kantor-solver-installation-legacy.ipynb"
+      ]
     }
   ]
 }
