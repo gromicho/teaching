@@ -130,8 +130,8 @@
 % Base frame: owns the slide canvas and recurring UvA/ABS mark.
 \NewDocumentEnvironment{abwframe}{O{} +b}{%
   \ifstrempty{#1}{\begin{frame}[plain]}{\begin{frame}[plain,#1]}%
-  \begin{tikzpicture}[remember picture,overlay,x=1bp,y=1bp]
-  \begin{scope}[shift={(current page.north west)}]
+  \begin{tikzpicture}[x=1bp,y=1bp]
+  \path[use as bounding box] (0,0) rectangle (960,-540);
   \fill[white] (0,0) rectangle (960,-540);
   % Isolate slide-specific clipping and transforms.
   \begin{scope}
@@ -139,7 +139,6 @@
   \end{scope}
   \node[anchor=north west,inner sep=0pt,outer sep=0pt] at (4.819,-4.819)
     {\ABWLogo};
-  \end{scope}
   \end{tikzpicture}
   \end{frame}
 }{}
