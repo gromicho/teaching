@@ -269,6 +269,10 @@
   \node[anchor=north west,inner sep=0pt,text width=\dimexpr#4bp-78bp\relax]
     at ($(#2,-#3)+(62,-16)$) {#6};%
 }
+\NewDocumentCommand{\ABWCardText}{m +m}{%
+  {\TimesNR\fontsize{23}{26}\selectfont\bfseries #1\par}\vspace{4bp}%
+  {\TimesNR\fontsize{18}{21}\selectfont #2\par}%
+}
 \NewDocumentCommand{\ABWJourneyStep}{m m m m}{%
   \fill[white,draw=ABWRed,line width=2bp] (#2,-235) circle[radius=31bp];
   \node[anchor=center,inner sep=0pt] at (#2,-235)

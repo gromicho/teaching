@@ -1,16 +1,48 @@
-% Canonical shared slide; course decks determine its position and frame number.
-\begin{abwlearningframe}{Colab does not remove your responsibility}{\insertframenumber}
-  \ABWLearningCard{1}{55}{150}{405}{125}{%
-    {\TimesNR\fontsize{23}{26}\selectfont\bfseries Know the file\par}
-    {\TimesNR\fontsize{18}{21}\selectfont Check which notebook copy you are editing.}}
-  \ABWLearningCard{2}{500}{150}{405}{125}{%
-    {\TimesNR\fontsize{23}{26}\selectfont\bfseries Control execution\par}
-    {\TimesNR\fontsize{18}{21}\selectfont Run cells deliberately and notice stale state.}}
-  \ABWLearningCard{3}{55}{305}{405}{125}{%
-    {\TimesNR\fontsize{23}{26}\selectfont\bfseries Inspect output\par}
-    {\TimesNR\fontsize{18}{21}\selectfont Read errors and test whether results make sense.}}
-  \ABWLearningCard{4}{500}{305}{405}{125}{%
-    {\TimesNR\fontsize{23}{26}\selectfont\bfseries Save before leaving\par}
-    {\TimesNR\fontsize{18}{21}\selectfont Save or download the version you intend to submit.}}
-  \ABWArtCredit{Platform reference: \href{https://colab.research.google.com/}{Google Colab}.}
-\end{abwlearningframe}
+% Canonical shared slide; all devices are native TikZ objects.
+\begin{abwfigureframe}{Colab works across devices}{\insertframenumber}
+  \node[anchor=north west,text width=850bp,inner sep=0pt] at (55,-137)
+    {{\TimesNR\fontsize{21}{24}\selectfont
+      The browser is the interface; the temporary runtime is in the cloud.\par}};
+
+  % Desktop
+  \draw[rounded corners=5bp,fill=ABWSoftGray,draw=ABWGray,line width=3bp]
+    (85,-205) rectangle (265,-320);
+  \draw[draw=ABWGray,line width=5bp] (175,-320) -- (175,-350);
+  \draw[draw=ABWGray,line width=5bp] (130,-350) -- (220,-350);
+  \node[anchor=center] at (175,-260)
+    {{\TimesNR\fontsize{24}{27}\selectfont\bfseries\color{ABWOrange}>\_}};
+  \node[anchor=north] at (175,-370)
+    {{\TimesNR\fontsize{18}{21}\selectfont\bfseries Desktop}};
+
+  % Laptop
+  \draw[rounded corners=5bp,fill=ABWSoftGray,draw=ABWGray,line width=3bp]
+    (330,-215) rectangle (500,-315);
+  \draw[fill=ABWGray,draw=ABWGray] (310,-325) -- (520,-325) -- (495,-345) -- (335,-345) -- cycle;
+  \node[anchor=center] at (415,-263)
+    {{\TimesNR\fontsize{24}{27}\selectfont\bfseries\color{ABWOrange}>\_}};
+  \node[anchor=north] at (415,-370)
+    {{\TimesNR\fontsize{18}{21}\selectfont\bfseries Laptop}};
+
+  % Tablet
+  \draw[rounded corners=12bp,fill=ABWSoftGray,draw=ABWGray,line width=4bp]
+    (590,-205) rectangle (705,-345);
+  \fill[ABWGray] (647.5,-332) circle[radius=4bp];
+  \node[anchor=center] at (647.5,-267)
+    {{\TimesNR\fontsize{24}{27}\selectfont\bfseries\color{ABWOrange}>\_}};
+  \node[anchor=north] at (647.5,-370)
+    {{\TimesNR\fontsize{18}{21}\selectfont\bfseries Tablet}};
+
+  % Phone
+  \draw[rounded corners=10bp,fill=ABWSoftGray,draw=ABWGray,line width=4bp]
+    (785,-215) rectangle (855,-345);
+  \fill[ABWGray] (820,-332) circle[radius=3.5bp];
+  \node[anchor=center] at (820,-270)
+    {{\TimesNR\fontsize{21}{24}\selectfont\bfseries\color{ABWOrange}>\_}};
+  \node[anchor=north] at (820,-370)
+    {{\TimesNR\fontsize{18}{21}\selectfont\bfseries Phone}};
+
+  \node[anchor=center,text width=820bp,align=center] at (480,-445)
+    {{\TimesNR\fontsize{20}{24}\selectfont\bfseries\color{ABWRed}
+      Whatever the device, you remain responsible for the file, execution, output and saving.}};
+  \ABWArtCredit{Original device illustration. Platform reference: \href{https://colab.research.google.com/}{Google Colab}.}
+\end{abwfigureframe}
