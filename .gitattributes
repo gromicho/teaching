@@ -7,5 +7,10 @@
 # Preserve exact source-data bytes and their documented checksums.
 *.csv -text
 *.xlsx -text
+*.pdf binary
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.mp4 -text
 # Preserve the documented bytes of the approved historical notebook.
 archive/*.ipynb -text
