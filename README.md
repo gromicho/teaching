@@ -2,7 +2,7 @@
 
 Public teaching materials for **Analytics for a Better World (ABW)**, **Advanced Analytics for a Better World (AABW)** and **Heuristics** at the University of Amsterdam.
 
-One repository, with folders for courses and foundations shared between them. Open notebooks in Colab and save your own working copy; no knowledge of Git is required. GitHub maintains the sources and their history, Colab runs notebooks, and Canvas organizes enrolled students, deadlines and approved releases.
+One repository, with folders for courses and foundations shared between them. Open notebooks in Colab or Binder and save your own working copy; no knowledge of Git is required. GitHub maintains the sources and their history, Colab or Binder runs notebooks, and Canvas organizes enrolled students, deadlines and approved releases.
 
 ## Start here
 
@@ -19,7 +19,7 @@ Datasets are maintained once in [data](data/README.md), supporting figures in `a
 
 ## Setup and quality checks
 
-Use Colab's scientific libraries; do not install the full maintenance environment over them. Optimization notebooks retain only the relevant solver setup. See [setup and verification](docs/SETUP.md).
+Binder builds the tested repository environment before it starts. Colab uses its scientific libraries. Every maintained notebook also checks its own third-party dependencies and installs only packages that are missing, without upgrading packages already present. See [setup and verification](docs/SETUP.md).
 
 Routine checks execute 19 public offline notebooks in two environments: the maintenance baseline and the relevant library versions from Colab's published 2026.07 CPU snapshot. The optional street-network lesson and two solver-dependent WFP notebooks are explicitly excluded from that execution claim; their files and links are still checked. Jeff Kantor's [historical solver-installation notebook](archive/README.md) is preserved for reading and attribution only, and is never automatically executed. See the [catalogue](catalog.json) for each notebook's status.
 

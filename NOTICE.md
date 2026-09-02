@@ -1,6 +1,6 @@
 # Attribution and rights
 
-Maintained for the UvA Business Analytics teaching collection. The catalogue records the source of each lesson. Original notebooks and source-specific attribution are retained in the private instructor provenance archive and/or the original Git history.
+Maintained for the UvA Business Analytics teaching collection. Source-specific provenance is retained in the private instructor archive and/or the original Git history rather than in maintained public notebooks.
 
 - Python primer: adapted from the ABW team/AABW primer, including its acknowledgements and links to Programiz. Existing source-specific rights are not overridden.
 - Caroline, Alice, Elizabeth and the network examples: consolidated from Joaquim Gromicho's existing teaching notebooks, with newly authored explanatory and validation cells.
