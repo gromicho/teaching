@@ -22,6 +22,14 @@
     "foundations/cases/timor-leste-preparation.ipynb"
   ],
   "course_resources": [
+    "courses/aabw/notebooks/lecture-2/alice-symbolic-optimization.ipynb",
+    "courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb",
+    "courses/aabw/notebooks/lecture-2/descriptive-analytics-covid.ipynb",
+    "courses/aabw/notebooks/lecture-2/diagnostic-analytics-statistics.ipynb",
+    "courses/aabw/notebooks/lecture-2/elizabeth-facility-location.ipynb",
+    "courses/aabw/notebooks/lecture-2/jeff-kantor-solver-installation.ipynb",
+    "courses/aabw/notebooks/lecture-2/predictive-analytics-height-weight.ipynb",
+    "courses/aabw/notebooks/lecture-2/shortest-path-optimization-vs-algorithms.ipynb",
     "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",
     "courses/aabw/notebooks/wfp-syria/starter-data-visualization.ipynb",
     "courses/aabw/notebooks/sudoku/starter.ipynb"

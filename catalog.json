@@ -183,6 +183,78 @@
       "collection": "abw"
     },
     {
+      "id": "aabw-lecture-2-alice-symbolic-optimization",
+      "title": "Lecture 2: Alice symbolic optimization",
+      "path": "courses/aabw/notebooks/lecture-2/alice-symbolic-optimization.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-caroline-trophy-production",
+      "title": "Lecture 2: Caroline trophy production",
+      "path": "courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-descriptive-analytics-covid",
+      "title": "Lecture 2: descriptive analytics with COVID data",
+      "path": "courses/aabw/notebooks/lecture-2/descriptive-analytics-covid.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "live-network",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-diagnostic-analytics-statistics",
+      "title": "Lecture 2: diagnostic analytics and statistics",
+      "path": "courses/aabw/notebooks/lecture-2/diagnostic-analytics-statistics.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "live-network",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-elizabeth-facility-location",
+      "title": "Lecture 2: Elizabeth facility location",
+      "path": "courses/aabw/notebooks/lecture-2/elizabeth-facility-location.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-solver-environment",
+      "title": "Lecture 2: solver environment check",
+      "path": "courses/aabw/notebooks/lecture-2/jeff-kantor-solver-installation.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-predictive-analytics",
+      "title": "Lecture 2: predictive analytics",
+      "path": "courses/aabw/notebooks/lecture-2/predictive-analytics-height-weight.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "live-network",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
+      "id": "aabw-lecture-2-shortest-paths",
+      "title": "Lecture 2: shortest paths by optimization and algorithms",
+      "path": "courses/aabw/notebooks/lecture-2/shortest-path-optimization-vs-algorithms.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "aabw",
+      "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."
+    },
+    {
       "id": "aabw-wfp-syria-robust-optimization-companion",
       "title": "WFP Syria — robust optimization companion",
       "path": "courses/aabw/notebooks/wfp-syria/robust-optimization-companion.ipynb",

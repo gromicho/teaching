@@ -8,7 +8,7 @@ The code and author attribution in the recovered notebooks have been retained. S
 
 ## Runtime notes
 
-The descriptive, diagnostic, and predictive notebooks use only the shared Python environment. The remaining notebooks demonstrate optimization models. Their legacy cells may request local solvers or commercial packages; these are teaching examples rather than a promise that every solver is available in Binder. In particular, the Jeff Kantor notebook is retained as a solver-installation reference, not as a required student exercise.
+The descriptive, diagnostic, and predictive notebooks use only the shared Python environment. The remaining notebooks demonstrate optimization models with the maintained open-source solver setup. The short Jeff Kantor notebook is a solver-environment check. His original historical multi-solver notebook remains preserved separately under the repository-level `archive/` directory and is never executed automatically.
 
 ## Slide-to-notebook mapping
 
