@@ -1,0 +1,4525 @@
+{
+  "source": "C:\\local\\projects\\modernize ABW\\slides\\authoritative\\Lecture 2 - 2025-2026.pptx",
+  "masterObjects": [
+    {
+      "index": 1,
+      "name": "Tijdelijke aanduiding voor titel 1",
+      "type": 14,
+      "left": 40.624961853027344,
+      "top": 56.69291305541992,
+      "width": 878.75,
+      "height": 68.68212890625,
+      "text": "Click to add title",
+      "asset": "assets/template/master-object-01.png"
+    },
+    {
+      "index": 2,
+      "name": "Tijdelijke aanduiding voor tekst 2",
+      "type": 14,
+      "left": 40.624961853027344,
+      "top": 157.52920532226562,
+      "width": 878.75,
+      "height": 299.6524353027344,
+      "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rheading #2\rNumeric bullet\rAlphabet bullet\rSub-bullet",
+      "asset": "assets/template/master-object-02.png"
+    },
+    {
+      "index": 3,
+      "name": "Tijdelijke aanduiding voor datum 3",
+      "type": 14,
+      "left": 629.951416015625,
+      "top": 499.7015075683594,
+      "width": 230.97637939453125,
+      "height": 11.9519681930542,
+      "text": "",
+      "asset": "assets/template/master-object-03.png"
+    },
+    {
+      "index": 4,
+      "name": "Tijdelijke aanduiding voor voettekst 4",
+      "type": 14,
+      "left": 56.69291305541992,
+      "top": 499.7015075683594,
+      "width": 324.0,
+      "height": 11.9519681930542,
+      "text": "Analytics for a Better World Lecture 2",
+      "asset": "assets/template/master-object-04.png"
+    },
+    {
+      "index": 5,
+      "name": "Tijdelijke aanduiding voor dianummer 5",
+      "type": 14,
+      "left": 880.8978881835938,
+      "top": 499.7015075683594,
+      "width": 22.409212112426758,
+      "height": 11.9519681930542,
+      "text": "‹#›",
+      "asset": "assets/template/master-object-05.png"
+    },
+    {
+      "index": 6,
+      "name": "Tekstvak 19",
+      "type": 17,
+      "left": -0.9474015831947327,
+      "top": -43.00968551635742,
+      "width": 167.64181518554688,
+      "height": 11.821023941040039,
+      "text": "Name of the slide",
+      "asset": "assets/template/master-object-06.png"
+    },
+    {
+      "index": 7,
+      "name": "GRID",
+      "type": 6,
+      "left": 0.0,
+      "top": 0.0,
+      "width": 960.0,
+      "height": 540.0,
+      "text": "",
+      "asset": null
+    },
+    {
+      "index": 8,
+      "name": "Graphic 7",
+      "type": 28,
+      "left": 4.818897724151611,
+      "top": 4.818897724151611,
+      "width": 265.03936767578125,
+      "height": 69.86393737792969,
+      "text": "",
+      "asset": "assets/template/master-object-08.png"
+    }
+  ],
+  "layouts": [
+    {
+      "index": 1,
+      "name": "TITLE SLIDE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 480.0,
+          "top": 0.0,
+          "width": 479.9999084472656,
+          "height": 540.0,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-01-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 186.2266082763672,
+          "width": 397.3749694824219,
+          "height": 143.5936279296875,
+          "text": "Click to \u000badd title \u000bmax. 3 lines",
+          "asset": "assets/template/layout-01-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 150.37078857421875,
+          "width": 397.3749694824219,
+          "height": 22.935747146606445,
+          "text": "Subtitle optional",
+          "asset": "assets/template/layout-01-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 51.02362060546875,
+          "top": 576.0,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-01-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 886.5670776367188,
+          "top": 576.0,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-01-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Rechthoek: afgeronde hoeken 6",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 152.97952270507812,
+          "height": 29.081260681152344,
+          "text": "TITLE SLIDE",
+          "asset": "assets/template/layout-01-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Ondertitel 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 457.5180358886719,
+          "width": 204.7451171875,
+          "height": 18.93669319152832,
+          "text": "Name presenter| Location",
+          "asset": "assets/template/layout-01-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 40.625118255615234,
+          "top": 479.6184387207031,
+          "width": 204.7450408935547,
+          "height": 18.93669319152832,
+          "text": "",
+          "asset": "assets/template/layout-01-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-01-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 508.0994567871094,
+          "text": "",
+          "asset": "assets/template/layout-01-object-10.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "TEXT",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 55.79149627685547,
+          "width": 878.75,
+          "height": 69.58354187011719,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-02-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 499.7015075683594,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-02-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 499.7015075683594,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-02-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 499.7015075683594,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-02-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 66.01346588134766,
+          "height": 29.081260681152344,
+          "text": "TEXT",
+          "asset": "assets/template/layout-02-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-02-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor tekst 2",
+          "type": 14,
+          "left": 40.624881744384766,
+          "top": 158.8570098876953,
+          "width": 878.75,
+          "height": 299.6524353027344,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+          "asset": "assets/template/layout-02-object-07.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "TITLE + TEXT",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 56.25,
+          "width": 878.7499389648438,
+          "height": 69.12503814697266,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-03-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 567.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-03-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 567.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-03-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 567.7014770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-03-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 165.5409393310547,
+          "height": 29.081260681152344,
+          "text": "TITLE + Text",
+          "asset": "assets/template/layout-03-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor inhoud 7",
+          "type": 14,
+          "left": 40.624881744384766,
+          "top": 157.52920532226562,
+          "width": 878.75,
+          "height": 341.7207946777344,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rHEADING #2\rNumeric bullet\rAlphabet bullet\rSub-bullet",
+          "asset": "assets/template/layout-03-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-03-object-07.png"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "70% TEXT + 30% IMAGE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 138.29283142089844,
+          "width": 604.3749389648438,
+          "height": 68.46267700195312,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-04-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 241.35826110839844,
+          "width": 604.3749389648438,
+          "height": 176.3133087158203,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rheading #2",
+          "asset": "assets/template/layout-04-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 560.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-04-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 560.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-04-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 561.9514770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-04-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 686.6441040039062,
+          "top": 0.0,
+          "width": 273.3558349609375,
+          "height": 539.9999389648438,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-04-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 284.88519287109375,
+          "height": 29.081260681152344,
+          "text": "70% TEXT + 30% IMAGE",
+          "asset": "assets/template/layout-04-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-04-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-04-object-09.png"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "50% TEXT + 50% IMAGE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 480.0,
+          "top": 0.0,
+          "width": 479.9999084472656,
+          "height": 540.0,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-05-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 84.07063293457031,
+          "width": 397.3749694824219,
+          "height": 143.5936279296875,
+          "text": "Click to add title\u000bmax. 2 lines",
+          "asset": "assets/template/layout-05-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 259.3625183105469,
+          "width": 397.3749694824219,
+          "height": 197.81906127929688,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rheading #2",
+          "asset": "assets/template/layout-05-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 575.4331665039062,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-05-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 575.4331665039062,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-05-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 575.4331665039062,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-05-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 284.88519287109375,
+          "height": 29.081260681152344,
+          "text": "50% TEXT + 50% IMAGE",
+          "asset": "assets/template/layout-05-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-05-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-05-object-09.png"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "TEXT + IMAGE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Rechthoek 120",
+          "type": 1,
+          "left": 588.5714111328125,
+          "top": 164.0812530517578,
+          "width": 330.3924560546875,
+          "height": 298.78424072265625,
+          "text": "",
+          "asset": "assets/template/layout-06-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.53543472290039,
+          "top": 84.18898010253906,
+          "width": 410.8036193847656,
+          "height": 143.6007080078125,
+          "text": "Click to add title \u000bmax. 2 lines",
+          "asset": "assets/template/layout-06-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.53543472290039,
+          "top": 259.3700866699219,
+          "width": 410.8035583496094,
+          "height": 86.47598266601562,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+          "asset": "assets/template/layout-06-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 499.7015075683594,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-06-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 499.7015075683594,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-06-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 499.7015075683594,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-06-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 176.26976013183594,
+          "height": 29.081260681152344,
+          "text": "TeXt + IMAGE",
+          "asset": "assets/template/layout-06-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 490.9268493652344,
+          "top": 83.7870864868164,
+          "width": 355.3136901855469,
+          "height": 304.5545654296875,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-06-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-06-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-06-object-10.png"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "IMAGE + TITLE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 0.0,
+          "top": 0.0,
+          "width": 960.0000610351562,
+          "height": 539.9998168945312,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-07-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 85.26338958740234,
+          "width": 310.6717224121094,
+          "height": 113.04834747314453,
+          "text": " Click to add title",
+          "asset": "assets/template/layout-07-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 184.34786987304688,
+          "height": 29.081260681152344,
+          "text": "Image + title",
+          "asset": "assets/template/layout-07-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 508.0994567871094,
+          "text": "",
+          "asset": "assets/template/layout-07-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Rechthoek 106",
+          "type": 1,
+          "left": -503.7273864746094,
+          "top": -7.874015864217654E-05,
+          "width": 197.4016571044922,
+          "height": 88.45283508300781,
+          "text": "Let op!",
+          "asset": "assets/template/layout-07-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Rechthoek 107",
+          "type": 1,
+          "left": -490.19952392578125,
+          "top": 36.639686584472656,
+          "width": 172.2488250732422,
+          "height": 41.360313415527344,
+          "text": "Kies bij de keuze van de afbeelding voor een goed contrast, zodat de tekst op de foto leesbaar blijft.",
+          "asset": "assets/template/layout-07-object-06.png"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "100% IMAGE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 0.0,
+          "top": 0.0,
+          "width": 960.0000610351562,
+          "height": 539.9998168945312,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-08-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 151.46487426757812,
+          "height": 29.081260681152344,
+          "text": "100% image",
+          "asset": "assets/template/layout-08-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 508.0994567871094,
+          "text": "",
+          "asset": "assets/template/layout-08-object-03.png"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "2x IMAGES + TITLE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25,
+          "width": 878.75,
+          "height": 69.12503814697266,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-09-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 233.57394409179688,
+          "height": 29.081260681152344,
+          "text": "2x images + title",
+          "asset": "assets/template/layout-09-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 494.1781005859375,
+          "top": 138.62786865234375,
+          "width": 425.19683837890625,
+          "height": 360.62213134765625,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-09-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 138.62786865234375,
+          "width": 425.19683837890625,
+          "height": 360.62213134765625,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-09-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-09-object-05.png"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "3x IMAGES + TITLE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25,
+          "width": 878.75,
+          "height": 69.12503814697266,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-10-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 233.57394409179688,
+          "height": 29.081260681152344,
+          "text": "3x images + title",
+          "asset": "assets/template/layout-10-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 361.12188720703125,
+          "text": "Click icon to add picture\r",
+          "asset": "assets/template/layout-10-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 341.81243896484375,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 361.12188720703125,
+          "text": "Click icon to add picture\r",
+          "asset": "assets/template/layout-10-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 643.0000610351562,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 361.12188720703125,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-10-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-10-object-06.png"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "3x IMAGES + TEXT",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.24991989135742,
+          "width": 878.75,
+          "height": 69.12511444091797,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-11-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 559.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-11-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 559.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-11-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 559.7014770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-11-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Rechthoek: afgeronde hoeken 6",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 225.49583435058594,
+          "height": 29.081260681152344,
+          "text": "3x images + text",
+          "asset": "assets/template/layout-11-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-11-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 341.81243896484375,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-11-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 643.0000610351562,
+          "top": 138.12811279296875,
+          "width": 276.3749694824219,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-11-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 295.75299072265625,
+          "width": 276.3747253417969,
+          "height": 203.49693298339844,
+          "text": " ",
+          "asset": "assets/template/layout-11-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 341.81219482421875,
+          "top": 295.75299072265625,
+          "width": 276.3747253417969,
+          "height": 203.49693298339844,
+          "text": " ",
+          "asset": "assets/template/layout-11-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 642.9991455078125,
+          "top": 295.75299072265625,
+          "width": 276.3747253417969,
+          "height": 203.49693298339844,
+          "text": " ",
+          "asset": "assets/template/layout-11-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 56.69173049926758,
+          "top": 356.2045593261719,
+          "width": 244.3082733154297,
+          "height": 124.79535675048828,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+          "asset": "assets/template/layout-11-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 357.8453674316406,
+          "top": 356.2045593261719,
+          "width": 244.3082733154297,
+          "height": 124.79535675048828,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+          "asset": "assets/template/layout-11-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 658.9988403320312,
+          "top": 356.2045593261719,
+          "width": 244.3082733154297,
+          "height": 124.79535675048828,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+          "asset": "assets/template/layout-11-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 357.84527587890625,
+          "top": 310.92340087890625,
+          "width": 244.3082733154297,
+          "height": 27.03118133544922,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-11-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 658.9988403320312,
+          "top": 310.92340087890625,
+          "width": 244.3082733154297,
+          "height": 27.03118133544922,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-11-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-11-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-11-object-18.png"
+        },
+        {
+          "index": 19,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 56.69047164916992,
+          "top": 310.92340087890625,
+          "width": 244.3082733154297,
+          "height": 27.03118133544922,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-11-object-19.png"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "THEME SLIDE + 4 IMAGES",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 40.625118255615234,
+          "top": 138.12811279296875,
+          "width": 201.41220092773438,
+          "height": 361.121826171875,
+          "text": " ",
+          "asset": "assets/template/layout-12-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25008010864258,
+          "width": 878.75,
+          "height": 69.98976135253906,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-12-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 559.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-12-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 559.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-12-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 559.7014770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-12-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Rechthoek: afgeronde hoeken 6",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 311.38653564453125,
+          "height": 29.081260681152344,
+          "text": "Theme slide + 4 images",
+          "asset": "assets/template/layout-12-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 138.12811279296875,
+          "width": 201.4122772216797,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-12-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 56.69173049926758,
+          "top": 382.0,
+          "width": 169.3095245361328,
+          "height": 98.99992370605469,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-12-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 56.69047164916992,
+          "top": 310.92340087890625,
+          "width": 169.3095245361328,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-12-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 266.4041748046875,
+          "top": 138.12811279296875,
+          "width": 201.41220092773438,
+          "height": 361.121826171875,
+          "text": " ",
+          "asset": "assets/template/layout-12-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 266.4042663574219,
+          "top": 138.12811279296875,
+          "width": 201.4122772216797,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-12-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 282.45550537109375,
+          "top": 382.0,
+          "width": 169.3095245361328,
+          "height": 98.99992370605469,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-12-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 282.45550537109375,
+          "top": 310.92340087890625,
+          "width": 169.3095245361328,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-12-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 717.9627075195312,
+          "top": 138.12811279296875,
+          "width": 201.41220092773438,
+          "height": 361.121826171875,
+          "text": " ",
+          "asset": "assets/template/layout-12-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 717.9625854492188,
+          "top": 138.12811279296875,
+          "width": 201.4122772216797,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-12-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 734.0140380859375,
+          "top": 382.0,
+          "width": 169.3095245361328,
+          "height": 98.99992370605469,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-12-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 734.0140380859375,
+          "top": 310.92340087890625,
+          "width": 169.3095245361328,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-12-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 492.1832275390625,
+          "top": 138.12811279296875,
+          "width": 201.41220092773438,
+          "height": 361.121826171875,
+          "text": " ",
+          "asset": "assets/template/layout-12-object-18.png"
+        },
+        {
+          "index": 19,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 492.1834716796875,
+          "top": 138.12811279296875,
+          "width": 201.4122772216797,
+          "height": 157.6249542236328,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-12-object-19.png"
+        },
+        {
+          "index": 20,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 508.23455810546875,
+          "top": 382.0,
+          "width": 169.3095245361328,
+          "height": 98.99992370605469,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-12-object-20.png"
+        },
+        {
+          "index": 21,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 508.23455810546875,
+          "top": 310.92340087890625,
+          "width": 169.3095245361328,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-12-object-21.png"
+        },
+        {
+          "index": 22,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-12-object-22.png"
+        },
+        {
+          "index": 23,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-12-object-23.png"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "INTRODUCTION SLIDE + 2 IMAGES",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25,
+          "width": 878.75,
+          "height": 69.12496185302734,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-13-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 559.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-13-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 559.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-13-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 559.7014770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-13-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Rechthoek: afgeronde hoeken 6",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 415.3923645019531,
+          "height": 29.081260681152344,
+          "text": "INTRODUCTIon SLIDE + 2 images",
+          "asset": "assets/template/layout-13-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 607.6439208984375,
+          "top": 58.97480392456055,
+          "width": 201.41220092773438,
+          "height": 422.0497741699219,
+          "text": " ",
+          "asset": "assets/template/layout-13-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 497.3251953125,
+          "top": 169.29385375976562,
+          "width": 201.4122772216797,
+          "height": 201.41220092773438,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-13-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 718.9026489257812,
+          "top": 282.2981872558594,
+          "width": 180.3070831298828,
+          "height": 68.64417266845703,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-13-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 718.9026489257812,
+          "top": 189.64859008789062,
+          "width": 180.3070831298828,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-13-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Tijdelijke aanduiding voor tekst 28",
+          "type": 14,
+          "left": 150.94369506835938,
+          "top": 58.97480392456055,
+          "width": 201.41220092773438,
+          "height": 422.0497741699219,
+          "text": " ",
+          "asset": "assets/template/layout-13-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 169.29385375976562,
+          "width": 201.4122772216797,
+          "height": 201.41220092773438,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-13-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 262.080322265625,
+          "top": 282.29827880859375,
+          "width": 180.3070831298828,
+          "height": 68.64417266845703,
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+          "asset": "assets/template/layout-13-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 262.20245361328125,
+          "top": 189.64859008789062,
+          "width": 180.3070831298828,
+          "height": 52.82661437988281,
+          "text": "Click to add title (2 lines)",
+          "asset": "assets/template/layout-13-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-13-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-13-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 718.9026489257812,
+          "top": 246.39739990234375,
+          "width": 180.3070831298828,
+          "height": 23.602598190307617,
+          "text": "Function title",
+          "asset": "assets/template/layout-13-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 262.20245361328125,
+          "top": 246.39739990234375,
+          "width": 180.3070831298828,
+          "height": 23.602598190307617,
+          "text": "Function title",
+          "asset": "assets/template/layout-13-object-17.png"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "TEXT + GRAPH",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 56.25,
+          "width": 878.7499389648438,
+          "height": 69.12496185302734,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-14-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 139.0,
+          "width": 422.3749694824219,
+          "height": 360.25,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rheading #2\rNumeric bullet\rAlphabet bullet\rSub-bullet",
+          "asset": "assets/template/layout-14-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor grafiek 17",
+          "type": 14,
+          "left": 497.0000915527344,
+          "top": 139.0,
+          "width": 422.3748779296875,
+          "height": 360.25,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-14-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 178.92039489746094,
+          "height": 29.081260681152344,
+          "text": "Text + graph",
+          "asset": "assets/template/layout-14-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-14-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 7.874015864217654E-05,
+          "width": 290.81781005859375,
+          "height": 490.81512451171875,
+          "text": "",
+          "asset": "assets/template/layout-14-object-06.png"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "GRAPH",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25008010864258,
+          "width": 878.75,
+          "height": 68.49291229248047,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-15-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor grafiek 17",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 141.0,
+          "width": 878.75,
+          "height": 358.701416015625,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-15-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 87.47102355957031,
+          "height": 29.081260681152344,
+          "text": "graph",
+          "asset": "assets/template/layout-15-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 7.874015864217654E-05,
+          "width": 290.81781005859375,
+          "height": 490.81512451171875,
+          "text": "",
+          "asset": "assets/template/layout-15-object-04.png"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "TEXT + TABLE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 56.25,
+          "width": 878.7499389648438,
+          "height": 69.12496185302734,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-16-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 139.0,
+          "width": 422.3749694824219,
+          "height": 360.25,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rHEADING #2\rNumeric bullet\rAlphabet bullet\rSub-bullet",
+          "asset": "assets/template/layout-16-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Rechthoek: afgeronde hoeken 8",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 171.3825225830078,
+          "height": 29.081260681152344,
+          "text": "Text + table",
+          "asset": "assets/template/layout-16-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-16-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 7.874015864217654E-05,
+          "width": 290.81781005859375,
+          "height": 490.81512451171875,
+          "text": "",
+          "asset": "assets/template/layout-16-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Tijdelijke aanduiding voor tabel 16",
+          "type": 14,
+          "left": 497.5981750488281,
+          "top": 139.8570098876953,
+          "width": 424.51898193359375,
+          "height": 360.2499084472656,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-16-object-06.png"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "TABLE",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.25008010864258,
+          "width": 878.75,
+          "height": 68.49291229248047,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-17-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Rechthoek: afgeronde hoeken 7",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 80.37236022949219,
+          "height": 29.081260681152344,
+          "text": "TABLE",
+          "asset": "assets/template/layout-17-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 7.874015864217654E-05,
+          "width": 290.81781005859375,
+          "height": 490.81512451171875,
+          "text": "",
+          "asset": "assets/template/layout-17-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor tabel 16",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 140.51315307617188,
+          "width": 878.7499389648438,
+          "height": 358.7368469238281,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-17-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "TextBox 2",
+          "type": 17,
+          "left": 108.80000305175781,
+          "top": -19.277637481689453,
+          "width": 0.0,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "50 IMAGE + TEXT HORIZONTAL",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor afbeelding 16",
+          "type": 14,
+          "left": 0.0,
+          "top": 0.0,
+          "width": 960.0000610351562,
+          "height": 270.0,
+          "text": "Click icon to add picture",
+          "asset": "assets/template/layout-18-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 297.5025939941406,
+          "width": 878.75,
+          "height": 68.8731460571289,
+          "text": "Click to add title",
+          "asset": "assets/template/layout-18-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor datum 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 557.7014770507812,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-18-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor voettekst 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 557.7014770507812,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-18-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Tijdelijke aanduiding voor dianummer 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 557.7014770507812,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-18-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Rechthoek: afgeronde hoeken 6",
+          "type": 1,
+          "left": 0.0,
+          "top": -33.818267822265625,
+          "width": 412.0853576660156,
+          "height": 29.081260681152344,
+          "text": "50% image - text (horizontal)",
+          "asset": "assets/template/layout-18-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor verticale tekst 2",
+          "type": 14,
+          "left": 40.625038146972656,
+          "top": 394.2759094238281,
+          "width": 878.7499389648438,
+          "height": 88.87503814697266,
+          "text": "Bullet\rSub-bullet #1\rSub-bullet #2\rReading text\rHeading #1\rheading #2",
+          "asset": "assets/template/layout-18-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": -298.1446533203125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 421.9959716796875,
+          "text": "",
+          "asset": "assets/template/layout-18-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "INSTRUCTIE",
+          "type": 6,
+          "left": 974.61376953125,
+          "top": 0.0,
+          "width": 290.81781005859375,
+          "height": 415.0115051269531,
+          "text": "",
+          "asset": "assets/template/layout-18-object-09.png"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Title and Content",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Title 1",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 56.69291305541992,
+          "width": 878.75,
+          "height": 68.68212890625,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-19-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Content Placeholder 2",
+          "type": 14,
+          "left": 40.624961853027344,
+          "top": 157.52920532226562,
+          "width": 878.75,
+          "height": 299.6524353027344,
+          "text": "Click to edit Master text styles\rSecond level\rThird level\rFourth level\rFifth level",
+          "asset": "assets/template/layout-19-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Date Placeholder 3",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 499.7015075683594,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-19-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Footer Placeholder 4",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 499.7015075683594,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-19-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Slide Number Placeholder 5",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 499.7015075683594,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-19-object-05.png"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Titel en inhoud",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Content Placeholder 2",
+          "type": 14,
+          "left": 38.55133819580078,
+          "top": 150.803466796875,
+          "width": 877.8463745117188,
+          "height": 363.5457458496094,
+          "text": "Click to edit Master text styles\rSecond level\rThird level\rFourth level\rFifth level",
+          "asset": "assets/template/layout-20-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Title 1",
+          "type": 14,
+          "left": 38.55133819580078,
+          "top": 65.76409149169922,
+          "width": 878.6768798828125,
+          "height": 73.70890045166016,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-20-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "TextBox 3",
+          "type": 17,
+          "left": 514.01953125,
+          "top": -41.84566879272461,
+          "width": 445.98046875,
+          "height": 29.081260681152344,
+          "text": "Text page",
+          "asset": "assets/template/layout-20-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "TextBox 4",
+          "type": 17,
+          "left": -197.5555877685547,
+          "top": 0.601653516292572,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Working with text levels",
+          "asset": "assets/template/layout-20-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Straight Connector 5",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 6,
+          "name": "Straight Connector 6",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 161.76268005371094,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 7,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 100.22724151611328,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-20-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "TextBox 8",
+          "type": 17,
+          "left": -189.7618865966797,
+          "top": 37.53338623046875,
+          "width": 167.97378540039062,
+          "height": 50.89220428466797,
+          "text": "The UvA template has a number of pre-programmed text levels. Go to 'Home' and then to 'Paragraph' to easily switch between different levels",
+          "asset": "assets/template/layout-20-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "TextBox 9",
+          "type": 17,
+          "left": -149.3543243408203,
+          "top": 133.3287353515625,
+          "width": 85.0418930053711,
+          "height": 18.175748825073242,
+          "text": "Level Down",
+          "asset": "assets/template/layout-20-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "TextBox 10",
+          "type": 17,
+          "left": -149.36126708984375,
+          "top": 104.16236114501953,
+          "width": 85.04882049560547,
+          "height": 18.175748825073242,
+          "text": "Level Up",
+          "asset": "assets/template/layout-20-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 128.25228881835938,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-20-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "TextBox 12",
+          "type": 17,
+          "left": -197.55543518066406,
+          "top": 164.1465301513672,
+          "width": 108.42149353027344,
+          "height": 19.387479782104492,
+          "text": "Text levels",
+          "asset": "assets/template/layout-20-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "TextBox 13",
+          "type": 17,
+          "left": -170.62338256835938,
+          "top": 193.1831512451172,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Body text (24 pt.)",
+          "asset": "assets/template/layout-20-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "TextBox 14",
+          "type": 17,
+          "left": -170.8337860107422,
+          "top": 214.43038940429688,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Bullet (24 pt.)",
+          "asset": "assets/template/layout-20-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "TextBox 15",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 238.0399169921875,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Sub Bullet (16 pt.)",
+          "asset": "assets/template/layout-20-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "TextBox 16",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 262.1681213378906,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (24 pt)",
+          "asset": "assets/template/layout-20-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "TextBox 17",
+          "type": 17,
+          "left": -164.85504150390625,
+          "top": 286.3251953125,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (16 pt)",
+          "asset": "assets/template/layout-20-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Group 18",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 191.49008178710938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-20-object-18.png"
+        },
+        {
+          "index": 19,
+          "name": "Group 21",
+          "type": 6,
+          "left": -191.02708435058594,
+          "top": 214.6275634765625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-20-object-19.png"
+        },
+        {
+          "index": 20,
+          "name": "Group 24",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 238.0399932861328,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-20-object-20.png"
+        },
+        {
+          "index": 21,
+          "name": "Group 27",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 262.16802978515625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-20-object-21.png"
+        },
+        {
+          "index": 22,
+          "name": "Group 30",
+          "type": 6,
+          "left": -191.162841796875,
+          "top": 285.86785888671875,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-20-object-22.png"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "Grafiek breed",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Title 1",
+          "type": 14,
+          "left": 38.52873992919922,
+          "top": 65.76409149169922,
+          "width": 878.6768798828125,
+          "height": 73.70890045166016,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-21-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Chart Placeholder 3",
+          "type": 14,
+          "left": 37.75015640258789,
+          "top": 149.5003204345703,
+          "width": 887.3750610351562,
+          "height": 331.3750305175781,
+          "text": "Click icon \n\n to add chart",
+          "asset": "assets/template/layout-21-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "TextBox 4",
+          "type": 17,
+          "left": -197.5555877685547,
+          "top": 0.601653516292572,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Working with text levels",
+          "asset": "assets/template/layout-21-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Straight Connector 5",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 5,
+          "name": "Straight Connector 6",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 161.76268005371094,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 6,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 100.22724151611328,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-21-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "TextBox 8",
+          "type": 17,
+          "left": -189.7618865966797,
+          "top": 37.53338623046875,
+          "width": 167.97378540039062,
+          "height": 50.89220428466797,
+          "text": "The UvA template has a number of pre-programmed text levels. Go to 'Home' and then to 'Paragraph' to easily switch between different levels",
+          "asset": "assets/template/layout-21-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "TextBox 9",
+          "type": 17,
+          "left": -149.3543243408203,
+          "top": 133.3287353515625,
+          "width": 85.0418930053711,
+          "height": 18.175748825073242,
+          "text": "Level Down",
+          "asset": "assets/template/layout-21-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "TextBox 10",
+          "type": 17,
+          "left": -149.36126708984375,
+          "top": 104.16236114501953,
+          "width": 85.04882049560547,
+          "height": 18.175748825073242,
+          "text": "Level Up",
+          "asset": "assets/template/layout-21-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 128.25228881835938,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-21-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "TextBox 12",
+          "type": 17,
+          "left": -197.55543518066406,
+          "top": 164.1465301513672,
+          "width": 108.42149353027344,
+          "height": 19.387479782104492,
+          "text": "Text levels",
+          "asset": "assets/template/layout-21-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "TextBox 13",
+          "type": 17,
+          "left": -170.62338256835938,
+          "top": 193.1831512451172,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Body text (24 pt.)",
+          "asset": "assets/template/layout-21-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "TextBox 14",
+          "type": 17,
+          "left": -170.8337860107422,
+          "top": 214.43038940429688,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Bullet (24 pt.)",
+          "asset": "assets/template/layout-21-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "TextBox 15",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 238.0399169921875,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Sub Bullet (16 pt.)",
+          "asset": "assets/template/layout-21-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "TextBox 16",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 262.1681213378906,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (24 pt)",
+          "asset": "assets/template/layout-21-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "TextBox 17",
+          "type": 17,
+          "left": -164.85504150390625,
+          "top": 286.3251953125,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (16 pt)",
+          "asset": "assets/template/layout-21-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "Group 18",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 191.49008178710938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-21-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Group 21",
+          "type": 6,
+          "left": -191.02708435058594,
+          "top": 214.6275634765625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-21-object-18.png"
+        },
+        {
+          "index": 19,
+          "name": "Group 24",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 238.0399932861328,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-21-object-19.png"
+        },
+        {
+          "index": 20,
+          "name": "Group 27",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 262.16802978515625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-21-object-20.png"
+        },
+        {
+          "index": 21,
+          "name": "Group 30",
+          "type": 6,
+          "left": -191.162841796875,
+          "top": 285.86785888671875,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-21-object-21.png"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "50/50",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Picture Placeholder 9",
+          "type": 14,
+          "left": 508.3750305175781,
+          "top": 0.0,
+          "width": 451.6251220703125,
+          "height": 540.0,
+          "text": "Click icon \n\n to add picture",
+          "asset": "assets/template/layout-22-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Title 1",
+          "type": 14,
+          "left": 38.55118179321289,
+          "top": 65.76409149169922,
+          "width": 442.2500915527344,
+          "height": 73.70890045166016,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-22-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Text Placeholder 11",
+          "type": 14,
+          "left": 38.55118179321289,
+          "top": 150.8751983642578,
+          "width": 442.2500915527344,
+          "height": 334.58197021484375,
+          "text": "Click to edit Master text styles\rSecond level\rThird level\rFourth level\rFifth level\r",
+          "asset": "assets/template/layout-22-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "TextBox 4",
+          "type": 17,
+          "left": 514.01953125,
+          "top": -41.84566879272461,
+          "width": 445.98046875,
+          "height": 29.081260681152344,
+          "text": "50% text + 50% image ",
+          "asset": "assets/template/layout-22-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "TextBox 54",
+          "type": 17,
+          "left": 967.6132202148438,
+          "top": 0.6018110513687134,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Insert picture",
+          "asset": "assets/template/layout-22-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Straight Connector 55",
+          "type": 9,
+          "left": 973.2831420898438,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 7,
+          "name": "TextBox 56",
+          "type": 17,
+          "left": 1007.3026733398438,
+          "top": 37.53338623046875,
+          "width": 136.07810974121094,
+          "height": 50.89220428466797,
+          "text": "Change the image by deleting the existing image. Click on the icon that appears to insert an image.",
+          "asset": "assets/template/layout-22-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Picture 57",
+          "type": 13,
+          "left": 1012.9725952148438,
+          "top": 94.23243713378906,
+          "width": 30.0,
+          "height": 30.0,
+          "text": "",
+          "asset": "assets/template/layout-22-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "TextBox 58",
+          "type": 17,
+          "left": 1008.192626953125,
+          "top": 142.8653564453125,
+          "width": 140.32347106933594,
+          "height": 39.9866943359375,
+          "text": "Select a picture you would like to insert and then click on ‘Insert’",
+          "asset": "assets/template/layout-22-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Group 59",
+          "type": 6,
+          "left": 977.1045532226562,
+          "top": 147.55227661132812,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Rectangle 62",
+          "type": 1,
+          "left": 977.6323852539062,
+          "top": 44.000709533691406,
+          "width": 19.844724655151367,
+          "height": 19.844724655151367,
+          "text": "",
+          "asset": "assets/template/layout-22-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "TextBox 63",
+          "type": 17,
+          "left": 976.8748779296875,
+          "top": 43.20338439941406,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "1",
+          "asset": "assets/template/layout-22-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "TextBox 64",
+          "type": 17,
+          "left": 1007.1939086914062,
+          "top": 197.01268005371094,
+          "width": 136.07810974121094,
+          "height": 92.09062957763672,
+          "text": "If you want to scale or drag the image, go to ‘Drawing Tools' and click 'Crop'. With the white rounds you can scale the image, with the black brackets you can scale the image frame.",
+          "asset": "assets/template/layout-22-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "Picture 5",
+          "type": 13,
+          "left": 1016.4028930664062,
+          "top": 291.990478515625,
+          "width": 21.37504005432129,
+          "height": 37.5,
+          "text": "",
+          "asset": "assets/template/layout-22-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "Straight Connector 66",
+          "type": 9,
+          "left": 975.4711303710938,
+          "top": 340.720458984375,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 16,
+          "name": "Straight Connector 71",
+          "type": 9,
+          "left": 974.0919799804688,
+          "top": 133.92189025878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 17,
+          "name": "Group 73",
+          "type": 6,
+          "left": 978.068115234375,
+          "top": 197.16000366210938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Straight Connector 76",
+          "type": 9,
+          "left": 975.2388305664062,
+          "top": 190.62110900878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 19,
+          "name": "TextBox 79",
+          "type": 17,
+          "left": -197.5555877685547,
+          "top": 0.601653516292572,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Working with text levels",
+          "asset": "assets/template/layout-22-object-19.png"
+        },
+        {
+          "index": 20,
+          "name": "Straight Connector 80",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 21,
+          "name": "Straight Connector 81",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 161.76268005371094,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 22,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 100.22724151611328,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-22-object-22.png"
+        },
+        {
+          "index": 23,
+          "name": "TextBox 83",
+          "type": 17,
+          "left": -189.7618865966797,
+          "top": 37.53338623046875,
+          "width": 167.97378540039062,
+          "height": 50.89220428466797,
+          "text": "The UvA template has a number of pre-programmed text levels. Go to 'Home' and then to 'Paragraph' to easily switch between different levels",
+          "asset": "assets/template/layout-22-object-23.png"
+        },
+        {
+          "index": 24,
+          "name": "TextBox 84",
+          "type": 17,
+          "left": -149.3543243408203,
+          "top": 133.3287353515625,
+          "width": 85.0418930053711,
+          "height": 18.175748825073242,
+          "text": "Level Down",
+          "asset": "assets/template/layout-22-object-24.png"
+        },
+        {
+          "index": 25,
+          "name": "TextBox 85",
+          "type": 17,
+          "left": -149.36126708984375,
+          "top": 104.16236114501953,
+          "width": 85.04882049560547,
+          "height": 18.175748825073242,
+          "text": "Level Up",
+          "asset": "assets/template/layout-22-object-25.png"
+        },
+        {
+          "index": 26,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 128.25228881835938,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-22-object-26.png"
+        },
+        {
+          "index": 27,
+          "name": "TextBox 87",
+          "type": 17,
+          "left": -197.55543518066406,
+          "top": 164.1465301513672,
+          "width": 108.42149353027344,
+          "height": 19.387479782104492,
+          "text": "Text levels",
+          "asset": "assets/template/layout-22-object-27.png"
+        },
+        {
+          "index": 28,
+          "name": "TextBox 88",
+          "type": 17,
+          "left": -170.62338256835938,
+          "top": 193.1831512451172,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Body text (24 pt.)",
+          "asset": "assets/template/layout-22-object-28.png"
+        },
+        {
+          "index": 29,
+          "name": "TextBox 89",
+          "type": 17,
+          "left": -170.8337860107422,
+          "top": 214.43038940429688,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Bullet (24 pt.)",
+          "asset": "assets/template/layout-22-object-29.png"
+        },
+        {
+          "index": 30,
+          "name": "TextBox 90",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 238.0399169921875,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Sub Bullet (16 pt.)",
+          "asset": "assets/template/layout-22-object-30.png"
+        },
+        {
+          "index": 31,
+          "name": "TextBox 91",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 262.1681213378906,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (24 pt)",
+          "asset": "assets/template/layout-22-object-31.png"
+        },
+        {
+          "index": 32,
+          "name": "TextBox 92",
+          "type": 17,
+          "left": -164.85504150390625,
+          "top": 286.3251953125,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (16 pt)",
+          "asset": "assets/template/layout-22-object-32.png"
+        },
+        {
+          "index": 33,
+          "name": "Group 93",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 191.49008178710938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-33.png"
+        },
+        {
+          "index": 34,
+          "name": "Group 96",
+          "type": 6,
+          "left": -191.02708435058594,
+          "top": 214.6275634765625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-34.png"
+        },
+        {
+          "index": 35,
+          "name": "Group 99",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 238.0399932861328,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-35.png"
+        },
+        {
+          "index": 36,
+          "name": "Group 102",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 262.16802978515625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-36.png"
+        },
+        {
+          "index": 37,
+          "name": "Group 105",
+          "type": 6,
+          "left": -191.162841796875,
+          "top": 285.86785888671875,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-22-object-37.png"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "70/30",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Picture Placeholder 9",
+          "type": 14,
+          "left": 686.3479614257812,
+          "top": 0.0,
+          "width": 273.6521911621094,
+          "height": 540.0,
+          "text": "Click icon \n\n to add picture",
+          "asset": "assets/template/layout-23-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Title 1",
+          "type": 14,
+          "left": 38.55141830444336,
+          "top": 65.76409149169922,
+          "width": 629.3612060546875,
+          "height": 73.70890045166016,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-23-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Text Placeholder 11",
+          "type": 14,
+          "left": 38.55141830444336,
+          "top": 150.8751983642578,
+          "width": 629.3612060546875,
+          "height": 334.58197021484375,
+          "text": "Click to edit Master text styles\rSecond level\rThird level\rFourth level\rFifth level",
+          "asset": "assets/template/layout-23-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "TextBox 4",
+          "type": 17,
+          "left": 514.01953125,
+          "top": -41.84566879272461,
+          "width": 445.98046875,
+          "height": 29.081260681152344,
+          "text": "75% text + 25% image ",
+          "asset": "assets/template/layout-23-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "TextBox 54",
+          "type": 17,
+          "left": 967.6132202148438,
+          "top": 0.6018110513687134,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Insert picture",
+          "asset": "assets/template/layout-23-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Straight Connector 55",
+          "type": 9,
+          "left": 973.2831420898438,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 7,
+          "name": "TextBox 56",
+          "type": 17,
+          "left": 1007.3026733398438,
+          "top": 37.53338623046875,
+          "width": 136.07810974121094,
+          "height": 50.89220428466797,
+          "text": "Change the image by deleting the existing image. Click on the icon that appears to insert an image.",
+          "asset": "assets/template/layout-23-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "Picture 57",
+          "type": 13,
+          "left": 1012.9725952148438,
+          "top": 94.23243713378906,
+          "width": 30.0,
+          "height": 30.0,
+          "text": "",
+          "asset": "assets/template/layout-23-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "TextBox 58",
+          "type": 17,
+          "left": 1008.192626953125,
+          "top": 142.8653564453125,
+          "width": 140.32347106933594,
+          "height": 39.9866943359375,
+          "text": "Select a picture you would like to insert and then click on ‘Insert’",
+          "asset": "assets/template/layout-23-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Group 59",
+          "type": 6,
+          "left": 977.1045532226562,
+          "top": 147.55227661132812,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Rectangle 62",
+          "type": 1,
+          "left": 977.6323852539062,
+          "top": 44.000709533691406,
+          "width": 19.844724655151367,
+          "height": 19.844724655151367,
+          "text": "",
+          "asset": "assets/template/layout-23-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "TextBox 63",
+          "type": 17,
+          "left": 976.8748779296875,
+          "top": 43.20338439941406,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "1",
+          "asset": "assets/template/layout-23-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "TextBox 64",
+          "type": 17,
+          "left": 1007.1939086914062,
+          "top": 197.01268005371094,
+          "width": 136.07810974121094,
+          "height": 92.09062957763672,
+          "text": "If you want to scale or drag the image, go to ‘Drawing Tools' and click 'Crop'. With the white rounds you can scale the image, with the black brackets you can scale the image frame.",
+          "asset": "assets/template/layout-23-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "Picture 5",
+          "type": 13,
+          "left": 1016.4028930664062,
+          "top": 291.990478515625,
+          "width": 21.37504005432129,
+          "height": 37.5,
+          "text": "",
+          "asset": "assets/template/layout-23-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "Straight Connector 66",
+          "type": 9,
+          "left": 975.4711303710938,
+          "top": 340.720458984375,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 16,
+          "name": "Straight Connector 67",
+          "type": 9,
+          "left": 974.0919799804688,
+          "top": 133.92189025878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 17,
+          "name": "Group 68",
+          "type": 6,
+          "left": 978.068115234375,
+          "top": 197.16000366210938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Straight Connector 71",
+          "type": 9,
+          "left": 975.2388305664062,
+          "top": 190.62110900878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 19,
+          "name": "TextBox 72",
+          "type": 17,
+          "left": -197.5555877685547,
+          "top": 0.601653516292572,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Working with text levels",
+          "asset": "assets/template/layout-23-object-19.png"
+        },
+        {
+          "index": 20,
+          "name": "Straight Connector 73",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 21,
+          "name": "Straight Connector 74",
+          "type": 9,
+          "left": -191.8856658935547,
+          "top": 161.76268005371094,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 22,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 100.22724151611328,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-23-object-22.png"
+        },
+        {
+          "index": 23,
+          "name": "TextBox 76",
+          "type": 17,
+          "left": -189.7618865966797,
+          "top": 37.53338623046875,
+          "width": 167.97378540039062,
+          "height": 50.89220428466797,
+          "text": "The UvA template has a number of pre-programmed text levels. Go to 'Home' and then to 'Paragraph' to easily switch between different levels",
+          "asset": "assets/template/layout-23-object-23.png"
+        },
+        {
+          "index": 24,
+          "name": "TextBox 77",
+          "type": 17,
+          "left": -149.3543243408203,
+          "top": 133.3287353515625,
+          "width": 85.0418930053711,
+          "height": 18.175748825073242,
+          "text": "Level Down",
+          "asset": "assets/template/layout-23-object-24.png"
+        },
+        {
+          "index": 25,
+          "name": "TextBox 78",
+          "type": 17,
+          "left": -149.36126708984375,
+          "top": 104.16236114501953,
+          "width": 85.04882049560547,
+          "height": 18.175748825073242,
+          "text": "Level Up",
+          "asset": "assets/template/layout-23-object-25.png"
+        },
+        {
+          "index": 26,
+          "name": "Picture 2",
+          "type": 13,
+          "left": -181.96322631835938,
+          "top": 128.25228881835938,
+          "width": 25.289369583129883,
+          "height": 24.694252014160156,
+          "text": "",
+          "asset": "assets/template/layout-23-object-26.png"
+        },
+        {
+          "index": 27,
+          "name": "TextBox 80",
+          "type": 17,
+          "left": -197.55543518066406,
+          "top": 164.1465301513672,
+          "width": 108.42149353027344,
+          "height": 19.387479782104492,
+          "text": "Text levels",
+          "asset": "assets/template/layout-23-object-27.png"
+        },
+        {
+          "index": 28,
+          "name": "TextBox 81",
+          "type": 17,
+          "left": -170.62338256835938,
+          "top": 193.1831512451172,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Body text (24 pt.)",
+          "asset": "assets/template/layout-23-object-28.png"
+        },
+        {
+          "index": 29,
+          "name": "TextBox 82",
+          "type": 17,
+          "left": -170.8337860107422,
+          "top": 214.43038940429688,
+          "width": 146.00054931640625,
+          "height": 19.387479782104492,
+          "text": "Bullet (24 pt.)",
+          "asset": "assets/template/layout-23-object-29.png"
+        },
+        {
+          "index": 30,
+          "name": "TextBox 83",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 238.0399169921875,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Sub Bullet (16 pt.)",
+          "asset": "assets/template/layout-23-object-30.png"
+        },
+        {
+          "index": 31,
+          "name": "TextBox 84",
+          "type": 17,
+          "left": -164.04873657226562,
+          "top": 262.1681213378906,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (24 pt)",
+          "asset": "assets/template/layout-23-object-31.png"
+        },
+        {
+          "index": 32,
+          "name": "TextBox 85",
+          "type": 17,
+          "left": -164.85504150390625,
+          "top": 286.3251953125,
+          "width": 133.35581970214844,
+          "height": 19.387479782104492,
+          "text": "Title (16 pt)",
+          "asset": "assets/template/layout-23-object-32.png"
+        },
+        {
+          "index": 33,
+          "name": "Group 86",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 191.49008178710938,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-33.png"
+        },
+        {
+          "index": 34,
+          "name": "Group 89",
+          "type": 6,
+          "left": -191.02708435058594,
+          "top": 214.6275634765625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-34.png"
+        },
+        {
+          "index": 35,
+          "name": "Group 92",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 238.0399932861328,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-35.png"
+        },
+        {
+          "index": 36,
+          "name": "Group 95",
+          "type": 6,
+          "left": -190.98086547851562,
+          "top": 262.16802978515625,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-36.png"
+        },
+        {
+          "index": 37,
+          "name": "Group 98",
+          "type": 6,
+          "left": -191.162841796875,
+          "top": 285.86785888671875,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-23-object-37.png"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Titelslide",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Picture 6",
+          "type": 13,
+          "left": 17.00787353515625,
+          "top": 18.992046356201172,
+          "width": 289.9771728515625,
+          "height": 43.60260009765625,
+          "text": "",
+          "asset": "assets/template/layout-24-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Picture Placeholder 4",
+          "type": 14,
+          "left": 0.0,
+          "top": 94.25,
+          "width": 960.0,
+          "height": 445.75,
+          "text": "",
+          "asset": "assets/template/layout-24-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Spreker + datum",
+          "type": 14,
+          "left": 62.624961853027344,
+          "top": 440.0976257324219,
+          "width": 366.3457336425781,
+          "height": 38.41204833984375,
+          "text": "Spreker + Datum\u000b",
+          "asset": "assets/template/layout-24-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Title 1",
+          "type": 14,
+          "left": 62.624881744384766,
+          "top": 338.0390625,
+          "width": 366.3457336425781,
+          "height": 102.05858612060547,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-24-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Subtitle 2",
+          "type": 14,
+          "left": 62.624881744384766,
+          "top": 301.30426025390625,
+          "width": 366.3458251953125,
+          "height": 36.73480224609375,
+          "text": "Click to edit Master subtitle style",
+          "asset": "assets/template/layout-24-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "TextBox 7",
+          "type": 17,
+          "left": 967.6132202148438,
+          "top": 0.6015747785568237,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Insert picture",
+          "asset": "assets/template/layout-24-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Straight Connector 8",
+          "type": 9,
+          "left": 973.2831420898438,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 8,
+          "name": "TextBox 9",
+          "type": 17,
+          "left": 1007.3026733398438,
+          "top": 37.53322982788086,
+          "width": 136.07810974121094,
+          "height": 50.89220428466797,
+          "text": "Change the image by deleting the existing image. Click on the icon that appears to insert an image.",
+          "asset": "assets/template/layout-24-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "Picture 11",
+          "type": 13,
+          "left": 1012.9725952148438,
+          "top": 94.23243713378906,
+          "width": 30.0,
+          "height": 30.0,
+          "text": "",
+          "asset": "assets/template/layout-24-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "TextBox 12",
+          "type": 17,
+          "left": 1008.1924438476562,
+          "top": 142.8651123046875,
+          "width": 140.32347106933594,
+          "height": 39.9866943359375,
+          "text": "Select a picture you would like to insert and then click on ‘Insert’",
+          "asset": "assets/template/layout-24-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "Group 13",
+          "type": 6,
+          "left": 977.1045532226562,
+          "top": 147.55197143554688,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-24-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "Rectangle 17",
+          "type": 1,
+          "left": 977.6322631835938,
+          "top": 44.000709533691406,
+          "width": 19.844724655151367,
+          "height": 19.844724655151367,
+          "text": "",
+          "asset": "assets/template/layout-24-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "TextBox 21",
+          "type": 17,
+          "left": 976.8748779296875,
+          "top": 43.203147888183594,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "1",
+          "asset": "assets/template/layout-24-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "TextBox 22",
+          "type": 17,
+          "left": 1007.1939086914062,
+          "top": 319.0694580078125,
+          "width": 136.07810974121094,
+          "height": 92.09062957763672,
+          "text": "If you want to scale or drag the image, go to ‘Drawing Tools' and click 'Crop'. With the white rounds you can scale the image, with the black brackets you can scale the image frame.",
+          "asset": "assets/template/layout-24-object-14.png"
+        },
+        {
+          "index": 15,
+          "name": "Picture 5",
+          "type": 13,
+          "left": 1016.4026489257812,
+          "top": 414.0473327636719,
+          "width": 21.37504005432129,
+          "height": 37.5,
+          "text": "",
+          "asset": "assets/template/layout-24-object-15.png"
+        },
+        {
+          "index": 16,
+          "name": "Straight Connector 24",
+          "type": 9,
+          "left": 975.4710083007812,
+          "top": 462.7773132324219,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 17,
+          "name": "Group 25",
+          "type": 6,
+          "left": 976.2147827148438,
+          "top": 202.82968139648438,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-24-object-17.png"
+        },
+        {
+          "index": 18,
+          "name": "Straight Connector 28",
+          "type": 9,
+          "left": 976.1181030273438,
+          "top": 192.68661499023438,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 19,
+          "name": "Straight Connector 29",
+          "type": 9,
+          "left": 974.0919799804688,
+          "top": 133.92189025878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 20,
+          "name": "TextBox 25",
+          "type": 17,
+          "left": 1007.3026733398438,
+          "top": 196.29103088378906,
+          "width": 136.07810974121094,
+          "height": 50.89220428466797,
+          "text": "Select the image and click on ‘Drawing Tools’.  Click on ‘Arrange’ and then ‘Send Backward’.  ",
+          "asset": "assets/template/layout-24-object-20.png"
+        },
+        {
+          "index": 21,
+          "name": "Group 31",
+          "type": 6,
+          "left": 978.068115234375,
+          "top": 319.21661376953125,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-24-object-21.png"
+        },
+        {
+          "index": 22,
+          "name": "Straight Connector 34",
+          "type": 9,
+          "left": 975.2388305664062,
+          "top": 312.6779479980469,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 23,
+          "name": "TextBox 36",
+          "type": 17,
+          "left": 514.01953125,
+          "top": -41.84566879272461,
+          "width": 445.98046875,
+          "height": 29.081260681152344,
+          "text": "Titelpage",
+          "asset": "assets/template/layout-24-object-23.png"
+        },
+        {
+          "index": 24,
+          "name": "Picture 2",
+          "type": 13,
+          "left": 1012.9725952148438,
+          "top": 250.0960693359375,
+          "width": 107.41551208496094,
+          "height": 53.923465728759766,
+          "text": "",
+          "asset": "assets/template/layout-24-object-24.png"
+        },
+        {
+          "index": 25,
+          "name": "Straight Arrow Connector 3",
+          "type": 1,
+          "left": 1077.2940673828125,
+          "top": 266.52392578125,
+          "width": 4.86110258102417,
+          "height": 14.815826416015625,
+          "text": "",
+          "asset": "assets/template/layout-24-object-25.png"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "Beeldslide met titel",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Title 1",
+          "type": 14,
+          "left": 38.52873992919922,
+          "top": 53.45425033569336,
+          "width": 878.6768798828125,
+          "height": 46.4481086730957,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-25-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Picture Placeholder 2",
+          "type": 14,
+          "left": 0.0,
+          "top": 105.57228088378906,
+          "width": 960.0,
+          "height": 434.4277038574219,
+          "text": "Click icon \n\n to add picture",
+          "asset": "assets/template/layout-25-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "TextBox 26",
+          "type": 17,
+          "left": 514.01953125,
+          "top": -41.84566879272461,
+          "width": 445.98046875,
+          "height": 29.081260681152344,
+          "text": "Image + Title",
+          "asset": "assets/template/layout-25-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "TextBox 59",
+          "type": 17,
+          "left": 967.6132202148438,
+          "top": 0.6015747785568237,
+          "width": 187.10740661621094,
+          "height": 24.23440933227539,
+          "text": "Insert picture",
+          "asset": "assets/template/layout-25-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Straight Connector 60",
+          "type": 9,
+          "left": 973.2831420898438,
+          "top": 31.86330795288086,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 6,
+          "name": "TextBox 61",
+          "type": 17,
+          "left": 1007.3026733398438,
+          "top": 37.53322982788086,
+          "width": 136.07810974121094,
+          "height": 50.89220428466797,
+          "text": "Change the image by deleting the existing image. Click on the icon that appears to insert an image.",
+          "asset": "assets/template/layout-25-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Picture 62",
+          "type": 13,
+          "left": 1012.9725952148438,
+          "top": 94.23243713378906,
+          "width": 30.0,
+          "height": 30.0,
+          "text": "",
+          "asset": "assets/template/layout-25-object-07.png"
+        },
+        {
+          "index": 8,
+          "name": "TextBox 63",
+          "type": 17,
+          "left": 1008.1924438476562,
+          "top": 142.8651123046875,
+          "width": 140.32347106933594,
+          "height": 39.9866943359375,
+          "text": "Select a picture you would like to insert and then click on ‘Insert’",
+          "asset": "assets/template/layout-25-object-08.png"
+        },
+        {
+          "index": 9,
+          "name": "Group 64",
+          "type": 6,
+          "left": 977.1045532226562,
+          "top": 147.55197143554688,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-25-object-09.png"
+        },
+        {
+          "index": 10,
+          "name": "Rectangle 67",
+          "type": 1,
+          "left": 977.6322631835938,
+          "top": 44.000709533691406,
+          "width": 19.844724655151367,
+          "height": 19.844724655151367,
+          "text": "",
+          "asset": "assets/template/layout-25-object-10.png"
+        },
+        {
+          "index": 11,
+          "name": "TextBox 68",
+          "type": 17,
+          "left": 976.8748779296875,
+          "top": 43.203147888183594,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "1",
+          "asset": "assets/template/layout-25-object-11.png"
+        },
+        {
+          "index": 12,
+          "name": "TextBox 69",
+          "type": 17,
+          "left": 1007.1939086914062,
+          "top": 197.01260375976562,
+          "width": 136.07810974121094,
+          "height": 92.09062957763672,
+          "text": "If you want to scale or drag the image, go to ‘Drawing Tools' and click 'Crop'. With the white rounds you can scale the image, with the black brackets you can scale the image frame.",
+          "asset": "assets/template/layout-25-object-12.png"
+        },
+        {
+          "index": 13,
+          "name": "Picture 5",
+          "type": 13,
+          "left": 1016.4026489257812,
+          "top": 291.990478515625,
+          "width": 21.37504005432129,
+          "height": 37.5,
+          "text": "",
+          "asset": "assets/template/layout-25-object-13.png"
+        },
+        {
+          "index": 14,
+          "name": "Straight Connector 71",
+          "type": 9,
+          "left": 975.4710083007812,
+          "top": 340.720458984375,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 15,
+          "name": "Straight Connector 72",
+          "type": 9,
+          "left": 974.0919799804688,
+          "top": 133.92189025878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        },
+        {
+          "index": 16,
+          "name": "Group 73",
+          "type": 6,
+          "left": 978.068115234375,
+          "top": 197.15975952148438,
+          "width": 22.679685592651367,
+          "height": 21.810945510864258,
+          "text": "",
+          "asset": "assets/template/layout-25-object-16.png"
+        },
+        {
+          "index": 17,
+          "name": "Straight Connector 76",
+          "type": 9,
+          "left": 975.2388305664062,
+          "top": 190.62110900878906,
+          "width": 170.09764099121094,
+          "height": 0.0,
+          "text": "",
+          "asset": null
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "name": "NoSubheadingText",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 49.08598327636719,
+          "top": 43.20330810546875,
+          "width": 861.7381591796875,
+          "height": 45.35944747924805,
+          "text": "Heading",
+          "asset": "assets/template/layout-26-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor tekst 2",
+          "type": 14,
+          "left": 49.13385772705078,
+          "top": 94.2325210571289,
+          "width": 864.8944702148438,
+          "height": 345.8653564453125,
+          "text": "Click to add text\rClick to add text\rClick to add text\rClick to add text\rClick to add text\rClick to add text",
+          "asset": "assets/template/layout-26-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Tijdelijke aanduiding voor voettekst 20",
+          "type": 14,
+          "left": 128.46487426757812,
+          "top": 496.7969970703125,
+          "width": 785.5634765625,
+          "height": 28.83330726623535,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-26-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor dianummer 21",
+          "type": 14,
+          "left": 49.086063385009766,
+          "top": 496.7969970703125,
+          "width": 68.03905487060547,
+          "height": 28.83330726623535,
+          "text": "‹#›",
+          "asset": "assets/template/layout-26-object-04.png"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "NoSubheadingText ",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Tijdelijke aanduiding voor datum 22",
+          "type": 14,
+          "left": 109.56511688232422,
+          "top": 496.79693603515625,
+          "width": 120.95834350585938,
+          "height": 28.83330726623535,
+          "text": "",
+          "asset": "assets/template/layout-27-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Tijdelijke aanduiding voor dianummer 24",
+          "type": 14,
+          "left": 41.52606201171875,
+          "top": 496.79693603515625,
+          "width": 52.91929244995117,
+          "height": 28.83330726623535,
+          "text": "‹#›",
+          "asset": "assets/template/layout-27-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Picture 28",
+          "type": 13,
+          "left": 816.785888671875,
+          "top": 498.5829162597656,
+          "width": 109.24795532226562,
+          "height": 20.89362144470215,
+          "text": "",
+          "asset": "assets/template/layout-27-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Tijdelijke aanduiding voor voettekst 17",
+          "type": 14,
+          "left": 238.08338928222656,
+          "top": 496.79693603515625,
+          "width": 521.6327514648438,
+          "height": 28.83330726623535,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-27-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Group 2",
+          "type": 6,
+          "left": -0.17393700778484344,
+          "top": 482.43896484375,
+          "width": 960.2969970703125,
+          "height": 4.250315189361572,
+          "text": "",
+          "asset": "assets/template/layout-27-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Titel 1",
+          "type": 14,
+          "left": 49.08598327636719,
+          "top": 43.20322799682617,
+          "width": 861.7381591796875,
+          "height": 45.35944747924805,
+          "text": "Heading",
+          "asset": "assets/template/layout-27-object-06.png"
+        },
+        {
+          "index": 7,
+          "name": "Tijdelijke aanduiding voor tekst 2",
+          "type": 14,
+          "left": 49.08598327636719,
+          "top": 96.12244415283203,
+          "width": 862.9140014648438,
+          "height": 343.04345703125,
+          "text": "Click to add text\rClick to add text\rClick to add text\rClick to add text\rClick to add text\rClick to add text",
+          "asset": "assets/template/layout-27-object-07.png"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "name": "Content with Caption",
+      "objects": [
+        {
+          "index": 1,
+          "name": "Title 1",
+          "type": 14,
+          "left": 66.12503814697266,
+          "top": 36.0,
+          "width": 309.6249694824219,
+          "height": 126.0,
+          "text": "Click to edit Master title style",
+          "asset": "assets/template/layout-28-object-01.png"
+        },
+        {
+          "index": 2,
+          "name": "Content Placeholder 2",
+          "type": 14,
+          "left": 408.1250305175781,
+          "top": 77.75,
+          "width": 486.0,
+          "height": 383.75,
+          "text": "Edit Master text styles\rSecond level\rThird level\rFourth level\rFifth level",
+          "asset": "assets/template/layout-28-object-02.png"
+        },
+        {
+          "index": 3,
+          "name": "Text Placeholder 3",
+          "type": 14,
+          "left": 66.12503814697266,
+          "top": 162.0,
+          "width": 309.6249694824219,
+          "height": 300.1250305175781,
+          "text": "Edit Master text styles",
+          "asset": "assets/template/layout-28-object-03.png"
+        },
+        {
+          "index": 4,
+          "name": "Date Placeholder 4",
+          "type": 14,
+          "left": 629.951416015625,
+          "top": 499.7015075683594,
+          "width": 230.97637939453125,
+          "height": 11.9519681930542,
+          "text": "",
+          "asset": "assets/template/layout-28-object-04.png"
+        },
+        {
+          "index": 5,
+          "name": "Footer Placeholder 5",
+          "type": 14,
+          "left": 56.69291305541992,
+          "top": 499.7015075683594,
+          "width": 324.0,
+          "height": 11.9519681930542,
+          "text": "Analytics for a Better World Lecture 2",
+          "asset": "assets/template/layout-28-object-05.png"
+        },
+        {
+          "index": 6,
+          "name": "Slide Number Placeholder 6",
+          "type": 14,
+          "left": 880.8978881835938,
+          "top": 499.7015075683594,
+          "width": 22.409212112426758,
+          "height": 11.9519681930542,
+          "text": "‹#›",
+          "asset": "assets/template/layout-28-object-06.png"
+        }
+      ]
+    }
+  ],
+  "slideLayouts": [
+    {
+      "slide": 1,
+      "layoutIndex": 1,
+      "layoutName": "TITLE SLIDE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 2,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 3,
+      "layoutIndex": 19,
+      "layoutName": "Title and Content",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 4,
+      "layoutIndex": 19,
+      "layoutName": "Title and Content",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 5,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 6,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 7,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 8,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 9,
+      "layoutIndex": 19,
+      "layoutName": "Title and Content",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 10,
+      "layoutIndex": 1,
+      "layoutName": "TITLE SLIDE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 11,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 12,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 13,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 14,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 15,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 16,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 17,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 18,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 19,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 20,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": 0
+    },
+    {
+      "slide": 21,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 22,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 23,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 24,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 25,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 26,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": 0
+    },
+    {
+      "slide": 27,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 28,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 29,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 30,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 31,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 32,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 33,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 34,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": 0
+    },
+    {
+      "slide": 35,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 36,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 37,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 38,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 39,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 40,
+      "layoutIndex": 19,
+      "layoutName": "Title and Content",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 41,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 42,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 43,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 44,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 45,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 46,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 47,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 48,
+      "layoutIndex": 1,
+      "layoutName": "TITLE SLIDE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 49,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 50,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 51,
+      "layoutIndex": 8,
+      "layoutName": "100% IMAGE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 52,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 53,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 54,
+      "layoutIndex": 19,
+      "layoutName": "Title and Content",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 55,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 56,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 57,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 58,
+      "layoutIndex": 25,
+      "layoutName": "Beeldslide met titel",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 59,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 60,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 61,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 62,
+      "layoutIndex": 27,
+      "layoutName": "NoSubheadingText ",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 63,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 64,
+      "layoutIndex": 7,
+      "layoutName": "IMAGE + TITLE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 65,
+      "layoutIndex": 1,
+      "layoutName": "TITLE SLIDE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 66,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 67,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 68,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 69,
+      "layoutIndex": 5,
+      "layoutName": "50% TEXT + 50% IMAGE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 70,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 71,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 72,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 73,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 74,
+      "layoutIndex": 5,
+      "layoutName": "50% TEXT + 50% IMAGE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 75,
+      "layoutIndex": 8,
+      "layoutName": "100% IMAGE",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 76,
+      "layoutIndex": 25,
+      "layoutName": "Beeldslide met titel",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 77,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 78,
+      "layoutIndex": 26,
+      "layoutName": "NoSubheadingText",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 79,
+      "layoutIndex": 20,
+      "layoutName": "Titel en inhoud",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 80,
+      "layoutIndex": 25,
+      "layoutName": "Beeldslide met titel",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 81,
+      "layoutIndex": 28,
+      "layoutName": "Content with Caption",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 82,
+      "layoutIndex": 22,
+      "layoutName": "50/50",
+      "followMasterBackground": -1
+    },
+    {
+      "slide": 83,
+      "layoutIndex": 2,
+      "layoutName": "TEXT",
+      "followMasterBackground": -1
+    }
+  ]
+}

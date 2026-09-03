@@ -1,0 +1,10 @@
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+lecture-2-2026-native-review*.pdf
+review-*/
+work/pptx-unpacked/
