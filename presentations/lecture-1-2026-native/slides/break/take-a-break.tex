@@ -1,0 +1,27 @@
+% Original vector illustration; the cited article informed the break prompt, not the artwork.
+\begin{abwartframe}{Time for a short break}{\ABWInsertedPageNumber}{%
+  Artwork: original course TikZ illustration (2026). Prompt informed by
+  \href{https://www.municipalworld.com/feature-story/time-to-take-a-break/}{Peter de Jager, ``Time to take a break,'' Municipal World (2021)}.}
+  \fill[ABWSoftGray] (55,-145) rectangle (905,-445);
+
+  % Clock
+  \draw[ABWOrange,line width=7bp] (263,-292) circle[radius=105bp];
+  \fill[ABWOrange] (263,-292) circle[radius=8bp];
+  \draw[ABWRed,line width=8bp,line cap=round] (263,-292) -- (263,-223);
+  \draw[ABWRed,line width=8bp,line cap=round] (263,-292) -- (319,-322);
+  \node[anchor=center] at (263,-292)
+    {{\TimesNR\fontsize{1}{1}\selectfont\phantom{.}}};
+
+  % Cup and steam
+  \draw[ABWRed,line width=8bp,rounded corners=8bp] (585,-350) -- (585,-410) -- (755,-410) -- (755,-350);
+  \draw[ABWRed,line width=8bp] (755,-362) arc[start angle=90,end angle=-90,x radius=42bp,y radius=30bp];
+  \draw[ABWOrange,line width=6bp,line cap=round] (625,-330) .. controls (606,-312) and (647,-296) .. (626,-278);
+  \draw[ABWOrange,line width=6bp,line cap=round] (680,-330) .. controls (661,-312) and (702,-296) .. (681,-278);
+  \draw[ABWOrange,line width=6bp,line cap=round] (735,-330) .. controls (716,-312) and (757,-296) .. (736,-278);
+
+  \node[anchor=north,text width=360bp,align=center] at (670,-160)
+    {{\TimesNR\fontsize{39}{43}\selectfont\bfseries\color{ABWRed}Fifteen minutes\par}
+     \vspace{9bp}{\TimesNR\fontsize{20}{24}\selectfont
+       Stand up.\quad Stretch.\par Talk.\quad Breathe.\par\vspace{8bp}
+       Return ready to make decisions again.}};
+\end{abwartframe}

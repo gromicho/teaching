@@ -1,0 +1,32 @@
+% Course-owned redraw of the current public IoT Analytics figures.
+\begin{abwfigureframe}{Internet of Things}{\ABWInsertedPageNumber}
+  \node[anchor=north west,text width=850bp,inner sep=0pt] at (55,-140)
+    {{\TimesNR\fontsize{22}{25}\selectfont Active connected IoT devices worldwide, billions\par}};
+
+  \draw[draw=ABWGray,line width=1.4bp] (145,-410) -- (850,-410);
+  \draw[draw=ABWGray,line width=1.4bp] (145,-410) -- (145,-185);
+  \foreach \y/\lab in {410/0,355/10,300/20,245/30,190/40}{
+    \draw[draw=ABWGray,line width=0.8bp] (137,-\y) -- (145,-\y);
+    \node[anchor=east,inner sep=0pt] at (128,-\y)
+      {{\TimesNR\fontsize{13}{15}\selectfont\color{ABWGray}\lab}};
+  }
+  \draw[draw=ABWRed,line width=4bp] (255,-308.25) -- (450,-293.95);
+  \draw[draw=ABWOrange,dashed,line width=4bp] (450,-293.95) -- (790,-195.5);
+  \fill[ABWRed] (255,-308.25) circle[radius=8bp];
+  \fill[white,draw=ABWOrange,line width=4bp] (450,-293.95) circle[radius=8bp];
+  \fill[white,draw=ABWOrange,line width=4bp] (790,-195.5) circle[radius=8bp];
+  \node[anchor=south,inner sep=0pt] at (255,-277)
+    {{\TimesNR\fontsize{20}{23}\selectfont\bfseries 18.5}};
+  \node[anchor=south,inner sep=0pt] at (255,-296)
+    {{\TimesNR\fontsize{15}{17}\selectfont 2024 observed}};
+  \node[anchor=south,inner sep=0pt] at (450,-262)
+    {{\TimesNR\fontsize{20}{23}\selectfont\bfseries 21.1}};
+  \node[anchor=south,inner sep=0pt] at (450,-281)
+    {{\TimesNR\fontsize{15}{17}\selectfont 2025 estimate}};
+  \node[anchor=south,inner sep=0pt] at (790,-164)
+    {{\TimesNR\fontsize{20}{23}\selectfont\bfseries 39}};
+  \node[anchor=south,inner sep=0pt] at (790,-183)
+    {{\TimesNR\fontsize{15}{17}\selectfont 2030 forecast}};
+  \ABWArtCredit{Data and scope: \href{https://iot-analytics.com/number-connected-iot-devices/}{IoT Analytics, State of IoT 2025}.
+    Course-owned redraw; computers, phones and consumer tablets are excluded by the source.}
+\end{abwfigureframe}

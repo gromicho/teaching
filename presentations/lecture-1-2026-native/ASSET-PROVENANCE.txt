@@ -1,0 +1,114 @@
+LECTURE 1 NATIVE BEAMER PORT — ASSET PROVENANCE
+
+Authoritative source deck
+  references\Lecture 1a - 2026.pptx
+  SHA-256: F124D4BDC866495F47B34B4470C359DB3F5771E74FF54DACB35782B5EA02B460
+
+Construction rule
+  Slides are assembled from native Beamer/TikZ text, shapes, tables, and
+  individual PowerPoint picture/diagram objects. Complete-slide screenshots
+  are not used as slide content. PowerPoint slide exports in the build folder
+  exist only for visual QA and are not referenced by the TeX source.
+
+Reusable Beamer construction
+  abwlecture.cls defines the shared slide canvas, UvA/ABS master mark, title,
+  footer, and semantic frame types for standard content, people, questions,
+  answers, figures, tables, sections, and title slides. The compiled deck has
+  75 pages. The six introduction slides are maintained as readable source in
+  slides/people rather than as flattened slide images. Learning goals,
+  instructional diagrams, the IoT update, solver evidence, Python and
+  CodeGrade guidance, the driving/AF447 sequence, recaps, and the final call
+  to action are maintained as native sources in slides/learning.
+
+Master artwork
+  assets/template/master-object-08.png (original palette-indexed extraction)
+  assets/template/uva-abs-master-logo-rgb.png (true-color reference export)
+  assets/template/uva-crest.png (transparent crest crop used by the class)
+  The recurring master mark is reconstructed from the crest cropped from the
+  source PowerPoint master plus a LaTeX-typeset institutional wordmark. This
+  avoids both the palette-indexed rendering issue and the opaque white rectangle
+  that previously obscured slide titles. Keep the source-master export alongside
+  the deck as the visual reference for placement and typography.
+
+Portraits supplied locally by the user
+  assets/portraits/dick.jpg     -> source slide 4
+  assets/portraits/joaquim.jpg  -> source slide 5
+  assets/portraits/anh.jpg      -> source slide 6
+  assets/portraits/lars.jpg     -> source slide 7
+  assets/portraits/mats.jpg     -> source slide 8
+  assets/portraits/nicole.jpg   -> source slide 9
+
+  These files already contain the soft white sweep/vignette treatment. They
+  are treated as user-provided course assets. Keep any institutional consent
+  and portrait-use records with the course files; do not assume that inclusion
+  in this deck grants reuse outside the course.
+
+Joaquim career and activity marks
+  assets/logos contains individually extracted and descriptively named marks:
+  FCUL, Erasmus University Rotterdam, ORTEC, Vrije Universiteit Amsterdam,
+  VVSOR Operations Research, STAtOR, EURO Practitioners' Forum, UvA, and ABW.
+  They remain separate positioned objects on slides/people/05-joaquim-gromicho.tex;
+  the surrounding biography, labels, and dates are typeset in LaTeX.
+
+AI relationship artwork and inserted slides
+  assets/ai/human-directs-ai.png
+    -> slide 51, "You direct the analysis"
+    -> source: slides/ai/you-direct-the-analysis.tex
+
+  assets/ai/abw-socratic-coach.png
+    -> slide 54, "Use AI as a Socratic learning coach"
+    -> source: slides/ai/socratic-learning-coach.tex
+
+  Both are project-generated conceptual artwork from August 2026 and were
+  copied from slides/assets. The exact image-generation tool/model has not
+  been verified, so retain the visible generic project-generated credit unless
+  a more precise creation record is found.
+
+Break artwork and attribution
+  slides/break/take-a-break.tex
+    -> slide 49, "Time for a short break"
+  The clock, cup and steam are original TikZ objects in the course source.
+  No Municipal World image is copied: that site supplies no permissive image
+  reuse licence. The article is linked only as the reading prompt that informed
+  the break idea. abwlecture.cls provides abwartframe and ABWArtCredit so every
+  artwork slide uses the same visible attribution position.
+
+Course-owned data redraws
+  slides/learning/29-iot-update.tex redraws three published IoT Analytics data
+  points as native TikZ. It does not copy the publisher's chart artwork.
+  slides/learning/33-prescriptive-speedup.tex separates the historical Bixby
+  MIP speedup from Gurobi's current version benchmark and links both sources.
+
+TSP question/answer artwork
+  assets/tsp/tsp-question.svg
+  assets/tsp/tsp-answer.svg
+  assets/tsp/tsp-question.pdf
+  assets/tsp/tsp-answer.pdf
+
+  Instance: 25 nodes, seed 2023; optimal cost 395.
+  Brute-force estimate: 24!/2 unique undirected tours and 1,000,000 route
+  evaluations per second, giving approximately 9.83 billion years.
+  Notebook/formulation source:
+  https://mobook.github.io/MO-book/notebooks/04/08-traveling-salesman-problem.html
+
+Existing embedded artwork
+  assets/source contains individual graphic objects exported from the source
+  PowerPoint. Existing visible source lines and attributions were retained.
+  Inclusion here preserves the source deck's course context; it does not by
+  itself establish broader republication rights for third-party artwork.
+
+Named visual library and attribution ledger
+  assets/visuals/lecture-1 contains 101 descriptively named copies of the
+  embedded image objects from Lecture 1a - 2026.pptx. Each entry in
+  assets/visuals/lecture-1/manifest.json records its original slide and object,
+  its inherited source line when present, and whether rights still need review.
+  ATTRIBUTIONS.md records the verified/recommended teaching citations and the
+  visual families that must not be treated as cleared for broader reuse.
+  assets/source remains unchanged as the opaque, forensic extraction archive.
+
+Build
+  From the pre-repository Lecture 1 workspace:
+    py -B build\lecture1-beamer-native-20260901\generate_native_beamer.py
+  Then from beamer\lecture-1-2026-native, compile
+    xelatex -interaction=nonstopmode -halt-on-error lecture-1-2026-native.tex
+  twice.

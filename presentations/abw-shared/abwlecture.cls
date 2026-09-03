@@ -77,6 +77,7 @@
 \newcommand{\ABWCrestPath}{assets/template/uva-crest.png}
 \newcommand{\ABWFooterText}{Analytics for a Better World, Lecture 1}
 \providecommand{\ABWSharedRoot}{.}
+\newcommand{\ABWInsertedPageNumber}{\insertframenumber}
 \NewDocumentCommand{\ABWSharedAsset}{m}{\ABWSharedRoot/assets/#1}
 \NewDocumentCommand{\ABWSetSharedRoot}{m}{%
   \renewcommand{\ABWSharedRoot}{#1}%
@@ -282,12 +283,14 @@
     at (#2,-328) {{\TimesNR\fontsize{16}{19}\selectfont #4}};%
 }
 \NewDocumentCommand{\ABWRecapBar}{m m m}{%
+  \pgfmathsetmacro{\ABWRecapBottom}{#1+62}%
+  \pgfmathsetmacro{\ABWRecapMiddle}{#1+31}%
   \draw[rounded corners=7bp,fill=ABWSoftGray,draw=none]
-    (55,-#1) rectangle (905,-{#1+62});
-  \fill[ABWRed] (87,-{#1+31}) circle[radius=16bp];
-  \node[anchor=center,inner sep=0pt] at (87,-{#1+31})
+    (55,-#1) rectangle (905,-\ABWRecapBottom);
+  \fill[ABWRed] (87,-\ABWRecapMiddle) circle[radius=16bp];
+  \node[anchor=center,inner sep=0pt] at (87,-\ABWRecapMiddle)
     {{\TimesNR\fontsize{16}{18}\selectfont\bfseries\color{white}#2}};
-  \node[anchor=west,text width=775bp,inner sep=0pt] at (122,-{#1+31})
+  \node[anchor=west,text width=775bp,inner sep=0pt] at (122,-\ABWRecapMiddle)
     {{\TimesNR\fontsize{23}{26}\selectfont #3}};%
 }
 \NewDocumentEnvironment{abwtableframe}{O{} m m +b}{%

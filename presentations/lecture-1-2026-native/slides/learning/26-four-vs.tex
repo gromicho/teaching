@@ -1,0 +1,43 @@
+% Original TikZ illustration of the common four-V framework.
+\begin{abwfigureframe}{The four Vs of data}{\ABWInsertedPageNumber}
+  \foreach \x/\title/\subtitle in {
+    55/Volume/Data at scale,
+    275/Velocity/Data in motion,
+    495/Variety/Data in many forms,
+    715/Veracity/Data in doubt}{
+      \draw[rounded corners=8bp,fill=ABWSoftGray,draw=none]
+        (\x,-145) rectangle ++(190,-285);
+      \node[anchor=north,text width=170bp,align=center,inner sep=0pt] at (\x+95,-162)
+        {{\TimesNR\fontsize{23}{26}\selectfont\bfseries\color{ABWRed}\title}};
+      \node[anchor=north,text width=170bp,align=center,inner sep=0pt] at (\x+95,-390)
+        {{\TimesNR\fontsize{17}{20}\selectfont\bfseries\color{ABWGray}\subtitle}};
+  }
+
+  % Volume: many individual records.
+  \foreach \r in {0,...,5}{\foreach \c in {0,...,5}{
+    \fill[black] (89+22*\c,-220-22*\r) circle[radius=5bp];}}
+
+  % Velocity: records moving through a stream.
+  \foreach \yy in {230,275,320}{
+    \draw[-{Latex[length=8bp,width=6bp]},line width=2bp,draw=ABWGray]
+      (305,-\yy) -- (435,-\yy);
+    \fill[ABWRed] (350,-\yy) circle[radius=6bp];
+    \fill[ABWOrange] (395,-\yy) circle[radius=6bp];}
+
+  % Variety: different native shapes, sizes and colours.
+  \fill[ABWRed] (545,-235) circle[radius=13bp];
+  \fill[ABWOrange] (590,-285) rectangle ++(26,-26);
+  \draw[fill=white,draw=black,line width=2bp] (665,-235) circle[radius=15bp];
+  \draw[fill=ABWLinkBlue,draw=none] (550,-335) -- (572,-300) -- (594,-335) -- cycle;
+  \draw[fill=ABWGray,draw=none,rounded corners=5bp] (630,-330) rectangle ++(42,-25);
+
+  % Veracity: clear observations plus deliberately uncertain ones.
+  \foreach \x/\y/\rad/\opacity in {
+    755/235/7/1,795/260/12/.65,850/225/17/.35,
+    770/320/16/.25,825/330/8/1,875/290/13/.45}{
+      \fill[black,opacity=\opacity] (\x,-\y) circle[radius=\rad bp];}
+  \node[anchor=center,inner sep=0pt] at (812,-276)
+    {{\TimesNR\fontsize{31}{34}\selectfont\bfseries\color{ABWRed}?}};
+
+  \ABWArtCredit{Original course illustration of the widely used volume–velocity–variety–veracity framework; no third-party infographic is reproduced.}
+\end{abwfigureframe}

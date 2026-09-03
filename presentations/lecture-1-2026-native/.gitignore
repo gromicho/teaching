@@ -1,0 +1,15 @@
+# Generated LaTeX output
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+lecture-1-2026-native-review*.pdf
+lecture-1-2026-native.pdf
+Lecture 1 - 2026 - current.pdf
+review-*/
+archive/
+
+*-repo-check.pdf
