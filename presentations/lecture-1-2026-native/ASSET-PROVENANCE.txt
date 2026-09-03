@@ -49,6 +49,10 @@ Joaquim career and activity marks
   VVSOR Operations Research, STAtOR, EURO Practitioners' Forum, UvA, and ABW.
   They remain separate positioned objects on slides/people/05-joaquim-gromicho.tex;
   the surrounding biography, labels, and dates are typeset in LaTeX.
+  The EURO Practitioners' Forum mark was replaced on 3 September 2026 with the
+  higher-resolution user-supplied file EuroPF_rgb.png (495 x 214 px); the original
+  low-resolution PowerPoint object remains in assets/source for forensic reference.
+
 
 AI relationship artwork and inserted slides
   assets/ai/human-directs-ai.png
