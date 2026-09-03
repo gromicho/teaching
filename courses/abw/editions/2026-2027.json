@@ -24,6 +24,7 @@
   "course_resources": [
     "courses/abw/notebooks/python/part-1.ipynb",
     "courses/abw/notebooks/python/part-2.ipynb",
+    "courses/abw/notebooks/lecture-2/functions-and-perceptrons.ipynb",
     "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
     "courses/abw/notebooks/optimization/worldlight-indexed.ipynb",
     "courses/abw/notebooks/optimization/weenies-and-buns.ipynb",

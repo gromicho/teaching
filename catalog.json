@@ -127,6 +127,14 @@
       "review_note": "Faithful 2026/27 modernization: original sequence retained, exercises left for learners, fresh-kernel validation in two local environments."
     },
     {
+      "id": "abw-lecture-2-functions-and-perceptrons",
+      "title": "Lecture 2: functions and perceptrons",
+      "path": "courses/abw/notebooks/lecture-2/functions-and-perceptrons.ipynb",
+      "kind": "worked-example",
+      "execution_profile": "core",
+      "collection": "abw"
+    },
+    {
       "id": "abw-shortest-path-exercise",
       "title": "Shortest path A to F",
       "path": "courses/abw/notebooks/networks/shortest-path-exercise.ipynb",
