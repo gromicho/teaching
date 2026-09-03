@@ -8,7 +8,7 @@ repl={
 "𝑖":r"\ensuremath{i}", "≥":r"\ensuremath{\ge}", "𝑜":r"\ensuremath{o}",
 "𝑗":r"\ensuremath{j}", "𝒙":r"\ensuremath{\mathbf{x}}", "𝜎":r"\ensuremath{\sigma}",
 "𝑒":r"\ensuremath{e}", "Τ":r"\ensuremath{T}", "→":r"\ensuremath{\rightarrow}",
-" ":" ", "﻿":""
+" ":" ", "":""
 }
 changed=0
 for p in ROOT.glob('*.tex'):
