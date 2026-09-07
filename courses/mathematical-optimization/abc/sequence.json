@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "title": "The ABC of Mathematical Optimization",
+  "scope": "Curated A–K course guide and source selection, not a claim of a fully modernized ten-notebook public course",
+  "core_source_notebooks": 10,
+  "core_source_cells": 399,
+  "suggested_core_classes": 18,
+  "suggested_capstone_classes": 3,
+  "suggested_practice_sessions": 5,
+  "stages": [
+    {
+      "key": "a",
+      "name": "Alice",
+      "topic": "From a story to an objective; symbolic and numerical optimization",
+      "sessions": [
+        1
+      ],
+      "public": [
+        "foundations/optimization/alice-optimization.ipynb"
+      ],
+      "reason": "The 42-cell MO lecture retains the physical derivation, symbolic versus numeric pi, plots, Pyomo introspection and deliberate late solver installation. The current 10-cell public companion is tested but shorter; use it for execution, not as evidence that the longer narrative is already restored.",
+      "goals": [
+        "Derive the center-of-gravity objective and its feasible interval from the glass and water story.",
+        "Distinguish a symbolic stationary point, a feasible candidate, a local minimum and a global minimum.",
+        "Compare the same objective across symbolic mathematics and a numerical solver; explain the role of variable bounds."
+      ],
+      "questions": [
+        "Why must endpoints be checked when optimizing over a closed interval?",
+        "What changes when pi is a floating-point number instead of a symbol?",
+        "Which dependencies are needed for symbolic work, plotting, model building and solving, respectively?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Alice.ipynb",
+      "source_cells": 42,
+      "source_sha256": "0a9ac7032d8c5265469eae4b8ef113d10784ff0366e989744a41dbe59c521932",
+      "public_status": "tested companion available; fuller source selected separately",
+      "guide": "a.md"
+    },
+    {
+      "key": "b",
+      "name": "Betty",
+      "topic": "Linear programming, indexed models, slacks and duals",
+      "sessions": [
+        2,
+        3
+      ],
+      "public": [
+        "foundations/optimization/caroline-production-planning.ipynb"
+      ],
+      "reason": "Use the MO Betty story to fix the ABC naming. The 79-cell maintained Caroline production-planning notebook is the strongest current implementation of this same LP lesson: three actual engines, alternative indexed formulations, slacks, duals and model inspection. It is substantially richer than the short later Caroline introduction.",
+      "goals": [
+        "Translate trophy production into a resource-allocation LP and then an indexed model.",
+        "Separate data, variables, objectives and constraint-generation rules.",
+        "Explain slacks, binding constraints and dual information, and actually compare solver engines on fresh models."
+      ],
+      "questions": [
+        "Which resource limits production and which is left over?",
+        "When is it legitimate to interpret a dual value as a marginal value?",
+        "Why can two solvers return slightly different numbers without disagreeing on the optimum?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Betty.ipynb",
+      "source_cells": 49,
+      "source_sha256": "93094703fabf5a6378b27efd32e1f7d2f6661cacc1c7f2753db04dc6680d2fbb",
+      "public_status": "tested companion available; fuller source selected separately",
+      "guide": "b.md"
+    },
+    {
+      "key": "c",
+      "name": "Caroline",
+      "topic": "Mixed-integer purchasing and inventory planning",
+      "sessions": [
+        4,
+        5
+      ],
+      "public": [],
+      "reason": "The 55-cell MO Caroline notebook develops the material-planning model step by step. It is the same case later called Hilda and Francis, not the later Caroline LP. Preserve the construction sequence privately; the maintained Francis instructor key provides the tested full-case solution. A student-facing worked edition still needs preparation.",
+      "goals": [
+        "Convert demand for products into demand for materials using a matrix calculation.",
+        "Model monthly stock balances, initial and final stock, batches, poles and paired purchasing discounts.",
+        "Explain why integer variables, units and delivery/holding-cost timing change the model."
+      ],
+      "questions": [
+        "Which quantities must be integer and which could be continuous?",
+        "When is inventory highest within the month?",
+        "How can a discount for a paired pole and ornament batch be expressed without multiplying decision variables?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Caroline.ipynb",
+      "source_cells": 55,
+      "source_sha256": "595f3e024e816afa3da230b421509683e67a965e4da808397af64ad3e8ae7962",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "c.md"
+    },
+    {
+      "key": "d",
+      "name": "Dina",
+      "topic": "Facility location and formulation strength",
+      "sessions": [
+        6
+      ],
+      "public": [
+        "foundations/optimization/elizabeth-location-models.ipynb"
+      ],
+      "reason": "Keep the MO Dina case and weak/strong formulation derivation. Use the tested Elizabeth notebook for current execution and its real multi-engine comparison. The original 50-facility/100-customer experiment remains a useful scaling extension, not a replacement for comparing LP bounds.",
+      "goals": [
+        "Represent facility opening and customer assignment decisions.",
+        "Show why disaggregated linking constraints dominate the aggregate relaxation.",
+        "Separate model construction time, solve time, feasible incumbents and certified bounds."
+      ],
+      "questions": [
+        "Do stronger inequalities change the integer feasible layouts?",
+        "Can the stronger formulation take longer to solve?",
+        "What can be concluded when a time limit is reached?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Dina.ipynb",
+      "source_cells": 15,
+      "source_sha256": "5e2085b8c335ea90ae3db87458e2bade1b34b77c576c405bcf57c263b1fb06ea",
+      "public_status": "tested companion available; fuller source selected separately",
+      "guide": "d.md"
+    },
+    {
+      "key": "e",
+      "name": "Exploring LAP",
+      "topic": "Assignment algorithms versus an LP model",
+      "sessions": [
+        7
+      ],
+      "public": [],
+      "reason": "Use the 19-cell abstract-model version rather than the earlier 11-cell fragment. It actually compares SciPy assignment with CBC and GLPK. Its 10,000-by-10,000 default would create 100 million variables; preserve the scaling question but choose a bounded default when modernizing. E is the ExploringLAP filename, not an invented character.",
+      "goals": [
+        "Build the bipartite assignment model from a cost matrix.",
+        "Explain the integral extreme points of the assignment polytope.",
+        "Compare a dedicated assignment algorithm with actual LP solves, including memory and model-building costs."
+      ],
+      "questions": [
+        "Why can this assignment model use continuous nonnegative variables?",
+        "What changes if additional side constraints are introduced?",
+        "What grows quadratically with the number of items?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/ExploringLAP.ipynb",
+      "source_cells": 19,
+      "source_sha256": "afe362dab74965e0549a257ee647f0dc3055b9e52ec997d99c04a8374f7744ce",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "e.md"
+    },
+    {
+      "key": "f",
+      "name": "Francis",
+      "topic": "Nonlinear modeling: the cylinder of maximum volume",
+      "sessions": [
+        8
+      ],
+      "public": [],
+      "reason": "Use the MO cylinder notebook and its maximum-volume subject. It is a short bridge, not the material-planning notebook recently supplied under the same name. Its original installer and missing qualified solver imports need repair before a maintained public edition is released.",
+      "goals": [
+        "Formulate radius and height decisions with a surface-area budget.",
+        "Separate a nonlinear mathematical expression from a solver interface.",
+        "Compare a numerical candidate with analytical reasoning, and account for degenerate starting points."
+      ],
+      "questions": [
+        "Why can a starting point at zero be problematic?",
+        "Does a local nonlinear solver certify global optimality here?",
+        "Can eliminating one variable make the geometry easier to understand?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Francis.ipynb",
+      "source_cells": 9,
+      "source_sha256": "ec5a178ad9fb33f38df221626ae4ac2fd3fd30b31880c1dc943aabd84cc5894e",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "f.md"
+    },
+    {
+      "key": "g",
+      "name": "Global and convex optimization",
+      "topic": "Local optima, convexity and equivalent representations",
+      "sessions": [
+        9,
+        10
+      ],
+      "public": [],
+      "reason": "The 36-cell Global notebook is the coherent lecture, while Untitled8/9 provide supplementary examples. Keep initial-point sensitivity, nonlinear test functions and convex modeling. Correct the blanket complexity statements, replace unrestricted eval and avoid automatic remote submissions.",
+      "goals": [
+        "Use examples to distinguish local minima from global minima.",
+        "Check domains and convexity rather than classifying a problem solely by its syntax.",
+        "Recognize when a reformulation exposes convex structure to a solver."
+      ],
+      "questions": [
+        "Can an equivalent expression be easier for a modeling system to recognize?",
+        "What assumptions are required before a local optimum is also global?",
+        "Why is a blanket claim about the complexity of all global optimization misleading?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Global.ipynb",
+      "source_cells": 36,
+      "source_sha256": "5820c7231e99b56bb378f0033529f47a1a1d42b74fc04eef7301562b14d158bc",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "g.md"
+    },
+    {
+      "key": "h",
+      "name": "Holistic convex optimization",
+      "topic": "Subgradient methods, Newton steps and Lagrange duality",
+      "sessions": [
+        11,
+        12
+      ],
+      "public": [],
+      "reason": "Choose the full 66-cell lecture, not the 34-cell Week 3 draft. It connects symbolic derivatives to strategies, Newton steps, projection and abstract Pyomo Lagrangian subproblems, including alternative duals of the same problem. It explicitly teaches delayed imports and avoiding copy-and-paste.",
+      "goals": [
+        "Implement and inspect progress and projection strategies.",
+        "Distinguish primal variables, multipliers, relaxed subproblem solutions and subgradients.",
+        "Connect multiplier domains and update signs to the chosen primal/dual convention."
+      ],
+      "questions": [
+        "Does a small change in successive iterates prove optimality?",
+        "When must multipliers be projected onto a nonnegative or nonpositive domain?",
+        "Which code should remain visible in the algorithm lesson and which should later applications import?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Holistic convex optimization .ipynb",
+      "source_cells": 66,
+      "source_sha256": "2ffd85ea711882490896d27e4f017baeab9a4a0a5ada9daff5f59ec85a920bc9",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "h.md"
+    },
+    {
+      "key": "i",
+      "name": "Ignacio",
+      "topic": "Stochastic programming and uncertain nutrient coefficients",
+      "sessions": [
+        13,
+        14
+      ],
+      "public": [],
+      "reason": "Choose the 50-cell lecture over the 48-cell checkpoint. It links repeated blending solves, simulations, averages and extremes with symbolic value-function analysis and optional animations. Preserve the distinction between optimizing averaged inputs and averaging optimized outcomes.",
+      "goals": [
+        "Model uncertain calcium/protein coefficients and evaluate the resulting decisions.",
+        "Separate a fixed decision chosen before uncertainty from an adaptive decision chosen after observing it.",
+        "Compare numerical repeated solves with the derived value function on common observations."
+      ],
+      "questions": [
+        "Are decisions made before or after the nutrient coefficients are observed?",
+        "Why need the optimum at average data differ from the average of optima?",
+        "How should seed, sample size and evaluation scenarios be controlled in a comparison?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Ignacio blends with uncertain data.ipynb",
+      "source_cells": 50,
+      "source_sha256": "14bdc015aecb82a22bf6bbd80e968d04bd6c4020e6ed1afc71a847a627854eea",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "i.md"
+    },
+    {
+      "key": "jk",
+      "name": "Joan and Karin",
+      "topic": "From empirical uncertainty to robust and conic optimization",
+      "sessions": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "public": [],
+      "reason": "Choose the 58-cell lecture, not the 56-cell Copy or 51-cell Week 5 predecessor. J and K share one notebook: Joan analyzes observations; Karin builds box, budget/cardinality and ball uncertainty models, then continuous and mixed-integer conic versions. Keep the actual Ipopt/Gurobi/CPLEX/Xpress roles and later introductions.",
+      "goals": [
+        "Explain how observations motivate an uncertainty set without treating that set as a probability distribution.",
+        "Derive and compare box, budgeted and ball-uncertainty counterparts.",
+        "Keep the nonnegative cone-side condition when squaring a norm inequality; distinguish continuous conic from mixed-integer conic solving."
+      ],
+      "questions": [
+        "What conservatism is introduced by a box uncertainty set?",
+        "What does the uncertainty budget control?",
+        "Why does dropping the sign restriction when squaring a cone change the feasible set?"
+      ],
+      "source_relative": "Lectures/Notebooks for lectures/Joan and Karin's story on week 5.ipynb",
+      "source_cells": 58,
+      "source_sha256": "54aafa4e134498e221fd14a76afe3a73b5bae6d4bcbd7234c99a28fbec06507f",
+      "public_status": "source selected; maintained public notebook not yet available",
+      "guide": "jk.md"
+    }
+  ]
+}

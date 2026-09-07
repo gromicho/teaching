@@ -11,6 +11,7 @@ One repository, with folders for courses and foundations shared between them. Op
 | [Foundations](foundations/README.md) | Python, data analysis, optimization and networks used across courses |
 | [ABW](courses/abw/README.md) | Course exercises, preparation and assessment guidance |
 | [AABW](courses/aabw/README.md) | Advanced cases and selected shared preparation |
+| [ABC of Mathematical Optimization](courses/mathematical-optimization/abc/README.md) | The long A–K teaching sequence, version choices, study guides and readiness status |
 | [Heuristics](courses/heuristics/README.md) | Course selections and shared network examples |
 
 Datasets are maintained once in [data](data/README.md), supporting figures in `assets/`, and shared workbook utilities in `support/`. Do not duplicate a common notebook in a course folder; link to it.
