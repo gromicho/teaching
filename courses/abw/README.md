@@ -38,3 +38,5 @@ Try first, explain your reasoning, ask UvA AI Chat for one hint, verify it, and 
 
 Open a notebook in Colab and save your own working copy. General-purpose library installs are not required just because a notebook imports them; see [setup and verification](../../docs/SETUP.md). Instructor solutions are maintained separately and released only through approved course channels.
 
+
+[Francis: purchasing and inventory](notebooks/optimization/francis-material-planning.ipynb) contains the complete student case, demand data and modeling tasks. Follow the [ABC sequence](../mathematical-optimization/abc/README.md) for the related worked lecture notebooks.

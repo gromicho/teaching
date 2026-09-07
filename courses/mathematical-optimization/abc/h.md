@@ -16,10 +16,10 @@ Subgradient methods, Newton steps and Lagrange duality. Suggested classes: 11, 1
 
 ## Version choice
 
-Choose the full 66-cell lecture, not the 34-cell Week 3 draft. It connects symbolic derivatives to strategies, Newton steps, projection and abstract Pyomo Lagrangian subproblems, including alternative duals of the same problem. It explicitly teaches delayed imports and avoiding copy-and-paste.
+The public Holistic notebook retains the full strategy-based progression and all four original examples, including alternative abstract-model duals. Dependencies enter at their teaching stage. The dual update direction is explicit, actual Ipopt subproblems execute, and the finite example's duality gap is shown.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Holistic convex optimization on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/holistic-convex-optimization.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/holistic-convex-optimization.ipynb).
 
 [Back to the ABC sequence](README.md).

@@ -18,8 +18,8 @@ Linear programming, indexed models, slacks and duals. Suggested classes: 3, 4.
 
 Caroline is the linear trophy-production story. Use the maintained 79-cell Caroline notebook for its indexed formulations, actual Ipopt/CBC/HiGHS comparison, slacks and duals. The selected 49-cell MO source calls this same LP Betty; retain that source title in provenance, not as the teaching name here. This case is distinct from Betty's nonlinear cylinder.
 
-## Current material
+## Notebook
 
-[Caroline: production planning](https://github.com/gromicho/teaching/blob/main/foundations/optimization/caroline-production-planning.ipynb)
+[Open Caroline on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/caroline-production-planning.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/caroline-production-planning.ipynb).
 
 [Back to the ABC sequence](README.md).

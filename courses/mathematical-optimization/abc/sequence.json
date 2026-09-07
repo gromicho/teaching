@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "The ABC of Mathematical Optimization",
-  "scope": "Curated A–K course guide and source selection, not a claim of a fully modernized ten-notebook public course",
+  "scope": "Public A–K teaching notebooks and study guides, with instructor solutions and historical sources kept private.",
   "core_source_notebooks": 10,
   "core_source_cells": 399,
   "suggested_core_classes": 18,
@@ -32,7 +32,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Alice.ipynb",
       "source_cells": 42,
       "source_sha256": "0a9ac7032d8c5265469eae4b8ef113d10784ff0366e989744a41dbe59c521932",
-      "public_status": "tested companion available; fuller source selected separately",
+      "public_status": "public worked lecture notebook",
       "guide": "a.md",
       "historical_source_name": "Alice"
     },
@@ -43,8 +43,10 @@
       "sessions": [
         2
       ],
-      "public": [],
-      "reason": "Betty is the nonlinear maximum-volume cylinder story in the original Optimization Stories family (Colab Notebooks/Betty.ipynb, eight cells). The selected nine-cell MO source calls this same cylinder Francis; that is a historical alias, not this guide's lesson name. It has the same volume objective and surface-area budget. Its installer and unqualified solver calls still need modernization. Betty must not link to Caroline's linear trophy-production notebook.",
+      "public": [
+        "foundations/optimization/betty-cylinder.ipynb"
+      ],
+      "reason": "The public Betty notebook uses the original cylinder story, symbolic reduction and a checked local Ipopt model. It introduces solver discovery and installation after the geometric derivation. The archived MO variant calls the cylinder Francis; that alias does not change the teaching name.",
       "goals": [
         "Formulate radius and height decisions with a surface-area budget.",
         "Separate a nonlinear mathematical expression from a solver interface.",
@@ -58,7 +60,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Francis.ipynb",
       "source_cells": 9,
       "source_sha256": "ec5a178ad9fb33f38df221626ae4ac2fd3fd30b31880c1dc943aabd84cc5894e",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "b.md",
       "historical_source_name": "Francis"
     },
@@ -87,7 +89,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Betty.ipynb",
       "source_cells": 49,
       "source_sha256": "93094703fabf5a6378b27efd32e1f7d2f6661cacc1c7f2753db04dc6680d2fbb",
-      "public_status": "tested companion available; fuller source selected separately",
+      "public_status": "public worked lecture notebook",
       "guide": "c.md",
       "historical_source_name": "Betty"
     },
@@ -115,7 +117,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Dina.ipynb",
       "source_cells": 15,
       "source_sha256": "5e2085b8c335ea90ae3db87458e2bade1b34b77c576c405bcf57c263b1fb06ea",
-      "public_status": "tested companion available; fuller source selected separately",
+      "public_status": "public worked lecture notebook",
       "guide": "d.md",
       "historical_source_name": "Dina"
     },
@@ -126,8 +128,10 @@
       "sessions": [
         6
       ],
-      "public": [],
-      "reason": "Use the 19-cell abstract-model version rather than the earlier 11-cell fragment. It actually compares SciPy assignment with CBC and GLPK. Its 10,000-by-10,000 default would create 100 million variables; preserve the scaling question but choose a bounded default when modernizing. E is the ExploringLAP filename, not an invented character.",
+      "public": [
+        "foundations/optimization/exploring-assignment.ipynb"
+      ],
+      "reason": "The public assignment notebook retains the abstract Pyomo model and runs SciPy, CBC and GLPK on the same matrix. GLPK uses its portable Python bindings. A bounded default replaces the original 100-million-variable model; scaling remains an explicit experiment.",
       "goals": [
         "Build the bipartite assignment model from a cost matrix.",
         "Explain the integral extreme points of the assignment polytope.",
@@ -141,7 +145,7 @@
       "source_relative": "Lectures/Notebooks for lectures/ExploringLAP.ipynb",
       "source_cells": 19,
       "source_sha256": "afe362dab74965e0549a257ee647f0dc3055b9e52ec997d99c04a8374f7744ce",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "e.md",
       "historical_source_name": "Exploring LAP"
     },
@@ -153,8 +157,10 @@
         7,
         8
       ],
-      "public": [],
-      "reason": "Francis is the purchasing and inventory case in the current ABW materials, also called Hilda in Optimization Stories and Caroline in MO 2020–2021. The selected 55-cell MO source preserves its stepwise development; the maintained private Francis notebook provides the full-case key. The MO notebook titled Francis instead describes Betty's cylinder, so identify the case by its equations and data.",
+      "public": [
+        "courses/abw/notebooks/optimization/francis-material-planning.ipynb"
+      ],
+      "reason": "The public Francis notebook contains the full purchasing/inventory case, original data, material-requirement calculation and staged modeling tasks. It is a student exercise notebook. The completed purchasing model and its solution remain private. Historical aliases include Hilda and MO Caroline.",
       "goals": [
         "Convert demand for products into demand for materials using a matrix calculation.",
         "Model monthly stock balances, initial and final stock, batches, poles and paired purchasing discounts.",
@@ -168,7 +174,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Caroline.ipynb",
       "source_cells": 55,
       "source_sha256": "595f3e024e816afa3da230b421509683e67a965e4da808397af64ad3e8ae7962",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "student exercise notebook; completed solution private",
       "guide": "f.md",
       "historical_source_name": "Caroline"
     },
@@ -180,8 +186,10 @@
         9,
         10
       ],
-      "public": [],
-      "reason": "The 36-cell Global notebook is the coherent lecture, while Untitled8/9 provide supplementary examples. Keep initial-point sensitivity, nonlinear test functions and convex modeling. Correct the blanket complexity statements, replace unrestricted eval and avoid automatic remote submissions.",
+      "public": [
+        "foundations/optimization/global-and-convex-optimization.ipynb"
+      ],
+      "reason": "The public Global notebook retains local-start experiments, expected DCP rejections, both convex reformulations and real Ipopt/CPLEX/Gurobi/Xpress solves. It corrects the cylinder radius bound and the reversed inequality in the quadratic reformulation; mathematical functions replace unrestricted eval.",
       "goals": [
         "Use examples to distinguish local minima from global minima.",
         "Check domains and convexity rather than classifying a problem solely by its syntax.",
@@ -195,7 +203,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Global.ipynb",
       "source_cells": 36,
       "source_sha256": "5820c7231e99b56bb378f0033529f47a1a1d42b74fc04eef7301562b14d158bc",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "g.md",
       "historical_source_name": "Global and convex optimization"
     },
@@ -207,8 +215,10 @@
         11,
         12
       ],
-      "public": [],
-      "reason": "Choose the full 66-cell lecture, not the 34-cell Week 3 draft. It connects symbolic derivatives to strategies, Newton steps, projection and abstract Pyomo Lagrangian subproblems, including alternative duals of the same problem. It explicitly teaches delayed imports and avoiding copy-and-paste.",
+      "public": [
+        "foundations/optimization/holistic-convex-optimization.ipynb"
+      ],
+      "reason": "The public Holistic notebook retains the full strategy-based progression and all four original examples, including alternative abstract-model duals. Dependencies enter at their teaching stage. The dual update direction is explicit, actual Ipopt subproblems execute, and the finite example's duality gap is shown.",
       "goals": [
         "Implement and inspect progress and projection strategies.",
         "Distinguish primal variables, multipliers, relaxed subproblem solutions and subgradients.",
@@ -222,7 +232,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Holistic convex optimization .ipynb",
       "source_cells": 66,
       "source_sha256": "2ffd85ea711882490896d27e4f017baeab9a4a0a5ada9daff5f59ec85a920bc9",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "h.md",
       "historical_source_name": "Holistic convex optimization"
     },
@@ -234,8 +244,10 @@
         13,
         14
       ],
-      "public": [],
-      "reason": "Choose the 50-cell lecture over the 48-cell checkpoint. It links repeated blending solves, simulations, averages and extremes with symbolic value-function analysis and optional animations. Preserve the distinction between optimizing averaged inputs and averaging optimized outcomes.",
+      "public": [
+        "foundations/optimization/ignacio-stochastic-blending.ipynb"
+      ],
+      "reason": "The public Ignacio notebook retains the original LP, simulation, symbolic candidate analysis, integration and animation. A corrected piecewise value function handles a zero second-ingredient quantity and is checked against actual CBC solutions. It distinguishes scenario-wise optima from a fixed decision chosen before observation.",
       "goals": [
         "Model uncertain calcium/protein coefficients and evaluate the resulting decisions.",
         "Separate a fixed decision chosen before uncertainty from an adaptive decision chosen after observing it.",
@@ -249,7 +261,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Ignacio blends with uncertain data.ipynb",
       "source_cells": 50,
       "source_sha256": "14bdc015aecb82a22bf6bbd80e968d04bd6c4020e6ed1afc71a847a627854eea",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "i.md",
       "historical_source_name": "Ignacio"
     },
@@ -263,8 +275,10 @@
         17,
         18
       ],
-      "public": [],
-      "reason": "Choose the 58-cell lecture, not the 56-cell Copy or 51-cell Week 5 predecessor. J and K share one notebook: Joan analyzes observations; Karin builds box, budget/cardinality and ball uncertainty models, then continuous and mixed-integer conic versions. Keep the actual Ipopt/Gurobi/CPLEX/Xpress roles and later introductions.",
+      "public": [
+        "foundations/optimization/joan-karin-robust-optimization.ipynb"
+      ],
+      "reason": "The public Joan/Karin notebook retains the observed data, box/Gamma counterparts and both conic representations. It corrects aliased lower/upper dictionaries, keeps the cone-side sign condition, and runs Ipopt plus all three commercial conic engines. Independent enumeration checks the integer conic optimum.",
       "goals": [
         "Explain how observations motivate an uncertainty set without treating that set as a probability distribution.",
         "Derive and compare box, budgeted and ball-uncertainty counterparts.",
@@ -278,7 +292,7 @@
       "source_relative": "Lectures/Notebooks for lectures/Joan and Karin's story on week 5.ipynb",
       "source_cells": 58,
       "source_sha256": "54aafa4e134498e221fd14a76afe3a73b5bae6d4bcbd7234c99a28fbec06507f",
-      "public_status": "source selected; maintained public notebook not yet available",
+      "public_status": "public worked lecture notebook",
       "guide": "jk.md",
       "historical_source_name": "Joan and Karin"
     }

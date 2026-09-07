@@ -16,10 +16,10 @@ From empirical uncertainty to robust and conic optimization. Suggested classes: 
 
 ## Version choice
 
-Choose the 58-cell lecture, not the 56-cell Copy or 51-cell Week 5 predecessor. J and K share one notebook: Joan analyzes observations; Karin builds box, budget/cardinality and ball uncertainty models, then continuous and mixed-integer conic versions. Keep the actual Ipopt/Gurobi/CPLEX/Xpress roles and later introductions.
+The public Joan/Karin notebook retains the observed data, box/Gamma counterparts and both conic representations. It corrects aliased lower/upper dictionaries, keeps the cone-side sign condition, and runs Ipopt plus all three commercial conic engines. Independent enumeration checks the integer conic optimum.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Joan and Karin on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/joan-karin-robust-optimization.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/joan-karin-robust-optimization.ipynb).
 
 [Back to the ABC sequence](README.md).

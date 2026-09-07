@@ -16,10 +16,10 @@ Assignment algorithms versus an LP model. Suggested classes: 6.
 
 ## Version choice
 
-Use the 19-cell abstract-model version rather than the earlier 11-cell fragment. It actually compares SciPy assignment with CBC and GLPK. Its 10,000-by-10,000 default would create 100 million variables; preserve the scaling question but choose a bounded default when modernizing. E is the ExploringLAP filename, not an invented character.
+The public assignment notebook retains the abstract Pyomo model and runs SciPy, CBC and GLPK on the same matrix. GLPK uses its portable Python bindings. A bounded default replaces the original 100-million-variable model; scaling remains an explicit experiment.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Exploring LAP on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/exploring-assignment.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/exploring-assignment.ipynb).
 
 [Back to the ABC sequence](README.md).

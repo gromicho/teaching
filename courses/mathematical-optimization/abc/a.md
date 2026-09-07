@@ -18,8 +18,8 @@ From a story to an objective; symbolic and numerical optimization. Suggested cla
 
 The 42-cell MO lecture retains the physical derivation, symbolic versus numeric pi, plots, Pyomo introspection and deliberate late solver installation. The current 10-cell public companion is tested but shorter; use it for execution, not as evidence that the longer narrative is already restored.
 
-## Current material
+## Notebook
 
-[Alice: symbolic and numerical optimization](https://github.com/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb)
+[Open Alice on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb).
 
 [Back to the ABC sequence](README.md).

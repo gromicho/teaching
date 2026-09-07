@@ -16,10 +16,10 @@ Nonlinear modeling: the cylinder of maximum volume. Suggested classes: 2.
 
 ## Version choice
 
-Betty is the nonlinear maximum-volume cylinder story in the original Optimization Stories family (Colab Notebooks/Betty.ipynb, eight cells). The selected nine-cell MO source calls this same cylinder Francis; that is a historical alias, not this guide's lesson name. It has the same volume objective and surface-area budget. Its installer and unqualified solver calls still need modernization. Betty must not link to Caroline's linear trophy-production notebook.
+The public Betty notebook uses the original cylinder story, symbolic reduction and a checked local Ipopt model. It introduces solver discovery and installation after the geometric derivation. The archived MO variant calls the cylinder Francis; that alias does not change the teaching name.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Betty on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/betty-cylinder.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/betty-cylinder.ipynb).
 
 [Back to the ABC sequence](README.md).

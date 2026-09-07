@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "path": "foundations/optimization/betty-cylinder.ipynb",
+      "title": "Betty: nonlinear cylinder",
+      "source_path": "Colab Notebooks/Betty.ipynb",
+      "source_sha256": "a13d54d71854bfdc6accaf8bd83f3827ad1f330abcdcc8a3b4c77bc447d9dc2d",
+      "notes": [
+        "Preserve geometry, Pyomo model and late solver discovery; replace automatic remote submission with checked local Ipopt; add analytical global check."
+      ],
+      "kind": "worked-example"
+    },
+    {
+      "path": "foundations/optimization/exploring-assignment.ipynb",
+      "title": "Exploring LAP: algorithms and solvers",
+      "source_path": "Lectures/Notebooks for lectures/ExploringLAP.ipynb",
+      "source_sha256": "afe362dab74965e0549a257ee647f0dc3055b9e52ec997d99c04a8374f7744ce",
+      "notes": [
+        "Retain abstract model and actual SciPy/CBC/GLPK comparisons; GLPK uses portable library bindings; bounded default n=30 replaces 100 million variables."
+      ],
+      "kind": "worked-example"
+    },
+    {
+      "path": "courses/abw/notebooks/optimization/francis-material-planning.ipynb",
+      "title": "Francis: purchasing and inventory exercise",
+      "source_path": "Lectures/Notebooks for lectures/Caroline.ipynb",
+      "source_sha256": "595f3e024e816afa3da230b421509683e67a965e4da808397af64ad3e8ae7962",
+      "notes": [
+        "Public case statement, original demand matrix and staged model scaffold; completed purchasing/inventory solution remains private.",
+        "Case statement and original demand calculation also retained from the supplied Francis notebook; private optimization solution cells were not copied."
+      ],
+      "kind": "exercise"
+    },
+    {
+      "path": "foundations/optimization/global-and-convex-optimization.ipynb",
+      "title": "Global and convex optimization",
+      "source_path": "Lectures/Notebooks for lectures/Global.ipynb",
+      "source_sha256": "5820c7231e99b56bb378f0033529f47a1a1d42b74fc04eef7301562b14d158bc",
+      "notes": [
+        "Preserve local-start experiments, DCP failures, both reformulations and four actual solvers; remove eval and remote decorative images; correct radius bound and reversed inequality."
+      ],
+      "kind": "worked-example"
+    },
+    {
+      "path": "foundations/optimization/holistic-convex-optimization.ipynb",
+      "title": "Holistic convex optimization",
+      "source_path": "Lectures/Notebooks for lectures/Holistic convex optimization .ipynb",
+      "source_sha256": "2ffd85ea711882490896d27e4f017baeab9a4a0a5ada9daff5f59ec85a920bc9",
+      "notes": [
+        "Retain all four examples, strategies, symbolic work, staged dependencies and all abstract-model variants; make dual ascent sign explicit; demonstrate the finite example duality gap and check known optima."
+      ],
+      "kind": "worked-example"
+    },
+    {
+      "path": "foundations/optimization/ignacio-stochastic-blending.ipynb",
+      "title": "Ignacio: stochastic blending",
+      "source_path": "Lectures/Notebooks for lectures/Ignacio blends with uncertain data.ipynb",
+      "source_sha256": "14bdc015aecb82a22bf6bbd80e968d04bd6c4020e6ed1afc71a847a627854eea",
+      "notes": [
+        "Retain original LP, scenario simulation, symbolic intersection/derivatives, boundary reasoning, integration and GIF; correct min/max typo and infeasible active-set branch; compare all branches to actual CBC solves."
+      ],
+      "kind": "worked-example"
+    },
+    {
+      "path": "foundations/optimization/joan-karin-robust-optimization.ipynb",
+      "title": "Joan and Karin: robust and conic optimization",
+      "source_path": "Lectures/Notebooks for lectures/Joan and Karin's story on week 5.ipynb",
+      "source_sha256": "54aafa4e134498e221fd14a76afe3a73b5bae6d4bcbd7234c99a28fbec06507f",
+      "notes": [
+        "Retain observations, dualized box, integer sensitivity, Gamma counterpart, kernel cone and squared-cone model; separate aliased lower/upper dictionaries; actual Ipopt and all three commercial conic engines; independent integer enumeration."
+      ],
+      "kind": "worked-example"
+    }
+  ],
+  "publication_boundary": "Modernized worked lecture examples and the public Francis case/scaffold. Weekly exercise keys and the completed Francis optimization model remain private."
+}

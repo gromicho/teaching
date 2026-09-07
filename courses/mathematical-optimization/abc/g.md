@@ -16,10 +16,10 @@ Local optima, convexity and equivalent representations. Suggested classes: 9, 10
 
 ## Version choice
 
-The 36-cell Global notebook is the coherent lecture, while Untitled8/9 provide supplementary examples. Keep initial-point sensitivity, nonlinear test functions and convex modeling. Correct the blanket complexity statements, replace unrestricted eval and avoid automatic remote submissions.
+The public Global notebook retains local-start experiments, expected DCP rejections, both convex reformulations and real Ipopt/CPLEX/Gurobi/Xpress solves. It corrects the cylinder radius bound and the reversed inequality in the quadratic reformulation; mathematical functions replace unrestricted eval.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Global and convex optimization on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/global-and-convex-optimization.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/global-and-convex-optimization.ipynb).
 
 [Back to the ABC sequence](README.md).

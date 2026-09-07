@@ -16,10 +16,12 @@ Mixed-integer purchasing and inventory planning. Suggested classes: 7, 8.
 
 ## Version choice
 
-Francis is the purchasing and inventory case in the current ABW materials, also called Hilda in Optimization Stories and Caroline in MO 2020–2021. The selected 55-cell MO source preserves its stepwise development; the maintained private Francis notebook provides the full-case key. The MO notebook titled Francis instead describes Betty's cylinder, so identify the case by its equations and data.
+The public Francis notebook contains the full purchasing/inventory case, original data, material-requirement calculation and staged modeling tasks. It is a student exercise notebook. The completed purchasing model and its solution remain private. Historical aliases include Hilda and MO Caroline.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Francis on GitHub](https://github.com/gromicho/teaching/blob/main/courses/abw/notebooks/optimization/francis-material-planning.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/abw/notebooks/optimization/francis-material-planning.ipynb).
+
+This is the student case and modeling exercise. The completed optimization solution is private.
 
 [Back to the ABC sequence](README.md).

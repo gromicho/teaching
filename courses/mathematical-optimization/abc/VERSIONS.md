@@ -16,66 +16,86 @@ The original `Colab Notebooks/Betty.ipynb` explicitly states the cylinder proble
 
 Historical archive filenames and notebook titles remain intact as provenance. The manifest records both the guide name and the historical source name, with its original hash. In particular, the archived file `f-francis.ipynb` is the cylinder source selected for B; `b-betty.ipynb` is the LP source selected for C; and `c-caroline.ipynb` is the inventory source selected for F.
 
-## Selected sources
+## Public editions and historical sources
 
 ### A — Alice
 
-Historical source: `Lectures/Notebooks for lectures/Alice.ipynb` (42 cells).
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb).
 
 The 42-cell MO lecture retains the physical derivation, symbolic versus numeric pi, plots, Pyomo introspection and deliberate late solver installation. The current 10-cell public companion is tested but shorter; use it for execution, not as evidence that the longer narrative is already restored.
 
+Historical source: `Lectures/Notebooks for lectures/Alice.ipynb` (42 cells).
+
 ### B — Betty
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/betty-cylinder.ipynb).
+
+The public Betty notebook uses the original cylinder story, symbolic reduction and a checked local Ipopt model. It introduces solver discovery and installation after the geometric derivation. The archived MO variant calls the cylinder Francis; that alias does not change the teaching name.
 
 Historical source: `Lectures/Notebooks for lectures/Francis.ipynb` (9 cells).
 
-Betty is the nonlinear maximum-volume cylinder story in the original Optimization Stories family (Colab Notebooks/Betty.ipynb, eight cells). The selected nine-cell MO source calls this same cylinder Francis; that is a historical alias, not this guide's lesson name. It has the same volume objective and surface-area budget. Its installer and unqualified solver calls still need modernization. Betty must not link to Caroline's linear trophy-production notebook.
-
 ### C — Caroline
 
-Historical source: `Lectures/Notebooks for lectures/Betty.ipynb` (49 cells).
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/caroline-production-planning.ipynb).
 
 Caroline is the linear trophy-production story. Use the maintained 79-cell Caroline notebook for its indexed formulations, actual Ipopt/CBC/HiGHS comparison, slacks and duals. The selected 49-cell MO source calls this same LP Betty; retain that source title in provenance, not as the teaching name here. This case is distinct from Betty's nonlinear cylinder.
 
+Historical source: `Lectures/Notebooks for lectures/Betty.ipynb` (49 cells).
+
 ### D — Dina
 
-Historical source: `Lectures/Notebooks for lectures/Dina.ipynb` (15 cells).
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb).
 
 Keep the MO Dina case and weak/strong formulation derivation. Use the tested Elizabeth notebook for current execution and its real multi-engine comparison. The original 50-facility/100-customer experiment remains a useful scaling extension, not a replacement for comparing LP bounds.
 
+Historical source: `Lectures/Notebooks for lectures/Dina.ipynb` (15 cells).
+
 ### E — Exploring LAP
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/exploring-assignment.ipynb).
+
+The public assignment notebook retains the abstract Pyomo model and runs SciPy, CBC and GLPK on the same matrix. GLPK uses its portable Python bindings. A bounded default replaces the original 100-million-variable model; scaling remains an explicit experiment.
 
 Historical source: `Lectures/Notebooks for lectures/ExploringLAP.ipynb` (19 cells).
 
-Use the 19-cell abstract-model version rather than the earlier 11-cell fragment. It actually compares SciPy assignment with CBC and GLPK. Its 10,000-by-10,000 default would create 100 million variables; preserve the scaling question but choose a bounded default when modernizing. E is the ExploringLAP filename, not an invented character.
-
 ### F — Francis
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/courses/abw/notebooks/optimization/francis-material-planning.ipynb).
+
+The public Francis notebook contains the full purchasing/inventory case, original data, material-requirement calculation and staged modeling tasks. It is a student exercise notebook. The completed purchasing model and its solution remain private. Historical aliases include Hilda and MO Caroline.
 
 Historical source: `Lectures/Notebooks for lectures/Caroline.ipynb` (55 cells).
 
-Francis is the purchasing and inventory case in the current ABW materials, also called Hilda in Optimization Stories and Caroline in MO 2020–2021. The selected 55-cell MO source preserves its stepwise development; the maintained private Francis notebook provides the full-case key. The MO notebook titled Francis instead describes Betty's cylinder, so identify the case by its equations and data.
-
 ### G — Global and convex optimization
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/global-and-convex-optimization.ipynb).
+
+The public Global notebook retains local-start experiments, expected DCP rejections, both convex reformulations and real Ipopt/CPLEX/Gurobi/Xpress solves. It corrects the cylinder radius bound and the reversed inequality in the quadratic reformulation; mathematical functions replace unrestricted eval.
 
 Historical source: `Lectures/Notebooks for lectures/Global.ipynb` (36 cells).
 
-The 36-cell Global notebook is the coherent lecture, while Untitled8/9 provide supplementary examples. Keep initial-point sensitivity, nonlinear test functions and convex modeling. Correct the blanket complexity statements, replace unrestricted eval and avoid automatic remote submissions.
-
 ### H — Holistic convex optimization
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/holistic-convex-optimization.ipynb).
+
+The public Holistic notebook retains the full strategy-based progression and all four original examples, including alternative abstract-model duals. Dependencies enter at their teaching stage. The dual update direction is explicit, actual Ipopt subproblems execute, and the finite example's duality gap is shown.
 
 Historical source: `Lectures/Notebooks for lectures/Holistic convex optimization .ipynb` (66 cells).
 
-Choose the full 66-cell lecture, not the 34-cell Week 3 draft. It connects symbolic derivatives to strategies, Newton steps, projection and abstract Pyomo Lagrangian subproblems, including alternative duals of the same problem. It explicitly teaches delayed imports and avoiding copy-and-paste.
-
 ### I — Ignacio
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/ignacio-stochastic-blending.ipynb).
+
+The public Ignacio notebook retains the original LP, simulation, symbolic candidate analysis, integration and animation. A corrected piecewise value function handles a zero second-ingredient quantity and is checked against actual CBC solutions. It distinguishes scenario-wise optima from a fixed decision chosen before observation.
 
 Historical source: `Lectures/Notebooks for lectures/Ignacio blends with uncertain data.ipynb` (50 cells).
 
-Choose the 50-cell lecture over the 48-cell checkpoint. It links repeated blending solves, simulations, averages and extremes with symbolic value-function analysis and optional animations. Preserve the distinction between optimizing averaged inputs and averaging optimized outcomes.
-
 ### JK — Joan and Karin
+
+[Public notebook](https://github.com/gromicho/teaching/blob/main/foundations/optimization/joan-karin-robust-optimization.ipynb).
+
+The public Joan/Karin notebook retains the observed data, box/Gamma counterparts and both conic representations. It corrects aliased lower/upper dictionaries, keeps the cone-side sign condition, and runs Ipopt plus all three commercial conic engines. Independent enumeration checks the integer conic optimum.
 
 Historical source: `Lectures/Notebooks for lectures/Joan and Karin's story on week 5.ipynb` (58 cells).
 
-Choose the 58-cell lecture, not the 56-cell Copy or 51-cell Week 5 predecessor. J and K share one notebook: Joan analyzes observations; Karin builds box, budget/cardinality and ball uncertainty models, then continuous and mixed-integer conic versions. Keep the actual Ipopt/Gurobi/CPLEX/Xpress roles and later introductions.
-
-A/C/D have tested public companions. F has a maintained private full-case key. Other selected historical sources still require preparation before public execution; the guide does not certify their old installation cells.
+The historical selection remains ten notebooks containing 399 cells. Modern editions differ because of corrected mathematics, current APIs, added verification and student/instructor separation. See [modernization provenance](../../../provenance/2026-09-07-abc-public-notebooks.json).

@@ -18,8 +18,8 @@ Facility location and formulation strength. Suggested classes: 5.
 
 Keep the MO Dina case and weak/strong formulation derivation. Use the tested Elizabeth notebook for current execution and its real multi-engine comparison. The original 50-facility/100-customer experiment remains a useful scaling extension, not a replacement for comparing LP bounds.
 
-## Current material
+## Notebook
 
-[Elizabeth: weak and strong formulations](https://github.com/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb)
+[Open Dina on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb).
 
 [Back to the ABC sequence](README.md).

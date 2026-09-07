@@ -16,10 +16,10 @@ Stochastic programming and uncertain nutrient coefficients. Suggested classes: 1
 
 ## Version choice
 
-Choose the 50-cell lecture over the 48-cell checkpoint. It links repeated blending solves, simulations, averages and extremes with symbolic value-function analysis and optional animations. Preserve the distinction between optimizing averaged inputs and averaging optimized outcomes.
+The public Ignacio notebook retains the original LP, simulation, symbolic candidate analysis, integration and animation. A corrected piecewise value function handles a zero second-ingredient quantity and is checked against actual CBC solutions. It distinguishes scenario-wise optima from a fixed decision chosen before observation.
 
-## Current material
+## Notebook
 
-Selected historical source in the private companion; a maintained public notebook is still pending.
+[Open Ignacio on GitHub](https://github.com/gromicho/teaching/blob/main/foundations/optimization/ignacio-stochastic-blending.ipynb) · [Run in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/ignacio-stochastic-blending.ipynb).
 
 [Back to the ABC sequence](README.md).

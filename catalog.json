@@ -308,6 +308,62 @@
    "kind": "worked-example",
    "execution_profile": "core",
    "collection": "ABW"
+  },
+  {
+   "id": "abc-betty-cylinder",
+   "title": "Betty: nonlinear cylinder",
+   "path": "foundations/optimization/betty-cylinder.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
+   "id": "abc-exploring-assignment",
+   "title": "Exploring LAP: algorithms and solvers",
+   "path": "foundations/optimization/exploring-assignment.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
+   "id": "abc-francis-material-planning",
+   "title": "Francis: purchasing and inventory exercise",
+   "path": "courses/abw/notebooks/optimization/francis-material-planning.ipynb",
+   "kind": "exercise",
+   "execution_profile": "core",
+   "collection": "abw"
+  },
+  {
+   "id": "abc-global-and-convex-optimization",
+   "title": "Global and convex optimization",
+   "path": "foundations/optimization/global-and-convex-optimization.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
+   "id": "abc-holistic-convex-optimization",
+   "title": "Holistic convex optimization",
+   "path": "foundations/optimization/holistic-convex-optimization.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
+   "id": "abc-ignacio-stochastic-blending",
+   "title": "Ignacio: stochastic blending",
+   "path": "foundations/optimization/ignacio-stochastic-blending.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
+   "id": "abc-joan-karin-robust-optimization",
+   "title": "Joan and Karin: robust and conic optimization",
+   "path": "foundations/optimization/joan-karin-robust-optimization.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
   }
  ]
 }

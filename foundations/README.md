@@ -26,6 +26,14 @@ Start with the Python primer, then follow the preparation selected in Canvas. Wo
 | [Alice: symbolic and numerical optimization](optimization/alice-optimization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb) | core |
 | [Elizabeth: weak and strong formulations](optimization/elizabeth-location-models.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb) | core |
 | [Pyomo: persistent solves and explicit checks](optimization/pyomo-repeated-solves.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/pyomo-repeated-solves.ipynb) | core |
+| [Betty](optimization/betty-cylinder.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/betty-cylinder.ipynb) | core |
+| [Exploring LAP](optimization/exploring-assignment.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/exploring-assignment.ipynb) | core |
+| [Global and convex optimization](optimization/global-and-convex-optimization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/global-and-convex-optimization.ipynb) | core |
+| [Holistic convex optimization](optimization/holistic-convex-optimization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/holistic-convex-optimization.ipynb) | core |
+| [Ignacio](optimization/ignacio-stochastic-blending.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/ignacio-stochastic-blending.ipynb) | core |
+| [Joan and Karin](optimization/joan-karin-robust-optimization.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/optimization/joan-karin-robust-optimization.ipynb) | core |
+
+Follow [the ABC sequence](../courses/mathematical-optimization/abc/README.md) for the teaching order.
 
 ## Networks
 
