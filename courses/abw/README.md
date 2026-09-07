@@ -13,6 +13,12 @@ These are the modernized editions of the original two ABW self-study notebooks. 
 
 Save your own working copy. Predict, run, explain and test; unanswered exercises are intentionally left for you. Both notebooks include optional Socratic Coach prompts and source attribution. Canvas determines the required preparation and submission rules.
 
+## Week 1 worked examples
+
+[Week 1 Python: worked examples](notebooks/python/week-1-worked-examples.ipynb) · [Open in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/courses/abw/notebooks/python/week-1-worked-examples.ipynb)
+
+Nicole Guarnieri's explanations for Exercises 1.1–1.10, curated as a public lecture and self-study companion: conditions, types, dictionaries, loops, comprehensions, strings, copying, floating-point arithmetic and slicing. Predict each result before revealing it. All cells can run in order, including the deliberately demonstrated errors.
+
 ## Shared preparation
 
 Use the [shared foundations](../../foundations/README.md) for Python, data analysis, Caroline, Alice, Elizabeth and network examples. Feed Calculator and Timor-Leste preparation are there too. These common notebooks have one maintained copy.

@@ -1,0 +1,18 @@
+{
+ "path": "courses/abw/notebooks/python/week-1-worked-examples.ipynb",
+ "title": "Week 1 Python: worked examples",
+ "original_author": "Nicole Guarnieri",
+ "source_sha256": "c12830b7a3c7fac11bd0b1dfc8548fe3b0ec9efaac7dee0569b2fc100fb5ffe3",
+ "source_cells": 128,
+ "curated_cells": 132,
+ "kind": "worked-example",
+ "publication": "Curated public worked examples explicitly requested by the maintainer on 2026-09-07.",
+ "changes": [
+  "Preserve all ten exercise sections and map every original cell to a stable week1-source-NNN ID.",
+  "Convert eight incomplete syntax templates to Markdown; replace the undefined string-length example with executable loop/comprehension equivalents.",
+  "Retain deliberate errors with narrowly typed exception handling; make keyboard input optional.",
+  "Bound the original floating-point loop and teach integer-counted iteration and approximate comparison.",
+  "Correct dictionary ordering/hashability, shallow copying, slicing defaults, and the integer domain of Exercise 1.1.",
+  "Retain attribution; link to maintained public preparation notebooks; add Colab and Binder launchers."
+ ]
+}

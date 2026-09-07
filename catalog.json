@@ -364,6 +364,14 @@
    "kind": "worked-example",
    "execution_profile": "core",
    "collection": "foundations"
+  },
+  {
+   "id": "abw-python-week-1-worked-examples",
+   "title": "Week 1 Python: worked examples",
+   "path": "courses/abw/notebooks/python/week-1-worked-examples.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "abw"
   }
  ]
 }
