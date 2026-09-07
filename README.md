@@ -26,3 +26,10 @@ Routine checks execute 27 public offline notebooks in two environments: the main
 Instructor solutions and instructor recovery archives are maintained in a **separate private repository**, never in a folder or branch here. The explicitly approved historical Jeff Kantor reference is not an instructor key and does not broaden that boundary. A public folder cannot provide private access. Canvas controls approved cohort releases.
 
 See [maintenance](docs/MAINTENANCE.md), [migration and provenance](docs/MIGRATION.md), and [attribution and rights](NOTICE.md). Public availability does not imply a collection-wide licence.
+
+### ABW fruit-data lectures
+
+- [Lecture 3: exploration and first models](courses/abw/notebooks/lecture-3/fruit-data-exploration.ipynb)
+- [Lecture 4: accuracy, entropy and repeated clustering](courses/abw/notebooks/lecture-4/accuracy-entropy-and-clustering.ipynb)
+
+The original lecture sequences include correction of known entry errors, classification trees, entropy, varying K-means runs, and regression. Lecture 3 exposes the correction steps; Lecture 4 imports the shared dataset-specific correction.
