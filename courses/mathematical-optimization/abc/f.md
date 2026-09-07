@@ -1,25 +1,25 @@
 # F — Francis
 
-Nonlinear modeling: the cylinder of maximum volume. Suggested class 8.
+Mixed-integer purchasing and inventory planning. Suggested classes: 7, 8.
 
 ## Learning progression
 
-1. Formulate radius and height decisions with a surface-area budget.
-2. Separate a nonlinear mathematical expression from a solver interface.
-3. Compare a numerical candidate with analytical reasoning, and account for degenerate starting points.
+1. Convert demand for products into demand for materials using a matrix calculation.
+2. Model monthly stock balances, initial and final stock, batches, poles and paired purchasing discounts.
+3. Explain why integer variables, units and delivery/holding-cost timing change the model.
 
 ## Discuss and investigate
 
-- Why can a starting point at zero be problematic?
-- Does a local nonlinear solver certify global optimality here?
-- Can eliminating one variable make the geometry easier to understand?
+- Which quantities must be integer and which could be continuous?
+- When is inventory highest within the month?
+- How can a discount for a paired pole and ornament batch be expressed without multiplying decision variables?
 
 ## Version choice
 
-Use the MO cylinder notebook and its maximum-volume subject. It is a short bridge, not the material-planning notebook recently supplied under the same name. Its original installer and missing qualified solver imports need repair before a maintained public edition is released.
+Francis is the purchasing and inventory case in the current ABW materials, also called Hilda in Optimization Stories and Caroline in MO 2020–2021. The selected 55-cell MO source preserves its stepwise development; the maintained private Francis notebook provides the full-case key. The MO notebook titled Francis instead describes Betty's cylinder, so identify the case by its equations and data.
 
 ## Current material
 
-The full historical teaching source has been selected in the private companion. This public page is a study and preparation guide; it is not a claim that a modern runnable notebook is already available. No assignment answer key is included here.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

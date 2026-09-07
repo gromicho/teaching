@@ -1,6 +1,6 @@
 # A — Alice
 
-From a story to an objective; symbolic and numerical optimization. Suggested class 1.
+From a story to an objective; symbolic and numerical optimization. Suggested classes: 1.
 
 ## Learning progression
 
@@ -20,8 +20,6 @@ The 42-cell MO lecture retains the physical derivation, symbolic versus numeric 
 
 ## Current material
 
-- [Alice: symbolic and numerical optimization](https://github.com/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb) — `core` execution profile.
-
-The current notebook title is retained. The ABC name identifies the teaching role; it does not rename the canonical file.
+[Alice: symbolic and numerical optimization](https://github.com/gromicho/teaching/blob/main/foundations/optimization/alice-optimization.ipynb)
 
 [Back to the ABC sequence](README.md).

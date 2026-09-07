@@ -1,6 +1,6 @@
 # G — Global and convex optimization
 
-Local optima, convexity and equivalent representations. Suggested classes 9, 10.
+Local optima, convexity and equivalent representations. Suggested classes: 9, 10.
 
 ## Learning progression
 
@@ -20,6 +20,6 @@ The 36-cell Global notebook is the coherent lecture, while Untitled8/9 provide s
 
 ## Current material
 
-The full historical teaching source has been selected in the private companion. This public page is a study and preparation guide; it is not a claim that a modern runnable notebook is already available. No assignment answer key is included here.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

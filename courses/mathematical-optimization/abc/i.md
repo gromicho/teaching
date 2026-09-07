@@ -1,6 +1,6 @@
 # I — Ignacio
 
-Stochastic programming and uncertain nutrient coefficients. Suggested classes 13, 14.
+Stochastic programming and uncertain nutrient coefficients. Suggested classes: 13, 14.
 
 ## Learning progression
 
@@ -20,6 +20,6 @@ Choose the 50-cell lecture over the 48-cell checkpoint. It links repeated blendi
 
 ## Current material
 
-The full historical teaching source has been selected in the private companion. This public page is a study and preparation guide; it is not a claim that a modern runnable notebook is already available. No assignment answer key is included here.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

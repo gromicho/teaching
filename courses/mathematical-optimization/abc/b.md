@@ -1,27 +1,25 @@
 # B — Betty
 
-Linear programming, indexed models, slacks and duals. Suggested classes 2, 3.
+Nonlinear modeling: the cylinder of maximum volume. Suggested classes: 2.
 
 ## Learning progression
 
-1. Translate trophy production into a resource-allocation LP and then an indexed model.
-2. Separate data, variables, objectives and constraint-generation rules.
-3. Explain slacks, binding constraints and dual information, and actually compare solver engines on fresh models.
+1. Formulate radius and height decisions with a surface-area budget.
+2. Separate a nonlinear mathematical expression from a solver interface.
+3. Compare a numerical candidate with analytical reasoning, and account for degenerate starting points.
 
 ## Discuss and investigate
 
-- Which resource limits production and which is left over?
-- When is it legitimate to interpret a dual value as a marginal value?
-- Why can two solvers return slightly different numbers without disagreeing on the optimum?
+- Why can a starting point at zero be problematic?
+- Does a local nonlinear solver certify global optimality here?
+- Can eliminating one variable make the geometry easier to understand?
 
 ## Version choice
 
-Use the MO Betty story to fix the ABC naming. The 79-cell maintained Caroline production-planning notebook is the strongest current implementation of this same LP lesson: three actual engines, alternative indexed formulations, slacks, duals and model inspection. It is substantially richer than the short later Caroline introduction.
+Betty is the nonlinear maximum-volume cylinder story in the original Optimization Stories family (Colab Notebooks/Betty.ipynb, eight cells). The selected nine-cell MO source calls this same cylinder Francis; that is a historical alias, not this guide's lesson name. It has the same volume objective and surface-area budget. Its installer and unqualified solver calls still need modernization. Betty must not link to Caroline's linear trophy-production notebook.
 
 ## Current material
 
-- [Caroline: production planning](https://github.com/gromicho/teaching/blob/main/foundations/optimization/caroline-production-planning.ipynb) — `core` execution profile.
-
-The current notebook title is retained. The ABC name identifies the teaching role; it does not rename the canonical file.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

@@ -1,6 +1,6 @@
 # JK — Joan and Karin
 
-From empirical uncertainty to robust and conic optimization. Suggested classes 15, 16, 17, 18.
+From empirical uncertainty to robust and conic optimization. Suggested classes: 15, 16, 17, 18.
 
 ## Learning progression
 
@@ -20,6 +20,6 @@ Choose the 58-cell lecture, not the 56-cell Copy or 51-cell Week 5 predecessor. 
 
 ## Current material
 
-The full historical teaching source has been selected in the private companion. This public page is a study and preparation guide; it is not a claim that a modern runnable notebook is already available. No assignment answer key is included here.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

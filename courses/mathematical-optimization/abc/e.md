@@ -1,6 +1,6 @@
 # E — Exploring LAP
 
-Assignment algorithms versus an LP model. Suggested class 7.
+Assignment algorithms versus an LP model. Suggested classes: 6.
 
 ## Learning progression
 
@@ -20,6 +20,6 @@ Use the 19-cell abstract-model version rather than the earlier 11-cell fragment.
 
 ## Current material
 
-The full historical teaching source has been selected in the private companion. This public page is a study and preparation guide; it is not a claim that a modern runnable notebook is already available. No assignment answer key is included here.
+Selected historical source in the private companion; a maintained public notebook is still pending.
 
 [Back to the ABC sequence](README.md).

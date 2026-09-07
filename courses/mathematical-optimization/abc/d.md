@@ -1,6 +1,6 @@
 # D — Dina
 
-Facility location and formulation strength. Suggested class 6.
+Facility location and formulation strength. Suggested classes: 5.
 
 ## Learning progression
 
@@ -20,8 +20,6 @@ Keep the MO Dina case and weak/strong formulation derivation. Use the tested Eli
 
 ## Current material
 
-- [Elizabeth: weak and strong formulations](https://github.com/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb) — `core` execution profile.
-
-The current notebook title is retained. The ABC name identifies the teaching role; it does not rename the canonical file.
+[Elizabeth: weak and strong formulations](https://github.com/gromicho/teaching/blob/main/foundations/optimization/elizabeth-location-models.ipynb)
 
 [Back to the ABC sequence](README.md).
