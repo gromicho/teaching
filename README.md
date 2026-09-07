@@ -19,9 +19,9 @@ Datasets are maintained once in [data](data/README.md), supporting figures in `a
 
 ## Setup and quality checks
 
-Binder builds the tested repository environment before it starts. Colab uses its scientific libraries. Every maintained notebook also checks its own third-party dependencies and installs only packages that are missing, without upgrading packages already present. See [setup and verification](docs/SETUP.md).
+Binder builds the tested repository environment before it starts. Colab uses its scientific libraries. Notebook setup installs only missing dependencies, without upgrading existing packages. Installation lessons retain their staged setup; solver-comparison lessons install and run the solvers they compare. See [setup and verification](docs/SETUP.md).
 
-Routine checks execute 19 public offline notebooks in two environments: the maintenance baseline and the relevant library versions from Colab's published 2026.07 CPU snapshot. The optional street-network lesson and two solver-dependent WFP notebooks are explicitly excluded from that execution claim; their files and links are still checked. Jeff Kantor's [historical solver-installation notebook](archive/README.md) is preserved for reading and attribution only, and is never automatically executed. See the [catalogue](catalog.json) for each notebook's status.
+Routine checks execute 27 public offline notebooks in two environments: the maintenance baseline and the relevant library versions from Colab's published 2026.07 CPU snapshot. Four live-data lessons and two specialist WFP notebooks are explicitly excluded from that execution claim; their files and links are still checked. Jeff Kantor's [historical solver-installation notebook](archive/README.md) is preserved for reading and attribution only, and is never automatically executed. See the [catalogue](catalog.json) for each notebook's status.
 
 Instructor solutions and instructor recovery archives are maintained in a **separate private repository**, never in a folder or branch here. The explicitly approved historical Jeff Kantor reference is not an instructor key and does not broaden that boundary. A public folder cannot provide private access. Canvas controls approved cohort releases.
 

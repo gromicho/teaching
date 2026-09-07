@@ -27,3 +27,13 @@ One explicit exception, requested by the maintainer on 31 August 2026, preserves
 Release only instructor-approved copies to the enrolled cohort through Canvas or an approved restricted distribution channel. This migration does not revoke old Drive links, add collaborators, change Canvas permissions or grant a new collection-wide licence.
 
 The specialised `gromicho/tools/Teaching` figure-authoring utilities and private book/exam sources are outside this beginner teaching collection. Keep them separate until a concrete reusable teaching interface is reviewed.
+
+## Preserve the lesson, including setup order
+
+Compare edits with the actual source notebook referenced by the lecture or exercise. A green execution check is insufficient if it removed the lesson. Keep later package and solver installation at its teaching stage. Do not replace every solver name with the baseline solver in a comparison.
+
+Caroline executes Ipopt, CBC and HiGHS on fresh models. Elizabeth installs commercial solver interfaces later, then solves both formulations using each engine. Alice checks actual numerical solutions against the symbolic optimum. Regression checks cover these requirements.
+
+Shared routine helpers live in `support/teaching_utils.py`. Importing this module performs no installation. The solver-environment companion exposes the implementations of package listing, missing-package installation, solver availability and model reset because it teaches those operations. Other notebooks import the helpers. Keep those displayed implementations synchronized with the module.
+
+Public notebooks need Colab and Binder launchers. Private instructor notebooks use authorized Colab access or a local environment; public Binder cannot clone a private repository.

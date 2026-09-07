@@ -53,8 +53,9 @@ class SetupTests(unittest.TestCase):
             first_cell = ''.join(notebook['cells'][0]['source'])
             with self.subTest(path=item['path']):
                 self.assertIn('colab.research.google.com', first_cell)
-                self.assertIn('mybinder.org', first_cell)
-                self.assertIn(f'urlpath=tree/{item["path"]}', first_cell)
+                if catalog['visibility'] == 'public':
+                    self.assertIn('mybinder.org', first_cell)
+                    self.assertIn(f'urlpath=tree/{item["path"]}', first_cell)
 
     def test_no_unconditional_pip_or_version_pins(self) -> None:
         """Reject unconditional pip calls, upgrades, and notebook version pins."""
