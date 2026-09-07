@@ -41,6 +41,14 @@
       "sha256": "029fc6ad26c992f0e460954aae9a5d6e1c6bca8a5728c814bd1f233ff54a3ceb",
       "bytes": 5701,
       "source": "gromicho/advanced-analytics-for-a-better-world@b5a60b7b5ad48ee0de70701c1b52d3248bd2f493: notebooks/wfp-syria/data/WFP_Locations.xlsx"
+    },
+    {
+      "path": "data/iris.data",
+      "sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0",
+      "bytes": 4551,
+      "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data",
+      "license": "CC BY 4.0",
+      "citation": "Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C56C76."
     }
   ]
 }

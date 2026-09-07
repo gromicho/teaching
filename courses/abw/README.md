@@ -23,6 +23,12 @@ Nicole Guarnieri's explanations for Exercises 1.1–1.10, curated as a public le
 
 Use the [shared foundations](../../foundations/README.md) for Python, data analysis, Caroline, Alice, Elizabeth and network examples. Feed Calculator and Timor-Leste preparation are there too. These common notebooks have one maintained copy.
 
+## Lecture 4: perceptron animation
+
+[Watch a perceptron learn](../../foundations/data-analysis/perceptron-learning-animation.ipynb) · [Open in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/data-analysis/perceptron-learning-animation.ipynb)
+
+Trace a weight update, animate the Iris decision boundary and mistakes, compare settings, and explore why XOR cannot be separated by a line. Includes optional GIF export for slides.
+
 ## Course exercises
 
 | Notebook | Open | Check profile |

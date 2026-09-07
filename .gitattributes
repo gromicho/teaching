@@ -6,6 +6,7 @@
 *.yml text eol=lf
 # Preserve exact source-data bytes and their documented checksums.
 *.csv -text
+*.data -text
 *.xlsx -text
 *.pdf binary
 *.png -text

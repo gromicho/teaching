@@ -1,0 +1,25 @@
+{
+ "path": "foundations/data-analysis/perceptron-learning-animation.ipynb",
+ "source": "https://colab.research.google.com/drive/1O49Lo9_Y_-DUydYKwh4jVRXt214zoDky",
+ "source_sha256": "5d8c3dc59b3dddbc211a56250f3b4a32212ba5bf284a051aa451fdea64ce1fc3",
+ "source_cells": 11,
+ "curated_cells": 27,
+ "source_mapping": {
+  "0": "packages",
+  "1": "load-iris",
+  "2-3": "explore-features",
+  "4": "predict-rule, training-rule, boundary-geometry, animation-function",
+  "5": "experiment-settings",
+  "6": "explore-features and animation class scatter",
+  "7": "train",
+  "8-9": "play-animation and export-gif",
+  "10": "empty cell omitted"
+ },
+ "notes": [
+  "Preserve the original Iris bytes and feature/species settings.",
+  "Keep mathematical and animation code visible because the notebook teaches their behavior.",
+  "Fix boundary ties, vertical division, shading consistency and history granularity.",
+  "Add worked update, epoch/error comparison, actual experiments, XOR and bounded HTML playback.",
+  "Retain GIF export with an explicit portable optional switch."
+ ]
+}

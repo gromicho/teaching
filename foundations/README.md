@@ -17,6 +17,7 @@ Start with the Python primer, then follow the preparation selected in Canvas. Wo
 | --- | --- | --- |
 | [Descriptive analytics with pandas](data-analysis/descriptive-analytics.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/data-analysis/descriptive-analytics.ipynb) | core |
 | [Prediction is not explanation](data-analysis/diagnostic-predictive-analytics.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/data-analysis/diagnostic-predictive-analytics.ipynb) | core |
+| [Watch a perceptron learn](data-analysis/perceptron-learning-animation.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/data-analysis/perceptron-learning-animation.ipynb) | core |
 
 ## Optimization
 

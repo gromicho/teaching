@@ -19,7 +19,8 @@
   "foundations/optimization/pyomo-repeated-solves.ipynb",
   "foundations/networks/real-life-shortest-path.ipynb",
   "foundations/cases/feed-calculator-preparation.ipynb",
-  "foundations/cases/timor-leste-preparation.ipynb"
+  "foundations/cases/timor-leste-preparation.ipynb",
+  "foundations/data-analysis/perceptron-learning-animation.ipynb"
  ],
  "course_resources": [
   "courses/abw/notebooks/python/part-1.ipynb",
@@ -51,6 +52,10 @@
   {
    "path": "data/weight-height.csv",
    "sha256": "7c97d452e40c2a4242efb13a92303c6a6bbe5f4b5a0dd44fc4155a86836d8502"
+  },
+  {
+   "path": "data/iris.data",
+   "sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0"
   }
  ],
  "tutorial_day": "Wednesday",

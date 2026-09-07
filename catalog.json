@@ -372,6 +372,14 @@
    "kind": "worked-example",
    "execution_profile": "core",
    "collection": "abw"
+  },
+  {
+   "id": "foundations-perceptron-learning-animation",
+   "title": "Watch a perceptron learn",
+   "path": "foundations/data-analysis/perceptron-learning-animation.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
   }
  ]
 }
