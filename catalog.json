@@ -21,6 +21,14 @@
    "collection": "foundations"
   },
   {
+   "id": "foundations-four-node-shortest-path",
+   "title": "Four-node shortest paths with NetworkX",
+   "path": "foundations/networks/four-node-shortest-path.ipynb",
+   "kind": "worked-example",
+   "execution_profile": "core",
+   "collection": "foundations"
+  },
+  {
    "id": "foundations-networkx-introduction",
    "title": "NetworkX: the lecture network",
    "path": "foundations/networks/networkx-introduction.ipynb",

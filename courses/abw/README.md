@@ -23,6 +23,12 @@ Nicole Guarnieri's explanations for Exercises 1.1–1.10, curated as a public le
 
 Use the [shared foundations](../../foundations/README.md) for Python, data analysis, Caroline, Alice, Elizabeth and network examples. Feed Calculator and Timor-Leste preparation are there too. These common notebooks have one maintained copy.
 
+## A first NetworkX example
+
+[Four-node shortest paths](../../foundations/networks/four-node-shortest-path.ipynb) · [Open in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/four-node-shortest-path.ipynb)
+
+Build and draw a directed graph, find weighted shortest paths, and sum consecutive edge lengths. Start here before the larger lecture network and the A-to-F exercise.
+
 ## Lecture 4: perceptron animation
 
 [Watch a perceptron learn](../../foundations/data-analysis/perceptron-learning-animation.ipynb) · [Open in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/data-analysis/perceptron-learning-animation.ipynb)

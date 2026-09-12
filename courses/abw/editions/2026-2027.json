@@ -9,6 +9,7 @@
  "foundations": [
   "foundations/python/python-primer.ipynb",
   "foundations/optimization/caroline-production-planning.ipynb",
+  "foundations/networks/four-node-shortest-path.ipynb",
   "foundations/networks/networkx-introduction.ipynb",
   "foundations/networks/shortest-path-optimization-vs-algorithms.ipynb",
   "foundations/data-analysis/descriptive-analytics.ipynb",

@@ -40,6 +40,7 @@ Follow [the ABC sequence](../courses/mathematical-optimization/abc/README.md) fo
 
 | Notebook | Open | Check profile |
 | --- | --- | --- |
+| [Four-node shortest paths with NetworkX](networks/four-node-shortest-path.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/four-node-shortest-path.ipynb) | core |
 | [NetworkX: the lecture network](networks/networkx-introduction.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/networkx-introduction.ipynb) | core |
 | [Shortest path: optimization versus algorithms](networks/shortest-path-optimization-vs-algorithms.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/shortest-path-optimization-vs-algorithms.ipynb) | core |
 | [Real street networks: a bounded routing example](networks/real-life-shortest-path.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/real-life-shortest-path.ipynb) | live-network |
@@ -51,4 +52,4 @@ Follow [the ABC sequence](../courses/mathematical-optimization/abc/README.md) fo
 | [Feed Calculator: shared data preparation](cases/feed-calculator-preparation.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/cases/feed-calculator-preparation.ipynb) | core |
 | [Timor-Leste: shared data preparation](cases/timor-leste-preparation.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/cases/timor-leste-preparation.ipynb) | core |
 
-Twelve notebooks use the routinely executed core profile. The optional street-network notebook depends on live map services and is not included in that execution guarantee. See [setup](../docs/SETUP.md) and [maintenance](../docs/MAINTENANCE.md). **2026/27 remains in development, not frozen.**
+Notebooks marked `core` above are routinely executed in both test profiles. The optional street-network notebook depends on live map services and is not included in that execution guarantee. See [setup](../docs/SETUP.md) and [maintenance](../docs/MAINTENANCE.md). **2026/27 remains in development, not frozen.**
