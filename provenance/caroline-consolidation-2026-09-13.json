@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-13",
+  "source_commit": "6b94c7155b17cee141f24fa17fdb63562052890f",
+  "former_course_path": "courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb",
+  "former_course_sha256": "ebb448ad73b57a8e530cac62de072e278460dce3181335e8609a7c1a2632e139",
+  "canonical_path": "foundations/optimization/caroline-production-planning.ipynb",
+  "comparison": "Every course code cell matched the longer canonical lesson after whitespace and solver variable-name normalization.",
+  "preservation": "The full canonical lesson and all its prior cell IDs are retained. The former course URL now provides a navigation page."
+}

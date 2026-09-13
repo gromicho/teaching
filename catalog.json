@@ -201,9 +201,9 @@
   },
   {
    "id": "aabw-lecture-2-caroline-trophy-production",
-   "title": "Lecture 2: Caroline trophy production",
+   "title": "Caroline: link to the complete trophy-production lesson",
    "path": "courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb",
-   "kind": "worked-example",
+   "kind": "navigation",
    "execution_profile": "core",
    "collection": "aabw",
    "review_note": "Recovered from the AABW Lecture 2 source; teaching sequence and attribution retained, launchers and solver setup modernized, saved output and execution metadata cleared."

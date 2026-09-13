@@ -58,3 +58,8 @@ Open a notebook in Colab and save your own working copy. General-purpose library
 
 
 [Francis: purchasing and inventory](notebooks/optimization/francis-material-planning.ipynb) contains the complete student case, demand data and modeling tasks. Follow the [ABC sequence](../mathematical-optimization/abc/README.md) for the related worked lecture notebooks.
+
+## Additional lecture examples
+
+- [Functions and perceptron scores](notebooks/lecture-2/functions-and-perceptrons.ipynb)
+- [Complete notebook overview and execution status](../../docs/NOTEBOOKS.md)

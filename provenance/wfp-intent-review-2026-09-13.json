@@ -1,0 +1,7 @@
+{
+  "reviewed": "2026-09-13",
+  "source": "notes on Advanced Analytics for a Better World / chapters / WFP Syria case.tex",
+  "source_sha256": "8b75d3568500cacb9182a889efbe6bb8d8721424386f8c73489c35206a9ad0f4",
+  "finding": "The assignment explicitly supplies a public nominal-model companion and asks students to robustify nutrient constraints with equal-variance ellipsoidal uncertainty.",
+  "decision": "Keep the intended nominal scaffold public; replace unrelated hidden price-uncertainty text with the nutritional exercise statement. Do not publish a completed robust implementation."
+}

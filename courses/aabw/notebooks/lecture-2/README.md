@@ -8,17 +8,20 @@ The code and author attribution in the recovered notebooks have been retained. S
 
 ## Runtime notes
 
-The descriptive, diagnostic, and predictive notebooks use only the shared Python environment. The remaining notebooks demonstrate optimization models with the maintained open-source solver setup. The short Jeff Kantor notebook is a solver-environment check. His original historical multi-solver notebook remains preserved separately under the repository-level `archive/` directory and is never executed automatically.
+The descriptive, diagnostic and predictive notebooks are marked `live-network`
+in the catalogue and excluded from routine full execution. They may retrieve
+data or other resources over the network; installed packages alone do not
+establish that these external requests will succeed. The remaining notebooks demonstrate optimization models with the maintained open-source solver setup. The short Jeff Kantor notebook is a solver-environment check. His original historical multi-solver notebook remains preserved separately under the repository-level `archive/` directory and is never executed automatically.
 
 ## Slide-to-notebook mapping
 
 | Deck topic | Notebook |
 | --- | --- |
-| Descriptive analytics with COVID data | `descriptive-analytics-covid.ipynb` |
-| Diagnostic analytics and statistics | `diagnostic-analytics-statistics.ipynb` |
-| Predictive analytics | `predictive-analytics-height-weight.ipynb` |
-| Alice: symbolic optimization | `alice-symbolic-optimization.ipynb` |
-| Caroline: trophy production | `caroline-trophy-production.ipynb` |
-| Shortest paths | `shortest-path-optimization-vs-algorithms.ipynb` |
-| Jeff Kantor: solver installation | `jeff-kantor-solver-installation.ipynb` |
-| Elizabeth: facility location | `elizabeth-facility-location.ipynb` |
+| Descriptive analytics with COVID data | [descriptive analytics covid](descriptive-analytics-covid.ipynb) |
+| Diagnostic analytics and statistics | [diagnostic analytics statistics](diagnostic-analytics-statistics.ipynb) |
+| Predictive analytics | [predictive analytics height weight](predictive-analytics-height-weight.ipynb) |
+| Alice: symbolic optimization | [alice symbolic optimization](alice-symbolic-optimization.ipynb) |
+| Caroline: trophy production | [caroline trophy production](caroline-trophy-production.ipynb) |
+| Shortest paths | [shortest path optimization vs algorithms](shortest-path-optimization-vs-algorithms.ipynb) |
+| Jeff Kantor: solver installation | [jeff kantor solver installation](jeff-kantor-solver-installation.ipynb) |
+| Elizabeth: facility location | [elizabeth facility location](elizabeth-facility-location.ipynb) |

@@ -4,7 +4,10 @@
 
 ## Shared preparation
 
-Python, descriptive and predictive analytics, Caroline, Alice, Elizabeth and network examples now live in [foundations](../../foundations/README.md), outside any advanced-course folder. The [Feed Calculator](../../foundations/cases/feed-calculator-preparation.ipynb) and [Timor-Leste](../../foundations/cases/timor-leste-preparation.ipynb) preparation is shared with ABW.
+Shared preparation is collected in [foundations](../../foundations/README.md).
+The [Lecture 2 collection](notebooks/lecture-2/README.md) contains the longer
+course-specific examples and their slide mapping. It includes Alice, Caroline,
+Elizabeth, shortest paths, solver installation, and the live-data analytics lessons. The [Feed Calculator](../../foundations/cases/feed-calculator-preparation.ipynb) and [Timor-Leste](../../foundations/cases/timor-leste-preparation.ipynb) preparation is shared with ABW.
 
 ## Advanced cases
 
@@ -21,3 +24,5 @@ The Sudoku starter was recovered from the course exercise export supplied on 31 
 The external [Gurobi food-supply example](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_program/food_supply.ipynb) remains maintained by its original authors. It is not an imported or routinely tested notebook in this collection.
 
 Datasets now have one home in [data](../../data/README.md), including WFP Syria. Instructor solutions remain in a separate private repository. [Jeff Kantor's historical solver-installation notebook](../../archive/README.md) is preserved publicly with his attribution, for reading rather than current setup or automatic execution. The predecessor GitHub repositories have been removed; see [migration](../../docs/MIGRATION.md), [setup](../../docs/SETUP.md) and [maintenance](../../docs/MAINTENANCE.md).
+
+The [complete notebook overview](../../docs/NOTEBOOKS.md) also shows the execution status of every catalogued resource.

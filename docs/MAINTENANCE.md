@@ -52,3 +52,11 @@ receive structural checks; notebooks outside the selection are explicitly marked
 `not selected`, and unknown paths fail. This option does not broaden execution
 permission for archive, live-network or specialist notebooks. Routine baseline
 and Colab jobs continue to execute every core notebook.
+
+## Keep navigation complete
+
+After changing `catalog.json`, run `python scripts/update_notebook_overview.py`.
+This regenerates `docs/NOTEBOOKS.md`, which is linked from the landing page and
+contains every catalogued notebook once. The overview test rejects drift, so a
+new notebook cannot pass checks while remaining absent from that overview.
+Course pages still provide their own teaching sequence and context.

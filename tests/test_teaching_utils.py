@@ -54,7 +54,13 @@ class UtilityTests(unittest.TestCase):
 
     def test_caroline_comparison_names_three_engines(self):
         for path in ['foundations/optimization/caroline-production-planning.ipynb','courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb']:
-            comparison=[source(c) for c in notebook(path)['cells'] if 'comparison_rows.append' in source(c)]
+            document = notebook(path)
+            target = document.get('metadata', {}).get('teaching', {}).get('redirects_to')
+            if target:
+                self.assertEqual(target, 'foundations/optimization/caroline-production-planning.ipynb')
+                self.assertIn(target, source(document['cells'][0]))
+                document = notebook(target)
+            comparison=[source(c) for c in document['cells'] if 'comparison_rows.append' in source(c)]
             self.assertEqual(len(comparison),3)
             for name in ['ipopt','cbc','appsi_highs']:
                 self.assertEqual(sum(f"solve_checked(first, '{name}')" in s for s in comparison),1)
