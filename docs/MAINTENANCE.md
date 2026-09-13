@@ -12,7 +12,7 @@ Use a correction version for an already-distributed edition and communicate the 
 
 Preserve source attribution and data hashes. Run the catalogue, execution, link and publication-boundary checks before publication; review mathematical or pedagogical changes with another teacher. A fresh actual Colab browser check remains useful before classroom use: the automated compatibility environment is not a complete Colab VM.
 
-The routine workflow tests the recorded baseline and Colab-library profile. Learner notebooks use installed packages and request only missing ones, without version pins. A separate manually triggered compatibility workflow tests current package upgrades in an isolated environment. Review that result before updating the maintenance baseline.
+The routine workflow tests the recorded baseline and Colab-library profile. Learner notebooks use installed packages and request only missing ones, without version pins. A separate compatibility workflow tests current package upgrades in an isolated environment. It can be triggered manually and also runs when its own workflow file changes. Review that result before updating the maintenance baseline.
 
 Save source text explicitly as UTF-8 when reading or writing it, including catalogue-based navigation generation on Windows. Keep file and folder names ASCII, without spaces or URL-special characters; prefer lowercase words separated by hyphens for new material. Preserve meaningful Unicode in prose and people's names. The integrity check detects unsafe paths and common garbled-text sequences. Historical archive contents retain their original bytes.
 

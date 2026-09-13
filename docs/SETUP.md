@@ -57,6 +57,9 @@ For local Jupyter use, install the dependencies in a separate environment. The [
 
 ## What the checks establish
 
-The [execution checker](../scripts/check_resources.py) runs fresh kernels using temporary copies. With `--execute --run-setup`, it runs the conditional dependency cells as well as the lesson; without `--run-setup`, it skips cells tagged `package-install` while retaining lesson imports. [Setup tests](../tests/test_setup.py) also exercise the all-installed and one-missing branches without contacting a package index.
+The [execution checker](../scripts/check_resources.py) runs fresh kernels using temporary copies. With `--execute --run-setup`, it runs the conditional dependency cells as well as the lesson; without `--run-setup`, it skips entire cells tagged `package-install`, including
+any imports sharing those cells. The maintained collection therefore requires
+`--run-setup`: its conditional installers leave already-installed packages alone
+and preserve the staged setup that some lessons teach. [Setup tests](../tests/test_setup.py) also exercise the all-installed and one-missing branches without contacting a package index.
 
 Automated checks cover the [maintenance baseline](../requirements-test.txt) and a [Colab-library compatibility profile](../requirements-colab-test.txt). The latter matches the relevant scientific-library versions in Google's 2026.07 CPU snapshot, not every package or operating-system detail of Colab. Neither profile alone establishes that the browser experience or live map services work. A final check in a fresh actual Colab session remains appropriate before classroom distribution.
