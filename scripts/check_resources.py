@@ -24,11 +24,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from publication_policy import public_notebook_error
 
 
-def check(root, execute=False, run_setup=False, public_root=None):
+def check(root, execute=False, run_setup=False, public_root=None, notebooks=None):
     catalog = json.loads((root/'catalog.json').read_text(encoding='utf-8'))
     report = {'repository':catalog['repository'],'python':sys.version.split()[0],
               'setup_mode': 'execute' if run_setup else 'preinstalled',
               'results':[], 'errors':[]}
+    selected = set(notebooks) if notebooks is not None else None
+    if selected is not None:
+        unknown = selected - {item['path'] for item in catalog['notebooks']}
+        if unknown:
+            report['errors'].append(f'Unknown notebook selection: {sorted(unknown)}')
+            return report
+        report['selected_notebooks'] = sorted(selected)
     paths = set()
     for item in catalog['notebooks']:
         relative = item['path']
@@ -63,6 +70,9 @@ def check(root, execute=False, run_setup=False, public_root=None):
                 record['execution'] = f'excluded: {profile}'
                 continue
             if not execute:
+                continue
+            if selected is not None and relative not in selected:
+                record['execution'] = 'not selected'
                 continue
             started = time.monotonic()
             with tempfile.TemporaryDirectory(prefix='teaching-check-') as temporary:
@@ -112,12 +122,18 @@ def main():
                         help='Read shared public resources from this sibling checkout when testing private keys')
     parser.add_argument('--run-setup',action='store_true',
                         help='Execute installation cells too; requires --execute and package-index access')
+    parser.add_argument('--notebook', action='append',
+                        help='Execute this catalogued path only; repeat to select several. '
+                             'All catalogue entries are still structurally checked.')
     parser.add_argument('--report',type=Path,default=Path('validation-report.json'))
     args = parser.parse_args()
     if args.run_setup and not args.execute:
         parser.error('--run-setup requires --execute')
+    if args.notebook and not args.execute:
+        parser.error('--notebook requires --execute')
     report = check(args.root.resolve(),args.execute,args.run_setup,
-                   args.public_root.resolve() if args.public_root else None)
+                   args.public_root.resolve() if args.public_root else None,
+                   notebooks=args.notebook)
     args.report.parent.mkdir(parents=True,exist_ok=True)
     args.report.write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps({'checked':len(report['results']),'errors':report['errors']},indent=2))

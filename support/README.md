@@ -7,3 +7,10 @@ Notebooks in a checkout find `support/` locally. Standalone Colab notebooks retr
 Solver availability is a preliminary interface check, not proof of a usable licence or support for a particular mathematical model. Check actual termination and verify the model's expected result. Use fresh models and solver objects for independent comparisons.
 
 The existing `util_AABW.py` workbook helper remains available for established course examples.
+
+`fruit_utils.fix_fruit_outliers` corrects the two recorded ABW fruit-data entry
+errors on a copy, preserving the original frame and index. Already-corrected
+records are unchanged on a second call; other unusual observations are left
+alone. Lecture 3 explains the assignments; Lecture 4 imports the helper.
+`tests/test_fruit_lessons.py` compares these paths, exercises reruns and a
+standalone helper download, and checks entropy against actual tree membership.

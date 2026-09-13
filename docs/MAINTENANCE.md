@@ -37,3 +37,18 @@ Caroline executes Ipopt, CBC and HiGHS on fresh models. Elizabeth installs comme
 Shared routine helpers live in `support/teaching_utils.py`. Importing this module performs no installation. The solver-environment companion exposes the implementations of package listing, missing-package installation, solver availability and model reset because it teaches those operations. Other notebooks import the helpers. Keep those displayed implementations synchronized with the module.
 
 Public notebooks need Colab and Binder launchers. Private instructor notebooks use authorized Colab access or a local environment; public Binder cannot clone a private repository.
+
+## Fruit-lecture regression checks
+
+Both fruit lectures execute in the baseline and Colab profiles and in a separate
+pandas 3 job. Their tests check exact documented corrections, unchanged raw data,
+repeat execution, arbitrary row labels, agreement between the displayed and
+imported correction, and a verified helper download with an outdated cache.
+Entropy checks use actual observations assigned to parent and child tree nodes.
+
+For a focused fresh-kernel check, repeat `--notebook <catalogued-path>` with
+`scripts/check_resources.py --execute --run-setup`. All catalogue entries still
+receive structural checks; notebooks outside the selection are explicitly marked
+`not selected`, and unknown paths fail. This option does not broaden execution
+permission for archive, live-network or specialist notebooks. Routine baseline
+and Colab jobs continue to execute every core notebook.
