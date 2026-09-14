@@ -49,7 +49,6 @@ Instructor solutions are distributed separately by the teaching team.
 | [Caroline: production planning](../foundations/optimization/caroline-production-planning.ipynb) | worked example | Checked offline |
 | [Descriptive analytics with pandas](../foundations/data-analysis/descriptive-analytics.ipynb) | worked example | Checked offline |
 | [Elizabeth: weak and strong formulations](../foundations/optimization/elizabeth-location-models.ipynb) | worked example | Checked offline |
-| [Equipment replacement as a shortest-path problem](../foundations/networks/equipment-replacement.ipynb) | worked example | Checked offline |
 | [Exploring LAP: algorithms and solvers](../foundations/optimization/exploring-assignment.ipynb) | worked example | Checked offline |
 | [Feed Calculator: shared data preparation](../foundations/cases/feed-calculator-preparation.ipynb) | starter | Checked offline |
 | [Four-node shortest paths with NetworkX](../foundations/networks/four-node-shortest-path.ipynb) | worked example | Checked offline |

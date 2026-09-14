@@ -45,17 +45,6 @@
    "collection": "foundations"
   },
   {
-   "id": "foundations-equipment-replacement",
-   "title": "Equipment replacement as a shortest-path problem",
-   "path": "foundations/networks/equipment-replacement.ipynb",
-   "kind": "worked-example",
-   "execution_profile": "core",
-   "collection": "foundations",
-   "sources": [
-    "https://colab.research.google.com/drive/1UNhmLYe3aMXPoph02qRHX0f-lZV15b8h"
-   ]
-  },
-  {
    "id": "foundations-descriptive-analytics",
    "title": "Descriptive analytics with pandas",
    "path": "foundations/data-analysis/descriptive-analytics.ipynb",
