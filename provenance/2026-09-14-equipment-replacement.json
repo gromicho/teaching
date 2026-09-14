@@ -1,0 +1,26 @@
+{
+ "path": "foundations/networks/equipment-replacement.ipynb",
+ "source": "https://colab.research.google.com/drive/1UNhmLYe3aMXPoph02qRHX0f-lZV15b8h",
+ "source_sha256": "6b5abdf3adc9a08d5cb70161480950c94c7ac84e87f107d9cb697913f0608fd1",
+ "source_cells": 11,
+ "curated_cells": 13,
+ "source_mapping": {
+  "0": "equipment-intro and equipment-setup (rewritten for GitHub portability)",
+  "1": "empty cell omitted",
+  "2": "equipment-graph-heading",
+  "3": "equipment-graph (verbatim)",
+  "4": "equipment-draw-heading",
+  "5": "equipment-draw (verbatim)",
+  "6": "equipment-path-heading",
+  "7": "equipment-path (verbatim)",
+  "8": "equipment-cost-heading",
+  "9": "equipment-cost (verbatim)",
+  "10": "empty cell omitted"
+ },
+ "notes": [
+  "Preserve all four nonempty source code cells verbatim, including graph weights, plotting, path calculation, and cost calculation.",
+  "Add the existing shared setup helper, Colab and Binder launchers, and brief model and result explanations.",
+  "Clear saved outputs, execution counts, and environment-specific Colab metadata; omit two empty code cells.",
+  "Use only the specified public Drive notebook as the source; omit inherited provenance links to unrelated Drive notebooks."
+ ]
+}

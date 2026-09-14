@@ -35,6 +35,12 @@ Build and draw a directed graph, find weighted shortest paths, and sum consecuti
 
 Trace a weight update, animate the Iris decision boundary and mistakes, compare settings, and explore why XOR cannot be separated by a line. Includes optional GIF export for slides.
 
+## Lecture 5: equipment replacement
+
+[Equipment replacement as a shortest-path problem](../../foundations/networks/equipment-replacement.ipynb) · [Open in Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/equipment-replacement.ipynb)
+
+Turn ownership intervals into directed edges, attach their total costs, and use a shortest path to choose when to replace the equipment. This public worked example connects the Lecture 5 network model to its implementation in NetworkX.
+
 ## Course exercises
 
 | Notebook | Open | Check profile |

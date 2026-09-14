@@ -43,6 +43,7 @@ Follow [the ABC sequence](../courses/mathematical-optimization/abc/README.md) fo
 | [Four-node shortest paths with NetworkX](networks/four-node-shortest-path.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/four-node-shortest-path.ipynb) | core |
 | [NetworkX: the lecture network](networks/networkx-introduction.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/networkx-introduction.ipynb) | core |
 | [Shortest path: optimization versus algorithms](networks/shortest-path-optimization-vs-algorithms.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/shortest-path-optimization-vs-algorithms.ipynb) | core |
+| [Equipment replacement as a shortest-path problem](networks/equipment-replacement.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/equipment-replacement.ipynb) | core |
 | [Real street networks: a bounded routing example](networks/real-life-shortest-path.ipynb) | [Colab](https://colab.research.google.com/github/gromicho/teaching/blob/main/foundations/networks/real-life-shortest-path.ipynb) | live-network |
 
 ## Shared case preparation
