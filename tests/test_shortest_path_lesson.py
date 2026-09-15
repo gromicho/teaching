@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 from time import perf_counter
 import unittest
+from unittest.mock import patch
 
 import highspy
 import networkx as nx
@@ -76,20 +77,69 @@ class ShortestPathLessonTests(unittest.TestCase):
         self.assertEqual(path[-1], 'end')
         self.assertAlmostEqual(distance, 0.3)
 
-    def test_unreachable_and_invalid_weights_are_reported(self):
+    def test_unreachable_paths_are_reported_by_the_algorithms(self):
         g = nx.Graph()
         g.add_nodes_from(['A', 'B'])
+        self.ns['validate_path_input'](g, 'A', 'B')
         for name in ['SimpleDijkstra', 'Dijkstra', 'nx_sp']:
             with self.subTest(strategy=name):
                 with self.assertRaises(nx.NetworkXNoPath):
                     self.ns[name](g, 'A', 'B')
+
+    def test_invalid_weights_are_reported_by_separate_validation(self):
         for invalid in [-1, np.inf, np.nan, None]:
             g = nx.Graph()
             g.add_edge('A', 'B', **({} if invalid is None else {'length': invalid}))
-            for name in ['ShortestPathAsLinearOptimization', 'SimpleDijkstra', 'Dijkstra', 'nx_sp']:
-                with self.subTest(weight=invalid, strategy=name):
-                    with self.assertRaisesRegex(ValueError, 'nonnegative'):
-                        self.ns[name](g, 'A', 'B')
+            with self.subTest(weight=invalid):
+                with self.assertRaisesRegex(ValueError, 'nonnegative'):
+                    self.ns['validate_path_input'](g, 'A', 'B')
+
+    def test_algorithms_do_not_repeat_input_validation(self):
+        g = nx.DiGraph()
+        g.add_weighted_edges_from([('A', 'B', 1), ('B', 'C', 1), ('A', 'C', 9)], weight='length')
+        self.ns['validate_path_input'](g, 'A', 'C')
+        def unexpected_validation(*args, **kwargs):
+            self.fail('Input validation must not run inside an algorithm.')
+        with patch.dict(self.ns, validate_path_input=unexpected_validation):
+            for name in ['SolveAsLO', 'SimpleDijkstra', 'Dijkstra', 'nx_sp']:
+                with self.subTest(strategy=name):
+                    _, distance = self.ns[name](g, 'A', 'C')
+                    self.assertAlmostEqual(distance, 2)
+
+    def test_benchmark_validates_each_graph_once_before_any_search_or_clock(self):
+        events = []
+        validate = self.ns['validate_path_input']
+        reference = nx.shortest_path_length
+        def checked(g, s, t, attribute='length'):
+            events.append(('validate', len(g)))
+            validate(g, s, t, attribute)
+        def find_reference(g, s, t, **kwargs):
+            events.append(('reference', len(g)))
+            return reference(g, s, t, **kwargs)
+        def strategy(g, s, t):
+            events.append(('strategy', len(g)))
+            return self.ns['Dijkstra'](g, s, t)
+        def clock():
+            events.append(('clock', None))
+            return perf_counter()
+        with patch.dict(self.ns, validate_path_input=checked, pc=clock):
+            with patch.object(nx, 'shortest_path_length', find_reference):
+                self.ns['DoThese'](21, [strategy], repeats=2)
+        expected = []
+        for n in [10, 20]:
+            expected += [('validate', n), ('reference', n), ('strategy', n)]
+            expected += [('clock', None), ('strategy', n), ('clock', None)] * 2
+        self.assertEqual(events, expected)
+
+    def test_invalid_benchmark_input_stops_before_reference_or_timing(self):
+        g = nx.path_graph(10)
+        nx.set_edge_attributes(g, -1, 'length')
+        def forbidden(*args, **kwargs):
+            self.fail('Invalid input must be rejected before reference, warm-up or timing.')
+        with patch.dict(self.ns, GenerateGraph=lambda n: g, pc=forbidden):
+            with patch.object(nx, 'shortest_path_length', forbidden):
+                with self.assertRaisesRegex(ValueError, 'nonnegative'):
+                    self.ns['DoThese'](11, [forbidden])
 
     def test_bad_comparison_stops_before_reporting_timings(self):
         def unweighted(g, s, t):
