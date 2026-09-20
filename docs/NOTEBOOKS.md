@@ -10,8 +10,8 @@ Instructor solutions are distributed separately by the teaching team.
 
 | Notebook | Type | Execution checks |
 | --- | --- | --- |
+| [Alice: the glass, the rose and symbolic optimization](../courses/aabw/notebooks/lecture-2/alice-symbolic-optimization.ipynb) | worked example | Checked offline |
 | [Caroline: link to the complete trophy-production lesson](../courses/aabw/notebooks/lecture-2/caroline-trophy-production.ipynb) | navigation | Checked offline |
-| [Lecture 2: Alice symbolic optimization](../courses/aabw/notebooks/lecture-2/alice-symbolic-optimization.ipynb) | worked example | Checked offline |
 | [Lecture 2: descriptive analytics with COVID data](../courses/aabw/notebooks/lecture-2/descriptive-analytics-covid.ipynb) | worked example | Needs live services; not routinely executed |
 | [Lecture 2: diagnostic analytics and statistics](../courses/aabw/notebooks/lecture-2/diagnostic-analytics-statistics.ipynb) | worked example | Needs live services; not routinely executed |
 | [Lecture 2: Elizabeth facility location](../courses/aabw/notebooks/lecture-2/elizabeth-facility-location.ipynb) | worked example | Checked offline |

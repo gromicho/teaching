@@ -192,7 +192,7 @@
   },
   {
    "id": "aabw-lecture-2-alice-symbolic-optimization",
-   "title": "Lecture 2: Alice symbolic optimization",
+   "title": "Alice: the glass, the rose and symbolic optimization",
    "path": "courses/aabw/notebooks/lecture-2/alice-symbolic-optimization.ipynb",
    "kind": "worked-example",
    "execution_profile": "core",
